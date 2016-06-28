@@ -1,0 +1,227 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type='text/xsl' href='../../ld2.xsl'?>
+<LOBBYINGDISCLOSURE2>
+   <imported>N</imported>
+   <pages>3</pages>
+   <submitURL></submitURL>
+   <organizationName></organizationName>
+   <prefix>Mr.</prefix>
+   <firstName>John</firstName>
+   <lastName>Deming</lastName>
+   <registrantDifferentAddress>N</registrantDifferentAddress>
+   <address1>70 Lynthwaite Farm Lane</address1>
+   <address2></address2>
+   <city>Wilmington</city>
+   <state>DE</state>
+   <zip>19803</zip>
+   <zipext></zipext>
+   <country>USA</country>
+   <principal_city></principal_city>
+   <principal_state></principal_state>
+   <principal_zip></principal_zip>
+   <principal_zipext></principal_zipext>
+   <principal_country></principal_country>
+   <selfSelect>N</selfSelect>
+   <clientName>Huntsman International LLC</clientName>
+   <clientGovtEntity>N</clientGovtEntity>
+   <senateID>315978-12</senateID>
+   <houseID>392360000</houseID>
+   <reportYear>2013</reportYear>
+   <reportType>Q1</reportType>
+   <terminationDate></terminationDate>
+   <noLobbying></noLobbying>
+   <income></income>
+   <expenses></expenses>
+   <expensesMethod></expensesMethod>
+   <printedName>John L. Deming - President</printedName>
+   <signedDate>04/03/2013</signedDate>
+   <alis>
+      <ali_info>
+         <issueAreaCode>TRD</issueAreaCode>
+         <specific_issues>
+            <description>HR 4587 to extend the suspension of duty on Reactive Red 266
+HR 4588 to extend the suspension of duty on Reactive Black 005
+HR 4589 To suspend temporarily the duty on reactive Orange 131
+HR 4752 To suspend temporarily the rate of duty on Reactive Red 228</description>
+            <description>HR 4753 To suspend temporarily the rate of duty on Acid Yellow 151
+HR 4754 To suspend temporarily the rate of duty on Reactive Blue 269
+HR 4755 To extend the temporary duty on Disperse Yellow 42
+HR 4756 To suspend temporarily the rate of duty on Reactive Blue 268
+HR 4757 To suspend temporarily the rate of duty on Acid Blue 171
+HR 5658 To suspend temporarily the rate of duty on Reactive Red 264
+HR 5660 To suspend temporarily the rate of duty on Reactive Red 267
+HR 5672 To extend the temporary suspension of duty on Reactive Red 238
+HR 5673 To extend the temporary suspension of duty on Reactive Blue 235
+HR 5677 To extend the temporary suspension of duty on Vat Black 25
+HR 5681 To extend the temporary suspension of duty on Reactive Yellow 7459
+</description>
+         </specific_issues>
+         <federal_agencies>U.S. HOUSE OF REPRESENTATIVES</federal_agencies>
+         <lobbyists>
+            <lobbyist>
+               <lobbyistFirstName>John</lobbyistFirstName>
+               <lobbyistLastName>Deming</lobbyistLastName>
+               <lobbyistSuffix></lobbyistSuffix>
+               <coveredPosition></coveredPosition>
+               <lobbyistNew>N</lobbyistNew>
+            </lobbyist>
+            <lobbyist>
+               <lobbyistFirstName></lobbyistFirstName>
+               <lobbyistLastName></lobbyistLastName>
+               <lobbyistSuffix></lobbyistSuffix>
+               <coveredPosition></coveredPosition>
+               <lobbyistNew>N</lobbyistNew>
+            </lobbyist>
+            <lobbyist>
+               <lobbyistFirstName></lobbyistFirstName>
+               <lobbyistLastName></lobbyistLastName>
+               <lobbyistSuffix></lobbyistSuffix>
+               <coveredPosition></coveredPosition>
+               <lobbyistNew>N</lobbyistNew>
+            </lobbyist>
+            <lobbyist>
+               <lobbyistFirstName></lobbyistFirstName>
+               <lobbyistLastName></lobbyistLastName>
+               <lobbyistSuffix></lobbyistSuffix>
+               <coveredPosition></coveredPosition>
+               <lobbyistNew>N</lobbyistNew>
+            </lobbyist>
+            <lobbyist>
+               <lobbyistFirstName></lobbyistFirstName>
+               <lobbyistLastName></lobbyistLastName>
+               <lobbyistSuffix></lobbyistSuffix>
+               <coveredPosition></coveredPosition>
+               <lobbyistNew>N</lobbyistNew>
+            </lobbyist>
+            <lobbyist>
+               <lobbyistFirstName></lobbyistFirstName>
+               <lobbyistLastName></lobbyistLastName>
+               <lobbyistSuffix></lobbyistSuffix>
+               <coveredPosition></coveredPosition>
+               <lobbyistNew>N</lobbyistNew>
+            </lobbyist>
+            <lobbyist>
+               <lobbyistFirstName></lobbyistFirstName>
+               <lobbyistLastName></lobbyistLastName>
+               <lobbyistSuffix></lobbyistSuffix>
+               <coveredPosition></coveredPosition>
+               <lobbyistNew>N</lobbyistNew>
+            </lobbyist>
+            <lobbyist>
+               <lobbyistFirstName></lobbyistFirstName>
+               <lobbyistLastName></lobbyistLastName>
+               <lobbyistSuffix></lobbyistSuffix>
+               <coveredPosition></coveredPosition>
+               <lobbyistNew>N</lobbyistNew>
+            </lobbyist>
+            <lobbyist>
+               <lobbyistFirstName></lobbyistFirstName>
+               <lobbyistLastName></lobbyistLastName>
+               <lobbyistSuffix></lobbyistSuffix>
+               <coveredPosition></coveredPosition>
+               <lobbyistNew>N</lobbyistNew>
+            </lobbyist>
+         </lobbyists>
+         <foreign_entity_issues></foreign_entity_issues>
+      </ali_info>
+   </alis>
+   <updates>
+      <clientAddress></clientAddress>
+      <clientCity></clientCity>
+      <clientState></clientState>
+      <clientZip></clientZip>
+      <clientZipext></clientZipext>
+      <clientCountry></clientCountry>
+      <prinClientCity></prinClientCity>
+      <prinClientState></prinClientState>
+      <prinClientZip></prinClientZip>
+      <prinClientZipext></prinClientZipext>
+      <prinClientCountry></prinClientCountry>
+      <generalDescription></generalDescription>
+      <inactive_lobbyists>
+         <inactive_lobbyist>
+            <firstName></firstName>
+            <lastName></lastName>
+            <suffix></suffix>
+         </inactive_lobbyist>
+         <inactive_lobbyist>
+            <firstName></firstName>
+            <lastName></lastName>
+            <suffix></suffix>
+         </inactive_lobbyist>
+         <inactive_lobbyist>
+            <firstName></firstName>
+            <lastName></lastName>
+            <suffix></suffix>
+         </inactive_lobbyist>
+         <inactive_lobbyist>
+            <firstName></firstName>
+            <lastName></lastName>
+            <suffix></suffix>
+         </inactive_lobbyist>
+      </inactive_lobbyists>
+      <inactive_ALIs>
+         <ali_Code></ali_Code>
+         <ali_Code></ali_Code>
+         <ali_Code></ali_Code>
+         <ali_Code></ali_Code>
+         <ali_Code></ali_Code>
+         <ali_Code></ali_Code>
+         <ali_Code></ali_Code>
+         <ali_Code></ali_Code>
+         <ali_Code></ali_Code>
+      </inactive_ALIs>
+      <affiliatedUrl></affiliatedUrl>
+      <affiliatedOrgs>
+         <affiliatedOrg>
+            <affiliatedOrgName></affiliatedOrgName>
+            <affiliatedOrgAddress></affiliatedOrgAddress>
+            <affiliatedOrgCity></affiliatedOrgCity>
+            <affiliatedOrgState></affiliatedOrgState>
+            <affiliatedOrgZip></affiliatedOrgZip>
+            <affiliatedOrgCountry></affiliatedOrgCountry>
+            <affiliatedPrinOrgCity></affiliatedPrinOrgCity>
+            <affiliatedPrinOrgState></affiliatedPrinOrgState>
+            <affiliatedPrinOrgCountry></affiliatedPrinOrgCountry>
+         </affiliatedOrg>
+         <affiliatedOrg>
+            <affiliatedOrgName></affiliatedOrgName>
+            <affiliatedOrgAddress></affiliatedOrgAddress>
+            <affiliatedOrgCity></affiliatedOrgCity>
+            <affiliatedOrgState></affiliatedOrgState>
+            <affiliatedOrgZip></affiliatedOrgZip>
+            <affiliatedOrgCountry></affiliatedOrgCountry>
+            <affiliatedPrinOrgCity></affiliatedPrinOrgCity>
+            <affiliatedPrinOrgState></affiliatedPrinOrgState>
+            <affiliatedPrinOrgCountry></affiliatedPrinOrgCountry>
+         </affiliatedOrg>
+      </affiliatedOrgs>
+      <inactiveOrgs>
+         <inactiveOrgName></inactiveOrgName>
+         <inactiveOrgName></inactiveOrgName>
+         <inactiveOrgName></inactiveOrgName>
+      </inactiveOrgs>
+      <foreignEntities>
+         <foreignEntity>
+            <name></name>
+            <address></address>
+            <city></city>
+            <state></state>
+            <country></country>
+            <prinCity></prinCity>
+            <prinState></prinState>
+            <prinCountry></prinCountry>
+            <contribution></contribution>
+            <ownership_Percentage></ownership_Percentage>
+         </foreignEntity>
+      </foreignEntities>
+      <inactive_ForeignEntities>
+         <inactive_ForeignEntity></inactive_ForeignEntity>
+         <inactive_ForeignEntity></inactive_ForeignEntity>
+         <inactive_ForeignEntity></inactive_ForeignEntity>
+         <inactive_ForeignEntity></inactive_ForeignEntity>
+         <inactive_ForeignEntity></inactive_ForeignEntity>
+         <inactive_ForeignEntity></inactive_ForeignEntity>
+      </inactive_ForeignEntities>
+   </updates>
+</LOBBYINGDISCLOSURE2>
