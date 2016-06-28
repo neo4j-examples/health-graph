@@ -2,7 +2,8 @@ from py2neo import Graph, Node
 import os
 
 
-g= Graph("http://localhost:7474/browser/",password = "donsusfcaedu")
+pw = os.environ.get('NEO4J_PASS')
+g= Graph("http://localhost:7474/browser/",password = pw)  ## readme need to document setting environment variable in pycharm
 g.delete_all()
 tx = g.begin()
 
@@ -99,9 +100,9 @@ for file in files:
             houseOrgId = lobbyFirm['value']['houseID'][:5]
 
     lobbyFirm_node = g.run('''
-    CREATE (lf: LobbyFirm)
-    SET lf.name = {name}, lf.address = {address}, lf.city = {city},
-    lf.state = {state}, lf.country = {country}, lf.zip = {zip}, lf.houseOrgId = {houseOrgId}
+    MERGE (lf: LobbyFirm {houseOrgId:{houseOrgId}})
+    ON CREATE SET lf.name = {name}, lf.address = {address}, lf.city = {city},
+    lf.state = {state}, lf.country = {country}, lf.zip = {zip}
     RETURN id(lf)''', parameters= {'name': name, 'address': address, 'city': city, 'state':state, 'country': country,
                                    'zip': zip, 'houseOrgId': houseOrgId}
                            )
@@ -191,7 +192,7 @@ for file in files:
                         lobbyist_dic['position'] = "NULL"
 
                     # lobbyist_lst.append(lobbyist_dic)
-                    lobbyists_node = g.run(
+                    lobbyists_node = g.run(   # Use MERGE vs CREATE: MERGE can be problematic if 2 persons have same name and position
                         ''' MERGE (lob: Lobbyist {firstName: {firstName}, lastName: {lastName}, position : {position}})
                         RETURN id(lob)
                         ''', parameters={'firstName': lobbyist_dic['firstName'],
