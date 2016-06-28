@@ -11,9 +11,11 @@ tx = g.begin()
 root =  os.getcwd()
 path = os.path.join(root, "data")
 disclosure_1st_path = os.path.join(path, "2013_1stQuarter_XML")
-files = [f for f in os.listdir(disclosure_1st_path) if f.endswith('.xml')]           # Return xml files
+# files = [f for f in os.listdir(disclosure_1st_path) if f.endswith('.xml')]
+files = ['file:///Users/yaqi/Documents/vir_health_graph/health-graph/data/2013_1stQuarter_XML/300529246.xml'] # Return xml files
 for file in files:
-    fi = 'file://' + os.path.join(disclosure_1st_path, file)
+    # fi = 'file://' + os.path.join(disclosure_1st_path, file)
+    fi = file
 
 
 # ========================================== Node: Disclosure ==========================================#
@@ -37,6 +39,75 @@ for file in files:
 
 # ========================================== Node: lobby firm ==========================================#
     # TODO(Yaqi): add code here
+    lf_id = ''
+    lobbyFirms = g.run(
+        '''CALL apoc.load.xml({f})
+        YIElD value as lf
+        WITH[attr in lf._children WHERE
+        attr._type in ['organizationName', 'firstName', 'lastName', 'address1','address2', 'city', 'state', 'zip', 'country',
+        'houseID'] | [attr._type, attr._text]] as pairs
+        CALL apoc.map.fromPairs(pairs)
+        YIELD value
+        return value''',
+        parameters = {'f': fi}
+    )
+
+    for lobbyFirm in lobbyFirms:
+        # Name property
+        if lobbyFirm['value']['organizationName']== None and lobbyFirm['value']['firstName'] == None and lobbyFirm['value']['lastName'] == None :
+            name = None
+        elif lobbyFirm['value']['organizationName']== None and lobbyFirm['value']['firstName'] != None and lobbyFirm['value']['lastName'] != None :
+            name = str(lobbyFirm['value']['firstName'] + ' ' + lobbyFirm['value']['lastName'])
+        elif lobbyFirm['value']['organizationName'] != None:
+            name = lobbyFirm['value']['organizationName']
+
+        #Address
+        if lobbyFirm['value']['address1']== None and lobbyFirm['value']['address2']== None:
+            address = None
+        elif lobbyFirm['value']['address1']!= None and lobbyFirm['value']['address2']!= None:
+            address = str(lobbyFirm['value']['address1'] + ' ' + lobbyFirm['value']['address2'])
+        elif lobbyFirm['value']['address1']!= None and lobbyFirm['value']['address2']== None:
+            address = lobbyFirm['value']['address1']
+        #city
+        if lobbyFirm['value']['city'] == None :
+            city = None
+        else:
+            city = lobbyFirm['value']['city']
+
+        #State
+        if lobbyFirm['value']['state'] == None:
+            state = None
+        else:
+            state = lobbyFirm['value']['state']
+
+        # Country
+        if lobbyFirm['value']['country'] == None:
+            country = 'USA'
+        else:
+            country = lobbyFirm['value']['country']
+
+        # zip
+        if lobbyFirm['value']['zip'] == None:
+            zip = None
+        else:
+            zip = lobbyFirm['value']['zip']
+
+        # houseOrgId
+        if lobbyFirm['value']['houseID'] == None:
+            houseOrgId = None
+        else:
+            houseOrgId = lobbyFirm['value']['houseID'][:5]
+
+    lobbyFirm_node = g.run('''
+    CREATE (lf: LobbyFirm)
+    SET lf.name = {name}, lf.address = {address}, lf.city = {city},
+    lf.state = {state}, lf.country = {country}, lf.zip = {zip}, lf.houseOrgId = {houseOrgId}
+    RETURN id(lf)''', parameters= {'name': name, 'address': address, 'city': city, 'state':state, 'country': country,
+                                   'zip': zip, 'houseOrgId': houseOrgId}
+                           )
+
+    lf_id = [lf['id(lf)'] for lf in lobbyFirm_node][0]
+
 
 
 # ========================================== Node: clients ==========================================#
@@ -60,6 +131,8 @@ for file in files:
 
     iscd_lst = []
     # collect issuecodes of one disclosure
+    lobId_collector = []
+
     # find_empty = False
     #find_empty data
     for i,lobbyist_issuecode in enumerate(lobbyists_issuecode):
@@ -94,7 +167,6 @@ for file in files:
             # check if '_children' in the item, the item represents lobbyists
             #lobbyists_json = lobOrIss_item
             lobbyists = lobOrIss_item['_children']
-            # lobbyist_lst = []
             lob_id_lst = []
 
             for lobbyist in lobbyists:
@@ -128,6 +200,7 @@ for file in files:
                     )
                     lob_id = [lobbyist['id(lob)'] for lobbyist in lobbyists_node][0]
                     lob_id_lst.append(lob_id)
+                    lobId_collector.append(lob_id)
 
             # print(issue_id)
             # print(lobbyist_lst)
@@ -135,9 +208,12 @@ for file in files:
             lobbyist_iss_rel = g.run(
                 '''Match (iss:Issue) WHERE id(iss) = {issue_id}
                 MATCH (lob: Lobbyist) WHERE id(lob) in {lob_id_lst}
-                CREATE (lob)-[r:lobbies]->(iss)
+                CREATE (lob)-[r:LOBBIES]->(iss)
                 ''', parameters={'issue_id': issue_id, 'lob_id_lst': lob_id_lst}
             )
+
+
+    # print(lobId_collector)
     # if find_empty:
     #     break
 # ========================================== Node: Issue ==========================================#
@@ -168,14 +244,17 @@ for file in files:
     feag_lst = []
 
     for issuedes in issuesdes:
-        isde_lst.append(issuedes['specific_issues._text'])
+        if issuedes['specific_issues._text'] != None :
+            isde_lst.append(issuedes['specific_issues._text'])
 
     for agency in federal_agencies:
-        feag_lst.append(agency['ali_info._text'])
-
+        if agency['ali_info._text'] != None:
+            feag_lst.append(agency['ali_info._text'])
+    # print(fi)
     # print(len(iscd_lst))
     # print(len(isde_lst))
     # print(len(feag_lst))
+
     if len(iscd_lst) == len(isde_lst) and len(isde_lst) == len(feag_lst):
 
         for i in range(len(iscd_lst)):
@@ -184,122 +263,34 @@ for file in files:
                 SET iss.des = {des}, iss.agency = {agency}
                 ''', parameters={'issue_id_lst': issue_id_lst, "des" : isde_lst[i], "agency": feag_lst[i]}
             )
-
-    elif len(iscd_lst) != len(isde_lst) and len(isde_lst) != len(feag_lst):
+    else:
         print('error')
 
 
-    # #===================== Rel=====================#
+#========================================== Rel==========================================#
     dc_iss_rel = g.run(
         '''MATCH (dc:Disclosure) WHERE id(dc) = {dc_id}
         MATCH (iss:Issue) WHERE id(iss) in {iss_id}
-        CREATE (dc)-[r:has]->(iss)
+        CREATE (dc)-[r:HAS]->(iss)
         ''',
         parameters = { 'dc_id': dc_id, 'iss_id': issue_id_lst}
     )
 
+    lf_dc_rel = g.run(
+        '''MATCH (dc:Disclosure) WHERE id(dc) = {dc_id}
+        MATCH (lf:LobbyFirm) WHERE id(lf) = {lf_id}
+        CREATE (lf)-[r:FILED]->(dc)
+        ''',
+        parameters={'dc_id': dc_id, 'lf_id': lf_id}
+    )
 
-
-# fi = 'e'
-#
-#
-#     #===================== Node: Disclosure =====================#
-#     disclosure = g.run(
-#         '''CALL apoc.load.xml({f})
-#         YIElD value as ld2
-#         WITH [attr in ld2._children
-#         WHERE attr._type in ['houseID','senateID','reportYear'] | [attr._type, attr._text]] as pairs
-#         CALL apoc.map.fromPairs(pairs)
-#         YIELD value
-#         CREATE (dc:Disclosure {senateID: value.senateID, houseID: value.houseID, reportYear: value.reportYear, fileid: {fi}})
-#         RETURN id(dc)''',
-#         parameters={'f': fi, 'fi':fi[-14:]})
-#
-#     for dc in disclosure:
-#         dc_id = dc['id(dc)']
-
-    #
-    # #===================== Node: Issue =====================#
-    # issuecodes = g.run(
-    #     '''CALL apoc.load.xml({f})
-    #     YIElD value UNWIND value._children as dl
-    #     WITH dl WHERE dl._type = 'alis'
-    #     UNWIND dl._children as alis
-    #     UNWIND alis._children as ali_info
-    #     WITH ali_info WHERE ali_info._type = 'issueAreaCode'
-    #     RETURN ali_info._text''', parameters={'f': fi})
-    #
-    # issuesdes = g.run(
-    #     '''CALL apoc.load.xml({f})
-    #     YIElD value UNWIND value._children as dl
-    #     WITH dl WHERE dl._type = 'alis'
-    #     UNWIND dl._children as alis
-    #     UNWIND alis._children as ali_info
-    #     WITH ali_info WHERE ali_info._type = 'specific_issues'
-    #     UNWIND ali_info._children as specific_issues
-    #     RETURN specific_issues._text''', parameters={'f': fi})
-    #
-    # federal_agencies = g.run(
-    #     '''CALL apoc.load.xml({f})
-    #     YIElD value UNWIND value._children as dl
-    #     WITH dl WHERE dl._type = 'alis'
-    #     UNWIND dl._children as alis
-    #     UNWIND alis._children as ali_info
-    #     WITH ali_info WHERE ali_info._type = 'federal_agencies'
-    #     RETURN ali_info._text''', parameters={'f': fi})
-    #
-    # iscd_lst = []
-    # isde_lst = []
-    # feag_lst = []
-    #
-    #
-    # for issuecode in issuecodes:
-    #     iscd_lst.append(issuecode['ali_info._text'])
-    #
-    # for issuedes in issuesdes:
-    #     # print(issuedes)
-    #     isde_lst.append(issuedes['specific_issues._text'])
-    #
-    # for agency in federal_agencies:
-    #     feag_lst.append(agency['ali_info._text'])
-    #
-    # if len(iscd_lst) == len(isde_lst) and len(isde_lst) == len(feag_lst):
-    #     for i in range(len(iscd_lst)):
-    #         # issue_dict = {}
-    #         # issue_dict['code'] = iscd_lst[i]
-    #         # issue_dict['des'] = isde_lst[i]
-    #         # issue_dict['agency'] = feag_lst[i]
-    #         # issue_collector.append(issue_dict)
-    #         issues = g.run(
-    #             '''CREATE (iss:Issue {code: {code}, des:{des}, agency:{agency}})
-    #             RETURN id(iss)''',
-    #             parameters={"code": iscd_lst[i], "des" : isde_lst[i], "agency": feag_lst[i]})
-    #
-    #         for issue in issues:
-    #             iss_id.append(issue['id(iss)'])
-    #
-    # else:
-    #     print('error')
-    #
-    #
-    # # #===================== Rel=====================#
-    # dc_iss_rel = g.run(
-    #     '''MATCH (dc:Disclosure) WHERE id(dc) = {dc_id}
-    #     MATCH (iss:Issue) WHERE id(iss) in {iss_id}
-    #     CREATE (dc)-[r:has]->(iss)
-    #     ''',
-    #     parameters = { 'dc_id': dc_id, 'iss_id': iss_id}
-    # )
-    # print(iss_id)
-    # print(dc_id)
-
-
-
-
-
-
-
-
+    lob_lf_rel = g.run(
+        '''MATCH (lob:Lobbyist) WHERE id(lob) in {lobId_collector}
+        MATCH (lf:LobbyFirm) WHERE id(lf) = {lf_id}
+        CREATE (lob)-[r:WORKS_AT]->(lf)
+        ''',
+        parameters={'lobId_collector': lobId_collector, 'lf_id': lf_id}
+    )
 
 
 
