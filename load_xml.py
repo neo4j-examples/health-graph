@@ -12,11 +12,12 @@ tx = g.begin()
 root =  os.getcwd()
 path = os.path.join(root, "data")
 disclosure_1st_path = os.path.join(path, "2013_1stQuarter_XML")
-# files = [f for f in os.listdir(disclosure_1st_path) if f.endswith('.xml')]
-files = ['file:///Users/yaqi/Documents/vir_health_graph/health-graph/data/2013_1stQuarter_XML/300529246.xml'] # Return xml files
+files = [f for f in os.listdir(disclosure_1st_path) if f.endswith('.xml')]
+# files = ['file:///Users/yaqi/Documents/vir_health_graph/health-graph/data/2013_1stQuarter_XML/300545488.xml'] # Return xml files
 for file in files:
-    # fi = 'file://' + os.path.join(disclosure_1st_path, file)
-    fi = file
+    fi = 'file://' + os.path.join(disclosure_1st_path, file)
+    # fi = file
+    print(fi)
 
 
 # ========================================== Node: Disclosure ==========================================#
@@ -39,7 +40,6 @@ for file in files:
 
 
 # ========================================== Node: lobby firm ==========================================#
-    # TODO(Yaqi): add code here
     lf_id = ''
     lobbyFirms = g.run(
         '''CALL apoc.load.xml({f})
@@ -113,7 +113,28 @@ for file in files:
 
 # ========================================== Node: clients ==========================================#
     # TODO(Yaqi): add code here
+    cl_id = ''
+    clients = g.run(
+        '''CALL apoc.load.xml({f})
+        YIElD value as cl
+        WITH[attr in cl._children WHERE
+        attr._type in ['clientName'] | [attr._type, attr._text]] as pairs
+        CALL apoc.map.fromPairs(pairs)
+        YIELD value
+        return value''',
+        parameters={'f': fi}
+    )
+    for client in clients:
+        client_name = client['value']['clientName']
 
+        if client_name:
+            client_node = g.run(
+                '''MERGE (cl:Client {name: {client_name}})
+                RETURN id(cl)
+                ''', parameters= {'client_name': client_name}
+            )
+
+    cl_id = [cl['id(cl)'] for cl in client_node][0]
 
 #========================================== Node: lobbyist ==========================================#
     issue_id_lst = []
@@ -214,7 +235,7 @@ for file in files:
             )
 
 
-    # print(lobId_collector)
+    print(lobId_collector)
     # if find_empty:
     #     break
 # ========================================== Node: Issue ==========================================#
@@ -288,11 +309,18 @@ for file in files:
     lob_lf_rel = g.run(
         '''MATCH (lob:Lobbyist) WHERE id(lob) in {lobId_collector}
         MATCH (lf:LobbyFirm) WHERE id(lf) = {lf_id}
-        CREATE (lob)-[r:WORKS_AT]->(lf)
+        MERGE (lob)-[r:WORKS_AT]->(lf)
         ''',
         parameters={'lobId_collector': lobId_collector, 'lf_id': lf_id}
     )
 
+    cl_dc_rel = g.run(
+        '''MATCH (dc:Disclosure) WHERE id(dc) = {dc_id}
+        MATCH (cl:Client) WHERE id(cl) = {cl_id}
+        CREATE (cl)-[r:SIGNED]->(dc)
+        ''',
+        parameters={'dc_id': dc_id, 'cl_id': cl_id}
+    )
 
 
 
