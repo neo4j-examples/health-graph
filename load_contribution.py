@@ -4,7 +4,7 @@ import os
 
 pw = os.environ.get('NEO4J_PASS')
 g= Graph("http://localhost:7474/browser/",password = pw)  ## readme need to document setting environment variable in pycharm
-g.delete_all()
+# g.delete_all()
 tx = g.begin()
 
 
