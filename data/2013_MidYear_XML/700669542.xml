@@ -1,0 +1,52 @@
+<?xml version="1.0"?>
+<CONTRIBUTIONDISCLOSURE>
+  <filerType>L</filerType>
+  <organizationName>CATALYST PARTNERS LLC</organizationName>
+  <lobbyistPrefix>Mr.</lobbyistPrefix>
+  <lobbyistFirstName>DAVID</lobbyistFirstName>
+  <lobbyistMiddleName>M</lobbyistMiddleName>
+  <lobbyistLastName>OLIVE</lobbyistLastName>
+  <lobbyistSuffix />
+  <contactName />
+  <senateRegID>66658</senateRegID>
+  <houseRegID>35662</houseRegID>
+  <reportYear>2013</reportYear>
+  <reportType>MM</reportType>
+  <amendment>false</amendment>
+  <comments>
+  </comments>
+  <signedDate>3/8/2013 9:46:25 AM</signedDate>
+  <certifiedcontent>true</certifiedcontent>
+  <noContributions>false</noContributions>
+  <pacs>
+    <pac>
+      <name />
+    </pac>
+  </pacs>
+  <contributions>
+    <contribution>
+      <type />
+      <contributorName />
+      <payeeName />
+      <recipientName />
+      <amount />
+      <date />
+    </contribution>
+    <contribution>
+      <type>FECA</type>
+      <contributorName>Self</contributorName>
+      <payeeName>Tim Griffin for Congress</payeeName>
+      <recipientName>Tim Griffin</recipientName>
+      <amount>500.00</amount>
+      <date>02/15/2013</date>
+    </contribution>
+    <contribution>
+      <type>FECA</type>
+      <contributorName>Self</contributorName>
+      <payeeName>Jeanne Shaheen for Senate</payeeName>
+      <recipientName>Jeanne Shaheen</recipientName>
+      <amount>50.00</amount>
+      <date>03/05/2013</date>
+    </contribution>
+  </contributions>
+</CONTRIBUTIONDISCLOSURE>

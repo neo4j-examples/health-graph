@@ -1,0 +1,68 @@
+<?xml version="1.0"?>
+<CONTRIBUTIONDISCLOSURE>
+  <filerType>L</filerType>
+  <organizationName>Mapetsi Policy Group</organizationName>
+  <lobbyistPrefix>Ms.</lobbyistPrefix>
+  <lobbyistFirstName>Deborah</lobbyistFirstName>
+  <lobbyistMiddleName />
+  <lobbyistLastName>Ho</lobbyistLastName>
+  <lobbyistSuffix />
+  <contactName />
+  <senateRegID>400598824</senateRegID>
+  <houseRegID>41310</houseRegID>
+  <reportYear>2013</reportYear>
+  <reportType>MM</reportType>
+  <amendment>false</amendment>
+  <comments>
+  </comments>
+  <signedDate>7/1/2013 5:29:03 PM</signedDate>
+  <certifiedcontent>true</certifiedcontent>
+  <noContributions>false</noContributions>
+  <pacs>
+    <pac>
+      <name />
+    </pac>
+  </pacs>
+  <contributions>
+    <contribution>
+      <type />
+      <contributorName />
+      <payeeName />
+      <recipientName />
+      <amount />
+      <date />
+    </contribution>
+    <contribution>
+      <type>FECA</type>
+      <contributorName>Self</contributorName>
+      <payeeName>McCollum for Congress</payeeName>
+      <recipientName>Rep. Betty McCollum</recipientName>
+      <amount>666.67</amount>
+      <date>03/17/2013</date>
+    </contribution>
+    <contribution>
+      <type>FECA</type>
+      <contributorName>Self</contributorName>
+      <payeeName>Gwen Moore for Congress</payeeName>
+      <recipientName>Rep. Gwen Moore</recipientName>
+      <amount>333.67</amount>
+      <date>03/27/2013</date>
+    </contribution>
+    <contribution>
+      <type>FECA</type>
+      <contributorName>Self</contributorName>
+      <payeeName>Friends of Michelle</payeeName>
+      <recipientName>Rep. Michelle Lujan Grisham</recipientName>
+      <amount>333.66</amount>
+      <date>06/27/2013</date>
+    </contribution>
+    <contribution>
+      <type>FECA</type>
+      <contributorName>Self</contributorName>
+      <payeeName>Simpson for Congress</payeeName>
+      <recipientName>Rep. Mike Simpson</recipientName>
+      <amount>666.67</amount>
+      <date>03/17/2013</date>
+    </contribution>
+  </contributions>
+</CONTRIBUTIONDISCLOSURE>

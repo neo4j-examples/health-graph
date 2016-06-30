@@ -1,0 +1,68 @@
+<?xml version="1.0"?>
+<CONTRIBUTIONDISCLOSURE>
+  <filerType>O</filerType>
+  <organizationName>JM FAMILY ENTERPRISES, INC</organizationName>
+  <lobbyistPrefix />
+  <lobbyistFirstName />
+  <lobbyistMiddleName />
+  <lobbyistLastName />
+  <lobbyistSuffix />
+  <contactName>DONNA LINDNER</contactName>
+  <senateRegID>20620</senateRegID>
+  <houseRegID>30346</houseRegID>
+  <reportYear>2013</reportYear>
+  <reportType>MM</reportType>
+  <amendment>false</amendment>
+  <comments>
+  </comments>
+  <signedDate>7/3/2013 9:53:56 AM</signedDate>
+  <certifiedcontent>true</certifiedcontent>
+  <noContributions>false</noContributions>
+  <pacs>
+    <pac>
+      <name />
+    </pac>
+  </pacs>
+  <contributions>
+    <contribution>
+      <type />
+      <contributorName />
+      <payeeName />
+      <recipientName />
+      <amount />
+      <date />
+    </contribution>
+    <contribution>
+      <type>FECA</type>
+      <contributorName>Self</contributorName>
+      <payeeName>Friends of Max Baucus</payeeName>
+      <recipientName>Friends of Max Baucus</recipientName>
+      <amount>1,000.00</amount>
+      <date>03/26/2013</date>
+    </contribution>
+    <contribution>
+      <type>FECA</type>
+      <contributorName>Self</contributorName>
+      <payeeName>Friends of Bill Posey</payeeName>
+      <recipientName>Friends of Bill Posey</recipientName>
+      <amount>1,000.00</amount>
+      <date>04/09/2013</date>
+    </contribution>
+    <contribution>
+      <type>FECA</type>
+      <contributorName>Self</contributorName>
+      <payeeName>Friends of Patrick Murphy</payeeName>
+      <recipientName>Friends of Patrick Murphy</recipientName>
+      <amount>500.00</amount>
+      <date>05/18/2013</date>
+    </contribution>
+    <contribution>
+      <type>FECA</type>
+      <contributorName>Self</contributorName>
+      <payeeName>Mike Rogers for Campaign</payeeName>
+      <recipientName>Mike Rogers for Campaign</recipientName>
+      <amount>500.00</amount>
+      <date>06/19/2013</date>
+    </contribution>
+  </contributions>
+</CONTRIBUTIONDISCLOSURE>

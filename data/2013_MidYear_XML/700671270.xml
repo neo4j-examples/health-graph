@@ -1,0 +1,59 @@
+<?xml version="1.0"?>
+<CONTRIBUTIONDISCLOSURE>
+  <filerType>L</filerType>
+  <organizationName>GENERAL DYNAMICS CORP</organizationName>
+  <lobbyistPrefix>Mr.</lobbyistPrefix>
+  <lobbyistFirstName>Gerard</lobbyistFirstName>
+  <lobbyistMiddleName>Francis</lobbyistMiddleName>
+  <lobbyistLastName>LAMB</lobbyistLastName>
+  <lobbyistSuffix />
+  <contactName />
+  <senateRegID>15986</senateRegID>
+  <houseRegID>31493</houseRegID>
+  <reportYear>2013</reportYear>
+  <reportType>MM</reportType>
+  <amendment>false</amendment>
+  <comments>I am a Member of the Executive Committee of the General Dynamics Corporation Political Action Committee.</comments>
+  <signedDate>7/1/2013 10:54:49 AM</signedDate>
+  <certifiedcontent>true</certifiedcontent>
+  <noContributions>false</noContributions>
+  <pacs>
+    <pac>
+      <name />
+    </pac>
+  </pacs>
+  <contributions>
+    <contribution>
+      <type />
+      <contributorName />
+      <payeeName />
+      <recipientName />
+      <amount />
+      <date />
+    </contribution>
+    <contribution>
+      <type>FECA</type>
+      <contributorName>Self</contributorName>
+      <payeeName>Collins for Senator</payeeName>
+      <recipientName>Senator Susan Collins</recipientName>
+      <amount>500.00</amount>
+      <date>03/13/2013</date>
+    </contribution>
+    <contribution>
+      <type>FECA</type>
+      <contributorName>Self</contributorName>
+      <payeeName>Collins for Senator</payeeName>
+      <recipientName>Senator Susan Collins</recipientName>
+      <amount>500.00</amount>
+      <date>06/12/2013</date>
+    </contribution>
+    <contribution>
+      <type>FECA</type>
+      <contributorName>Self</contributorName>
+      <payeeName>Scott Peters for Congress</payeeName>
+      <recipientName>Congressman Scott Peters</recipientName>
+      <amount>500.00</amount>
+      <date>06/19/2013</date>
+    </contribution>
+  </contributions>
+</CONTRIBUTIONDISCLOSURE>

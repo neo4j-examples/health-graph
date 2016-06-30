@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<CONTRIBUTIONDISCLOSURE>
+  <filerType>L</filerType>
+  <organizationName>SmithBucklin Corp.</organizationName>
+  <lobbyistPrefix>Mr.</lobbyistPrefix>
+  <lobbyistFirstName>Michael</lobbyistFirstName>
+  <lobbyistMiddleName />
+  <lobbyistLastName>O'Brien</lobbyistLastName>
+  <lobbyistSuffix />
+  <contactName />
+  <senateRegID>35684</senateRegID>
+  <houseRegID>31728</houseRegID>
+  <reportYear>2013</reportYear>
+  <reportType>MM</reportType>
+  <amendment>false</amendment>
+  <comments>
+  </comments>
+  <signedDate>7/1/2013 8:27:40 AM</signedDate>
+  <certifiedcontent>true</certifiedcontent>
+  <noContributions>true</noContributions>
+  <pacs>
+    <pac>
+      <name />
+    </pac>
+  </pacs>
+  <contributions>
+    <contribution>
+      <type />
+      <contributorName />
+      <payeeName />
+      <recipientName />
+      <amount />
+      <date />
+    </contribution>
+  </contributions>
+</CONTRIBUTIONDISCLOSURE>

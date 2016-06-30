@@ -1,0 +1,60 @@
+<?xml version="1.0"?>
+<CONTRIBUTIONDISCLOSURE>
+  <filerType>L</filerType>
+  <organizationName>Semiconductor Industry Association</organizationName>
+  <lobbyistPrefix>Mr.</lobbyistPrefix>
+  <lobbyistFirstName>Dustin</lobbyistFirstName>
+  <lobbyistMiddleName />
+  <lobbyistLastName>Todd</lobbyistLastName>
+  <lobbyistSuffix />
+  <contactName />
+  <senateRegID>34821</senateRegID>
+  <houseRegID>31040</houseRegID>
+  <reportYear>2013</reportYear>
+  <reportType>MM</reportType>
+  <amendment>false</amendment>
+  <comments>
+  </comments>
+  <signedDate>7/1/2013 3:18:50 PM</signedDate>
+  <certifiedcontent>true</certifiedcontent>
+  <noContributions>false</noContributions>
+  <pacs>
+    <pac>
+      <name />
+    </pac>
+  </pacs>
+  <contributions>
+    <contribution>
+      <type />
+      <contributorName />
+      <payeeName />
+      <recipientName />
+      <amount />
+      <date />
+    </contribution>
+    <contribution>
+      <type>FECA</type>
+      <contributorName>Self</contributorName>
+      <payeeName>Kyrsten Sinema for Congress</payeeName>
+      <recipientName>Rep. Kyrsten Sinema</recipientName>
+      <amount>250.00</amount>
+      <date>05/22/2013</date>
+    </contribution>
+    <contribution>
+      <type>FECA</type>
+      <contributorName>Self</contributorName>
+      <payeeName>Mississippi Democratic Party</payeeName>
+      <recipientName>Mississippi Democratic Party</recipientName>
+      <amount>250.00</amount>
+      <date>01/20/2013</date>
+    </contribution>
+    <contribution>
+      <type>FECA</type>
+      <contributorName>Self</contributorName>
+      <payeeName>Mississippi Democratic Party</payeeName>
+      <recipientName>Mississippi Democratic Party</recipientName>
+      <amount>750.00</amount>
+      <date>05/30/2013</date>
+    </contribution>
+  </contributions>
+</CONTRIBUTIONDISCLOSURE>

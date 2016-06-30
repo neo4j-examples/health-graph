@@ -1,0 +1,60 @@
+<?xml version="1.0"?>
+<CONTRIBUTIONDISCLOSURE>
+  <filerType>L</filerType>
+  <organizationName>Robertson, Monagle &amp; Eastaugh (formerly known as Hoffman Silver Gilman &amp; Blasco</organizationName>
+  <lobbyistPrefix>Mr.</lobbyistPrefix>
+  <lobbyistFirstName>RICK</lobbyistFirstName>
+  <lobbyistMiddleName />
+  <lobbyistLastName>MARKS</lobbyistLastName>
+  <lobbyistSuffix />
+  <contactName />
+  <senateRegID>33454</senateRegID>
+  <houseRegID>30626</houseRegID>
+  <reportYear>2013</reportYear>
+  <reportType>MM</reportType>
+  <amendment>false</amendment>
+  <comments>
+  </comments>
+  <signedDate>6/26/2013 1:37:35 PM</signedDate>
+  <certifiedcontent>true</certifiedcontent>
+  <noContributions>false</noContributions>
+  <pacs>
+    <pac>
+      <name />
+    </pac>
+  </pacs>
+  <contributions>
+    <contribution>
+      <type />
+      <contributorName />
+      <payeeName />
+      <recipientName />
+      <amount />
+      <date />
+    </contribution>
+    <contribution>
+      <type>FECA</type>
+      <contributorName>Self</contributorName>
+      <payeeName>Steve Southerland for Congress</payeeName>
+      <recipientName>Rep. Steve Southerland</recipientName>
+      <amount>500.00</amount>
+      <date>04/11/2013</date>
+    </contribution>
+    <contribution>
+      <type>FECA</type>
+      <contributorName>Self</contributorName>
+      <payeeName>Runyan For Congress</payeeName>
+      <recipientName>Rep. Jon Runyan</recipientName>
+      <amount>1,000.00</amount>
+      <date>03/18/2013</date>
+    </contribution>
+    <contribution>
+      <type>FECA</type>
+      <contributorName>Self</contributorName>
+      <payeeName>Alaskans for Don Young, Inc.</payeeName>
+      <recipientName>Rep. Don Young</recipientName>
+      <amount>500.00</amount>
+      <date>03/14/2013</date>
+    </contribution>
+  </contributions>
+</CONTRIBUTIONDISCLOSURE>

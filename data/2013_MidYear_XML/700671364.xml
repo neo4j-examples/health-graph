@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<CONTRIBUTIONDISCLOSURE>
+  <filerType>L</filerType>
+  <organizationName>DUTKO WORLDWIDE, LLC</organizationName>
+  <lobbyistPrefix>Mr.</lobbyistPrefix>
+  <lobbyistFirstName>MARCUS</lobbyistFirstName>
+  <lobbyistMiddleName />
+  <lobbyistLastName>VEAZEY</lobbyistLastName>
+  <lobbyistSuffix />
+  <contactName />
+  <senateRegID>12868</senateRegID>
+  <houseRegID>32229</houseRegID>
+  <reportYear>2013</reportYear>
+  <reportType>MM</reportType>
+  <amendment>false</amendment>
+  <comments>
+  </comments>
+  <signedDate>7/1/2013 2:07:33 PM</signedDate>
+  <certifiedcontent>true</certifiedcontent>
+  <noContributions>false</noContributions>
+  <pacs>
+    <pac>
+      <name />
+    </pac>
+  </pacs>
+  <contributions>
+    <contribution>
+      <type />
+      <contributorName />
+      <payeeName />
+      <recipientName />
+      <amount />
+      <date />
+    </contribution>
+    <contribution>
+      <type>FECA</type>
+      <contributorName>Self</contributorName>
+      <payeeName>David Swarz for Congress</payeeName>
+      <recipientName>David Swarz</recipientName>
+      <amount>250.00</amount>
+      <date>06/19/2013</date>
+    </contribution>
+  </contributions>
+</CONTRIBUTIONDISCLOSURE>

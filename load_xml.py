@@ -12,11 +12,11 @@ tx = g.begin()
 root =  os.getcwd()
 path = os.path.join(root, "data")
 disclosure_1st_path = os.path.join(path, "2013_1stQuarter_XML")
-files = [f for f in os.listdir(disclosure_1st_path) if f.endswith('.xml')]
-# files = ['file:///Users/yaqi/Documents/vir_health_graph/health-graph/data/2013_1stQuarter_XML/300545488.xml'] # Return xml files
+# files = [f for f in os.listdir(disclosure_1st_path) if f.endswith('.xml')]
+files = ['file:///Users/yaqi/Documents/vir_health_graph/health-graph/data/2013_1stQuarter_XML/300545488.xml'] # Return xml files
 for file in files:
-    fi = 'file://' + os.path.join(disclosure_1st_path, file)
-    # fi = file
+    # fi = 'file://' + os.path.join(disclosure_1st_path, file)
+    fi = file
     print(fi)
 
 

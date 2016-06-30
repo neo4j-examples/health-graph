@@ -1,0 +1,52 @@
+<?xml version="1.0"?>
+<CONTRIBUTIONDISCLOSURE>
+  <filerType>L</filerType>
+  <organizationName>AMERICAN ACADEMY OF ACTUARIES</organizationName>
+  <lobbyistPrefix>Mr.</lobbyistPrefix>
+  <lobbyistFirstName>Donald</lobbyistFirstName>
+  <lobbyistMiddleName />
+  <lobbyistLastName>Fuerst</lobbyistLastName>
+  <lobbyistSuffix />
+  <contactName />
+  <senateRegID>1318</senateRegID>
+  <houseRegID>30328</houseRegID>
+  <reportYear>2013</reportYear>
+  <reportType>MM</reportType>
+  <amendment>false</amendment>
+  <comments>
+  </comments>
+  <signedDate>7/1/2013 1:25:09 PM</signedDate>
+  <certifiedcontent>true</certifiedcontent>
+  <noContributions>false</noContributions>
+  <pacs>
+    <pac>
+      <name />
+    </pac>
+  </pacs>
+  <contributions>
+    <contribution>
+      <type />
+      <contributorName />
+      <payeeName />
+      <recipientName />
+      <amount />
+      <date />
+    </contribution>
+    <contribution>
+      <type>FECA</type>
+      <contributorName>Self</contributorName>
+      <payeeName>Udall for Congress</payeeName>
+      <recipientName>Mark Udall</recipientName>
+      <amount>50.00</amount>
+      <date>03/26/2013</date>
+    </contribution>
+    <contribution>
+      <type>FECA</type>
+      <contributorName>Self</contributorName>
+      <payeeName>Friends of Gerald Polis</payeeName>
+      <recipientName>Gerald Polis</recipientName>
+      <amount>152.00</amount>
+      <date>05/15/2013</date>
+    </contribution>
+  </contributions>
+</CONTRIBUTIONDISCLOSURE>

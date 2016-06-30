@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<CONTRIBUTIONDISCLOSURE>
+  <filerType>L</filerType>
+  <organizationName>DALEY POLICY GROUP, LLC</organizationName>
+  <lobbyistPrefix>Ms.</lobbyistPrefix>
+  <lobbyistFirstName>PATRICIA</lobbyistFirstName>
+  <lobbyistMiddleName>A</lobbyistMiddleName>
+  <lobbyistLastName>DALEY</lobbyistLastName>
+  <lobbyistSuffix />
+  <contactName />
+  <senateRegID>63110</senateRegID>
+  <houseRegID>35465</houseRegID>
+  <reportYear>2013</reportYear>
+  <reportType>MM</reportType>
+  <amendment>false</amendment>
+  <comments>
+  </comments>
+  <signedDate>5/21/2013 4:33:12 PM</signedDate>
+  <certifiedcontent>true</certifiedcontent>
+  <noContributions>false</noContributions>
+  <pacs>
+    <pac>
+      <name />
+    </pac>
+  </pacs>
+  <contributions>
+    <contribution>
+      <type />
+      <contributorName />
+      <payeeName />
+      <recipientName />
+      <amount />
+      <date />
+    </contribution>
+    <contribution>
+      <type>FECA</type>
+      <contributorName>Self</contributorName>
+      <payeeName>Congressman Dan Lipinski</payeeName>
+      <recipientName>Friends of Dan Lipinski</recipientName>
+      <amount>500.00</amount>
+      <date>03/13/2013</date>
+    </contribution>
+  </contributions>
+</CONTRIBUTIONDISCLOSURE>

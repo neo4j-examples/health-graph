@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<CONTRIBUTIONDISCLOSURE>
+  <filerType>L</filerType>
+  <organizationName>Mr. Martin Morris</organizationName>
+  <lobbyistPrefix>Mr.</lobbyistPrefix>
+  <lobbyistFirstName>Martin</lobbyistFirstName>
+  <lobbyistMiddleName>S</lobbyistMiddleName>
+  <lobbyistLastName>Morris</lobbyistLastName>
+  <lobbyistSuffix />
+  <contactName />
+  <senateRegID>40038317</senateRegID>
+  <houseRegID>39937</houseRegID>
+  <reportYear>2013</reportYear>
+  <reportType>MM</reportType>
+  <amendment>false</amendment>
+  <comments>I make no political contributions and do not have a PAC.</comments>
+  <signedDate>6/7/2013 6:20:18 PM</signedDate>
+  <certifiedcontent>true</certifiedcontent>
+  <noContributions>true</noContributions>
+  <pacs>
+    <pac>
+      <name />
+    </pac>
+  </pacs>
+  <contributions>
+    <contribution>
+      <type />
+      <contributorName />
+      <payeeName />
+      <recipientName />
+      <amount />
+      <date />
+    </contribution>
+  </contributions>
+</CONTRIBUTIONDISCLOSURE>

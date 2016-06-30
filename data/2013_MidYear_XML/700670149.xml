@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<CONTRIBUTIONDISCLOSURE>
+  <filerType>L</filerType>
+  <organizationName>Colby &amp; Company</organizationName>
+  <lobbyistPrefix>Mr.</lobbyistPrefix>
+  <lobbyistFirstName>Richard</lobbyistFirstName>
+  <lobbyistMiddleName />
+  <lobbyistLastName>Colby</lobbyistLastName>
+  <lobbyistSuffix />
+  <contactName />
+  <senateRegID>400394858</senateRegID>
+  <houseRegID>40878</houseRegID>
+  <reportYear>2013</reportYear>
+  <reportType>MM</reportType>
+  <amendment>false</amendment>
+  <comments>
+  </comments>
+  <signedDate>4/9/2013 11:54:52 AM</signedDate>
+  <certifiedcontent>true</certifiedcontent>
+  <noContributions>true</noContributions>
+  <pacs>
+    <pac>
+      <name />
+    </pac>
+  </pacs>
+  <contributions>
+    <contribution>
+      <type />
+      <contributorName />
+      <payeeName />
+      <recipientName />
+      <amount />
+      <date />
+    </contribution>
+  </contributions>
+</CONTRIBUTIONDISCLOSURE>

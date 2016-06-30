@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<CONTRIBUTIONDISCLOSURE>
+  <filerType>L</filerType>
+  <organizationName>American Express Company</organizationName>
+  <lobbyistPrefix>Mr.</lobbyistPrefix>
+  <lobbyistFirstName>CHRIS</lobbyistFirstName>
+  <lobbyistMiddleName />
+  <lobbyistLastName>MERIDA</lobbyistLastName>
+  <lobbyistSuffix />
+  <contactName />
+  <senateRegID>2274</senateRegID>
+  <houseRegID>31021</houseRegID>
+  <reportYear>2013</reportYear>
+  <reportType>MM</reportType>
+  <amendment>false</amendment>
+  <comments>My certification is to the best of my knowledge based on reasonable due diligence.</comments>
+  <signedDate>7/2/2013 3:18:55 PM</signedDate>
+  <certifiedcontent>true</certifiedcontent>
+  <noContributions>true</noContributions>
+  <pacs>
+    <pac>
+      <name />
+    </pac>
+  </pacs>
+  <contributions>
+    <contribution>
+      <type />
+      <contributorName />
+      <payeeName />
+      <recipientName />
+      <amount />
+      <date />
+    </contribution>
+  </contributions>
+</CONTRIBUTIONDISCLOSURE>

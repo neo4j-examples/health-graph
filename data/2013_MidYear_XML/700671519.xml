@@ -1,0 +1,52 @@
+<?xml version="1.0"?>
+<CONTRIBUTIONDISCLOSURE>
+  <filerType>L</filerType>
+  <organizationName>3M COMPANY</organizationName>
+  <lobbyistPrefix>Ms.</lobbyistPrefix>
+  <lobbyistFirstName>Megan</lobbyistFirstName>
+  <lobbyistMiddleName>Ivory</lobbyistMiddleName>
+  <lobbyistLastName>Carr</lobbyistLastName>
+  <lobbyistSuffix />
+  <contactName />
+  <senateRegID>25465</senateRegID>
+  <houseRegID>31984</houseRegID>
+  <reportYear>2013</reportYear>
+  <reportType>MM</reportType>
+  <amendment>false</amendment>
+  <comments>
+  </comments>
+  <signedDate>7/2/2013 10:14:09 AM</signedDate>
+  <certifiedcontent>true</certifiedcontent>
+  <noContributions>false</noContributions>
+  <pacs>
+    <pac>
+      <name />
+    </pac>
+  </pacs>
+  <contributions>
+    <contribution>
+      <type />
+      <contributorName />
+      <payeeName />
+      <recipientName />
+      <amount />
+      <date />
+    </contribution>
+    <contribution>
+      <type>FECA</type>
+      <contributorName>Self</contributorName>
+      <payeeName>Friends of Erik Paulsen</payeeName>
+      <recipientName>Rep. Erik Paulsen (R-MN)</recipientName>
+      <amount>1,000.00</amount>
+      <date>02/28/2013</date>
+    </contribution>
+    <contribution>
+      <type>FECA</type>
+      <contributorName>Self</contributorName>
+      <payeeName>Re-Elect Tim Griffin for Congress Committee</payeeName>
+      <recipientName>Rep. Tim Griffin (R-AR)</recipientName>
+      <amount>1,000.00</amount>
+      <date>02/28/2013</date>
+    </contribution>
+  </contributions>
+</CONTRIBUTIONDISCLOSURE>

@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+<CONTRIBUTIONDISCLOSURE>
+  <filerType>L</filerType>
+  <organizationName>AMERICAN CHEMISTRY COUNCIL</organizationName>
+  <lobbyistPrefix>Mr.</lobbyistPrefix>
+  <lobbyistFirstName>WALTER</lobbyistFirstName>
+  <lobbyistMiddleName />
+  <lobbyistLastName>MOORE</lobbyistLastName>
+  <lobbyistSuffix />
+  <contactName />
+  <senateRegID>8943</senateRegID>
+  <houseRegID>31783</houseRegID>
+  <reportYear>2013</reportYear>
+  <reportType>MM</reportType>
+  <amendment>false</amendment>
+  <comments>
+  </comments>
+  <signedDate>3/11/2013 11:20:27 AM</signedDate>
+  <certifiedcontent>true</certifiedcontent>
+  <noContributions>false</noContributions>
+  <pacs>
+    <pac>
+      <name />
+    </pac>
+    <pac>
+      <name>AmeriChem PAC</name>
+    </pac>
+  </pacs>
+  <contributions>
+    <contribution>
+      <type />
+      <contributorName />
+      <payeeName />
+      <recipientName />
+      <amount />
+      <date />
+    </contribution>
+    <contribution>
+      <type>FECA</type>
+      <contributorName>Self</contributorName>
+      <payeeName>Pryor for Senate</payeeName>
+      <recipientName>Sen. Mark Pryor</recipientName>
+      <amount>1,000.00</amount>
+      <date>03/11/2013</date>
+    </contribution>
+  </contributions>
+</CONTRIBUTIONDISCLOSURE>

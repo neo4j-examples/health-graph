@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<CONTRIBUTIONDISCLOSURE>
+  <filerType>L</filerType>
+  <organizationName>ASSOCIATION FOR ADVANCED LIFE UNDERWRITING</organizationName>
+  <lobbyistPrefix>Mr.</lobbyistPrefix>
+  <lobbyistFirstName>Christopher</lobbyistFirstName>
+  <lobbyistMiddleName>J.</lobbyistMiddleName>
+  <lobbyistLastName>Morton</lobbyistLastName>
+  <lobbyistSuffix />
+  <contactName />
+  <senateRegID>298034</senateRegID>
+  <houseRegID>37183</houseRegID>
+  <reportYear>2013</reportYear>
+  <reportType>MM</reportType>
+  <amendment>false</amendment>
+  <comments>
+  </comments>
+  <signedDate>7/1/2013 11:20:49 AM</signedDate>
+  <certifiedcontent>true</certifiedcontent>
+  <noContributions>true</noContributions>
+  <pacs>
+    <pac>
+      <name />
+    </pac>
+  </pacs>
+  <contributions>
+    <contribution>
+      <type />
+      <contributorName />
+      <payeeName />
+      <recipientName />
+      <amount />
+      <date />
+    </contribution>
+  </contributions>
+</CONTRIBUTIONDISCLOSURE>

@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<CONTRIBUTIONDISCLOSURE>
+  <filerType>L</filerType>
+  <organizationName>The Picard Group, LLC</organizationName>
+  <lobbyistPrefix>Mr.</lobbyistPrefix>
+  <lobbyistFirstName>Tyron</lobbyistFirstName>
+  <lobbyistMiddleName />
+  <lobbyistLastName>Picard</lobbyistLastName>
+  <lobbyistSuffix />
+  <contactName />
+  <senateRegID>400711132</senateRegID>
+  <houseRegID>41579</houseRegID>
+  <reportYear>2013</reportYear>
+  <reportType>MM</reportType>
+  <amendment>false</amendment>
+  <comments>
+  </comments>
+  <signedDate>6/27/2013 9:53:21 AM</signedDate>
+  <certifiedcontent>true</certifiedcontent>
+  <noContributions>false</noContributions>
+  <pacs>
+    <pac>
+      <name />
+    </pac>
+  </pacs>
+  <contributions>
+    <contribution>
+      <type />
+      <contributorName />
+      <payeeName />
+      <recipientName />
+      <amount />
+      <date />
+    </contribution>
+    <contribution>
+      <type>FECA</type>
+      <contributorName>Self</contributorName>
+      <payeeName>Bill Cassidy for Congress Campaign</payeeName>
+      <recipientName>Bill Cassidy</recipientName>
+      <amount>1,000.00</amount>
+      <date>03/26/2013</date>
+    </contribution>
+  </contributions>
+</CONTRIBUTIONDISCLOSURE>

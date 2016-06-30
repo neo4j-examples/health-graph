@@ -1,0 +1,71 @@
+<?xml version="1.0"?>
+<CONTRIBUTIONDISCLOSURE>
+  <filerType>O</filerType>
+  <organizationName>Merit Medical Systems, Inc.</organizationName>
+  <lobbyistPrefix />
+  <lobbyistFirstName />
+  <lobbyistMiddleName />
+  <lobbyistLastName />
+  <lobbyistSuffix />
+  <contactName>Greg A. Fredde</contactName>
+  <senateRegID>400575730</senateRegID>
+  <houseRegID>41242</houseRegID>
+  <reportYear>2013</reportYear>
+  <reportType>MM</reportType>
+  <amendment>false</amendment>
+  <comments>
+  </comments>
+  <signedDate>6/26/2013 2:54:22 PM</signedDate>
+  <certifiedcontent>true</certifiedcontent>
+  <noContributions>false</noContributions>
+  <pacs>
+    <pac>
+      <name />
+    </pac>
+    <pac>
+      <name>Merit Medical Systems, Inc. Employee Good Governance PAC</name>
+    </pac>
+  </pacs>
+  <contributions>
+    <contribution>
+      <type />
+      <contributorName />
+      <payeeName />
+      <recipientName />
+      <amount />
+      <date />
+    </contribution>
+    <contribution>
+      <type>FECA</type>
+      <contributorName>Merit Medical Systems, Inc. Employee Good Governance PAC</contributorName>
+      <payeeName>Rob Bishop for Congress</payeeName>
+      <recipientName>Congressman Rob Bishop</recipientName>
+      <amount>1,000.00</amount>
+      <date>05/23/2013</date>
+    </contribution>
+    <contribution>
+      <type>FECA</type>
+      <contributorName>Merit Medical Systems, Inc. Employee Good Governance PAC</contributorName>
+      <payeeName>OrrinPAC</payeeName>
+      <recipientName>OrrinPAC</recipientName>
+      <amount>5,000.00</amount>
+      <date>05/29/2013</date>
+    </contribution>
+    <contribution>
+      <type>FECA</type>
+      <contributorName>Merit Medical Systems, Inc. Employee Good Governance PAC</contributorName>
+      <payeeName>NRSC</payeeName>
+      <recipientName>National Republican Senatorial Committee</recipientName>
+      <amount>15,000.00</amount>
+      <date>05/29/2013</date>
+    </contribution>
+    <contribution>
+      <type>FECA</type>
+      <contributorName>Merit Medical Systems, Inc. Employee Good Governance PAC</contributorName>
+      <payeeName>Stewart for Congress</payeeName>
+      <recipientName>Congressman Chris Stewart</recipientName>
+      <amount>1,000.00</amount>
+      <date>05/30/2013</date>
+    </contribution>
+  </contributions>
+</CONTRIBUTIONDISCLOSURE>

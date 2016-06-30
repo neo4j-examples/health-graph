@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<CONTRIBUTIONDISCLOSURE>
+  <filerType>L</filerType>
+  <organizationName>Liebman &amp; Associates, Inc.</organizationName>
+  <lobbyistPrefix>Mr.</lobbyistPrefix>
+  <lobbyistFirstName>MURRAY</lobbyistFirstName>
+  <lobbyistMiddleName />
+  <lobbyistLastName>LIEBMAN</lobbyistLastName>
+  <lobbyistSuffix />
+  <contactName />
+  <senateRegID>46585</senateRegID>
+  <houseRegID>34391</houseRegID>
+  <reportYear>2013</reportYear>
+  <reportType>MM</reportType>
+  <amendment>true</amendment>
+  <comments>
+  </comments>
+  <signedDate>7/2/2013 9:53:01 AM</signedDate>
+  <certifiedcontent>true</certifiedcontent>
+  <noContributions>false</noContributions>
+  <pacs>
+    <pac>
+      <name />
+    </pac>
+  </pacs>
+  <contributions>
+    <contribution>
+      <type />
+      <contributorName />
+      <payeeName />
+      <recipientName />
+      <amount />
+      <date />
+    </contribution>
+    <contribution>
+      <type>FECA</type>
+      <contributorName>Self</contributorName>
+      <payeeName>Karen Spilka for Congress</payeeName>
+      <recipientName>Karen Spilka</recipientName>
+      <amount>500.00</amount>
+      <date>06/29/2013</date>
+    </contribution>
+  </contributions>
+</CONTRIBUTIONDISCLOSURE>

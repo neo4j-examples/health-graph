@@ -1,0 +1,60 @@
+<?xml version="1.0"?>
+<CONTRIBUTIONDISCLOSURE>
+  <filerType>L</filerType>
+  <organizationName>Lawrence J. Smith, P.A.</organizationName>
+  <lobbyistPrefix>Mr.</lobbyistPrefix>
+  <lobbyistFirstName>LAWRENCE</lobbyistFirstName>
+  <lobbyistMiddleName>J</lobbyistMiddleName>
+  <lobbyistLastName>SMITH</lobbyistLastName>
+  <lobbyistSuffix />
+  <contactName />
+  <senateRegID>35775</senateRegID>
+  <houseRegID>33945</houseRegID>
+  <reportYear>2013</reportYear>
+  <reportType>MM</reportType>
+  <amendment>false</amendment>
+  <comments>
+  </comments>
+  <signedDate>7/2/2013 1:59:50 PM</signedDate>
+  <certifiedcontent>true</certifiedcontent>
+  <noContributions>false</noContributions>
+  <pacs>
+    <pac>
+      <name />
+    </pac>
+  </pacs>
+  <contributions>
+    <contribution>
+      <type />
+      <contributorName />
+      <payeeName />
+      <recipientName />
+      <amount />
+      <date />
+    </contribution>
+    <contribution>
+      <type>FECA</type>
+      <contributorName>Self</contributorName>
+      <payeeName>Joe Garcia for Congress</payeeName>
+      <recipientName>Joe Garcia</recipientName>
+      <amount>200.00</amount>
+      <date>01/07/2013</date>
+    </contribution>
+    <contribution>
+      <type>FECA</type>
+      <contributorName>Self</contributorName>
+      <payeeName>The Markey Committee</payeeName>
+      <recipientName>Ed Markey</recipientName>
+      <amount>200.00</amount>
+      <date>05/20/2013</date>
+    </contribution>
+    <contribution>
+      <type>FECA</type>
+      <contributorName>Self</contributorName>
+      <payeeName>Joe Garcia for Congress</payeeName>
+      <recipientName>Joe Garcia</recipientName>
+      <amount>250.00</amount>
+      <date>06/17/2013</date>
+    </contribution>
+  </contributions>
+</CONTRIBUTIONDISCLOSURE>

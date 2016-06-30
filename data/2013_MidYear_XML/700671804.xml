@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<CONTRIBUTIONDISCLOSURE>
+  <filerType>L</filerType>
+  <organizationName>McAllister &amp; Quinn LLC</organizationName>
+  <lobbyistPrefix>Ms.</lobbyistPrefix>
+  <lobbyistFirstName>Eden</lobbyistFirstName>
+  <lobbyistMiddleName />
+  <lobbyistLastName>Forsythe</lobbyistLastName>
+  <lobbyistSuffix />
+  <contactName />
+  <senateRegID>292573</senateRegID>
+  <houseRegID>37315</houseRegID>
+  <reportYear>2013</reportYear>
+  <reportType>MM</reportType>
+  <amendment>false</amendment>
+  <comments>
+  </comments>
+  <signedDate>7/3/2013 11:40:05 AM</signedDate>
+  <certifiedcontent>true</certifiedcontent>
+  <noContributions>false</noContributions>
+  <pacs>
+    <pac>
+      <name />
+    </pac>
+  </pacs>
+  <contributions>
+    <contribution>
+      <type />
+      <contributorName />
+      <payeeName />
+      <recipientName />
+      <amount />
+      <date />
+    </contribution>
+    <contribution>
+      <type>FECA</type>
+      <contributorName>Self</contributorName>
+      <payeeName>Asian American Fund</payeeName>
+      <recipientName>Asian American Fund</recipientName>
+      <amount>150.00</amount>
+      <date>6/18/2013</date>
+    </contribution>
+  </contributions>
+</CONTRIBUTIONDISCLOSURE>

@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<CONTRIBUTIONDISCLOSURE>
+  <filerType>L</filerType>
+  <organizationName>Chamber of Commerce of the U.S.A.</organizationName>
+  <lobbyistPrefix>Mr.</lobbyistPrefix>
+  <lobbyistFirstName>Diego</lobbyistFirstName>
+  <lobbyistMiddleName>Zancan</lobbyistMiddleName>
+  <lobbyistLastName>Bonomo</lobbyistLastName>
+  <lobbyistSuffix />
+  <contactName />
+  <senateRegID>38756</senateRegID>
+  <houseRegID>31886</houseRegID>
+  <reportYear>2013</reportYear>
+  <reportType>MM</reportType>
+  <amendment>false</amendment>
+  <comments>
+  </comments>
+  <signedDate>5/8/2013 11:18:20 AM</signedDate>
+  <certifiedcontent>true</certifiedcontent>
+  <noContributions>true</noContributions>
+  <pacs>
+    <pac>
+      <name />
+    </pac>
+  </pacs>
+  <contributions>
+    <contribution>
+      <type />
+      <contributorName />
+      <payeeName />
+      <recipientName />
+      <amount />
+      <date />
+    </contribution>
+  </contributions>
+</CONTRIBUTIONDISCLOSURE>

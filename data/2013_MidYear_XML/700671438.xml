@@ -1,0 +1,52 @@
+<?xml version="1.0"?>
+<CONTRIBUTIONDISCLOSURE>
+  <filerType>L</filerType>
+  <organizationName>Bloom Strategic Counsel</organizationName>
+  <lobbyistPrefix>Mr.</lobbyistPrefix>
+  <lobbyistFirstName>Seth</lobbyistFirstName>
+  <lobbyistMiddleName />
+  <lobbyistLastName>Bloom</lobbyistLastName>
+  <lobbyistSuffix />
+  <contactName />
+  <senateRegID>401036920</senateRegID>
+  <houseRegID>42292</houseRegID>
+  <reportYear>2013</reportYear>
+  <reportType>MM</reportType>
+  <amendment>false</amendment>
+  <comments>
+  </comments>
+  <signedDate>7/1/2013 4:28:40 PM</signedDate>
+  <certifiedcontent>true</certifiedcontent>
+  <noContributions>false</noContributions>
+  <pacs>
+    <pac>
+      <name />
+    </pac>
+  </pacs>
+  <contributions>
+    <contribution>
+      <type />
+      <contributorName />
+      <payeeName />
+      <recipientName />
+      <amount />
+      <date />
+    </contribution>
+    <contribution>
+      <type>FECA</type>
+      <contributorName>Self</contributorName>
+      <payeeName>Conyers for Congress</payeeName>
+      <recipientName>Rep. John Conyers</recipientName>
+      <amount>500.00</amount>
+      <date>04/23/2013</date>
+    </contribution>
+    <contribution>
+      <type>FECA</type>
+      <contributorName>Self</contributorName>
+      <payeeName>DelBenne for Congress</payeeName>
+      <recipientName>Rep. Suzan DelBenne</recipientName>
+      <amount>500.00</amount>
+      <date>06/18/2013</date>
+    </contribution>
+  </contributions>
+</CONTRIBUTIONDISCLOSURE>

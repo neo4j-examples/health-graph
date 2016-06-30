@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<CONTRIBUTIONDISCLOSURE>
+  <filerType>L</filerType>
+  <organizationName>BOMBARDIER TRANSIT CORP.</organizationName>
+  <lobbyistPrefix>Ms.</lobbyistPrefix>
+  <lobbyistFirstName>ASHLEIGH</lobbyistFirstName>
+  <lobbyistMiddleName />
+  <lobbyistLastName>DE LA TORRE</lobbyistLastName>
+  <lobbyistSuffix />
+  <contactName />
+  <senateRegID>304133</senateRegID>
+  <houseRegID>36057</houseRegID>
+  <reportYear>2013</reportYear>
+  <reportType>MM</reportType>
+  <amendment>false</amendment>
+  <comments>
+  </comments>
+  <signedDate>7/1/2013 3:08:05 PM</signedDate>
+  <certifiedcontent>true</certifiedcontent>
+  <noContributions>false</noContributions>
+  <pacs>
+    <pac>
+      <name />
+    </pac>
+  </pacs>
+  <contributions>
+    <contribution>
+      <type />
+      <contributorName />
+      <payeeName />
+      <recipientName />
+      <amount />
+      <date />
+    </contribution>
+    <contribution>
+      <type>FECA</type>
+      <contributorName>Self</contributorName>
+      <payeeName>Yoder for Congressman</payeeName>
+      <recipientName>Congressman Kevin Yoder (R-KS)</recipientName>
+      <amount>500.00</amount>
+      <date>6/12/2013</date>
+    </contribution>
+  </contributions>
+</CONTRIBUTIONDISCLOSURE>

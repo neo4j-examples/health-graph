@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+<CONTRIBUTIONDISCLOSURE>
+  <filerType>L</filerType>
+  <organizationName>NATIONAL PROPANE GAS ASSOCIATION</organizationName>
+  <lobbyistPrefix>Ms.</lobbyistPrefix>
+  <lobbyistFirstName>Jenifer</lobbyistFirstName>
+  <lobbyistMiddleName />
+  <lobbyistLastName>Nawrocki</lobbyistLastName>
+  <lobbyistSuffix />
+  <contactName />
+  <senateRegID>28377</senateRegID>
+  <houseRegID>30693</houseRegID>
+  <reportYear>2013</reportYear>
+  <reportType>MM</reportType>
+  <amendment>false</amendment>
+  <comments>
+  </comments>
+  <signedDate>6/27/2013 1:59:08 PM</signedDate>
+  <certifiedcontent>true</certifiedcontent>
+  <noContributions>false</noContributions>
+  <pacs>
+    <pac>
+      <name />
+    </pac>
+    <pac>
+      <name>PropanePAC</name>
+    </pac>
+  </pacs>
+  <contributions>
+    <contribution>
+      <type />
+      <contributorName />
+      <payeeName />
+      <recipientName />
+      <amount />
+      <date />
+    </contribution>
+    <contribution>
+      <type>FECA</type>
+      <contributorName>Self</contributorName>
+      <payeeName>PropanePAC</payeeName>
+      <recipientName>PropanePAC</recipientName>
+      <amount>100.00</amount>
+      <date>03/12/2013</date>
+    </contribution>
+  </contributions>
+</CONTRIBUTIONDISCLOSURE>

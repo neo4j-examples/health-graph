@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<CONTRIBUTIONDISCLOSURE>
+  <filerType>L</filerType>
+  <organizationName>FIRSTENERGY CORP</organizationName>
+  <lobbyistPrefix>Mr.</lobbyistPrefix>
+  <lobbyistFirstName>Anthony</lobbyistFirstName>
+  <lobbyistMiddleName>Joseph</lobbyistMiddleName>
+  <lobbyistLastName>Alexander</lobbyistLastName>
+  <lobbyistSuffix>Jr.</lobbyistSuffix>
+  <contactName />
+  <senateRegID>43764</senateRegID>
+  <houseRegID>31229</houseRegID>
+  <reportYear>2013</reportYear>
+  <reportType>MM</reportType>
+  <amendment>false</amendment>
+  <comments>
+  </comments>
+  <signedDate>7/1/2013 10:34:53 AM</signedDate>
+  <certifiedcontent>true</certifiedcontent>
+  <noContributions>false</noContributions>
+  <pacs>
+    <pac>
+      <name />
+    </pac>
+  </pacs>
+  <contributions>
+    <contribution>
+      <type />
+      <contributorName />
+      <payeeName />
+      <recipientName />
+      <amount />
+      <date />
+    </contribution>
+    <contribution>
+      <type>FECA</type>
+      <contributorName>Self</contributorName>
+      <payeeName>EEI Power PAC</payeeName>
+      <recipientName>Edison Electric Institue</recipientName>
+      <amount>2,500.00</amount>
+      <date>01/16/2013</date>
+    </contribution>
+  </contributions>
+</CONTRIBUTIONDISCLOSURE>

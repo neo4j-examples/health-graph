@@ -1,0 +1,60 @@
+<?xml version="1.0"?>
+<CONTRIBUTIONDISCLOSURE>
+  <filerType>L</filerType>
+  <organizationName>Patton Boggs LLP</organizationName>
+  <lobbyistPrefix>Mr.</lobbyistPrefix>
+  <lobbyistFirstName>DAVID</lobbyistFirstName>
+  <lobbyistMiddleName />
+  <lobbyistLastName>FARBER</lobbyistLastName>
+  <lobbyistSuffix />
+  <contactName />
+  <senateRegID>30906</senateRegID>
+  <houseRegID>31917</houseRegID>
+  <reportYear>2013</reportYear>
+  <reportType>MM</reportType>
+  <amendment>false</amendment>
+  <comments>
+  </comments>
+  <signedDate>6/17/2013 5:52:00 PM</signedDate>
+  <certifiedcontent>true</certifiedcontent>
+  <noContributions>false</noContributions>
+  <pacs>
+    <pac>
+      <name />
+    </pac>
+  </pacs>
+  <contributions>
+    <contribution>
+      <type />
+      <contributorName />
+      <payeeName />
+      <recipientName />
+      <amount />
+      <date />
+    </contribution>
+    <contribution>
+      <type>FECA</type>
+      <contributorName>Self</contributorName>
+      <payeeName>Schnieder for Congress</payeeName>
+      <recipientName>Brad Schnieder</recipientName>
+      <amount>500.00</amount>
+      <date>06/17/2013</date>
+    </contribution>
+    <contribution>
+      <type>FECA</type>
+      <contributorName>Self</contributorName>
+      <payeeName>Murphy for Congress</payeeName>
+      <recipientName>Tim Murphy</recipientName>
+      <amount>500.00</amount>
+      <date>03/19/2013</date>
+    </contribution>
+    <contribution>
+      <type>FECA</type>
+      <contributorName>Self</contributorName>
+      <payeeName>Kind for Congress</payeeName>
+      <recipientName>Ron Kind</recipientName>
+      <amount>500.00</amount>
+      <date>04/16/2013</date>
+    </contribution>
+  </contributions>
+</CONTRIBUTIONDISCLOSURE>

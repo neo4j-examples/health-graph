@@ -1,0 +1,68 @@
+<?xml version="1.0"?>
+<CONTRIBUTIONDISCLOSURE>
+  <filerType>L</filerType>
+  <organizationName>Ernst &amp; Young LLP (Washington Council Ernst &amp; Young)</organizationName>
+  <lobbyistPrefix>Ms.</lobbyistPrefix>
+  <lobbyistFirstName>LABRENDA</lobbyistFirstName>
+  <lobbyistMiddleName />
+  <lobbyistLastName>GARRETT-NELSON</lobbyistLastName>
+  <lobbyistSuffix />
+  <contactName />
+  <senateRegID>57475</senateRegID>
+  <houseRegID>35185</houseRegID>
+  <reportYear>2013</reportYear>
+  <reportType>MM</reportType>
+  <amendment>false</amendment>
+  <comments>
+  </comments>
+  <signedDate>5/21/2013 4:52:28 PM</signedDate>
+  <certifiedcontent>true</certifiedcontent>
+  <noContributions>false</noContributions>
+  <pacs>
+    <pac>
+      <name />
+    </pac>
+  </pacs>
+  <contributions>
+    <contribution>
+      <type />
+      <contributorName />
+      <payeeName />
+      <recipientName />
+      <amount />
+      <date />
+    </contribution>
+    <contribution>
+      <type>FECA</type>
+      <contributorName>Self</contributorName>
+      <payeeName>DSCC</payeeName>
+      <recipientName>DSCC</recipientName>
+      <amount>150.00</amount>
+      <date>01/10/2013</date>
+    </contribution>
+    <contribution>
+      <type>FECA</type>
+      <contributorName>Self</contributorName>
+      <payeeName>Friends of Max Baucus</payeeName>
+      <recipientName>Senator Max Baucus</recipientName>
+      <amount>1,000.00</amount>
+      <date>01/30/2013</date>
+    </contribution>
+    <contribution>
+      <type>FECA</type>
+      <contributorName>Self</contributorName>
+      <payeeName>Richard Neal For Congress Committee</payeeName>
+      <recipientName>Rep. Richard Neal</recipientName>
+      <amount>1,000.00</amount>
+      <date>03/12/2013</date>
+    </contribution>
+    <contribution>
+      <type>FECA</type>
+      <contributorName>Self</contributorName>
+      <payeeName>Larson for Congress</payeeName>
+      <recipientName>Rep. John Larson</recipientName>
+      <amount>500.00</amount>
+      <date>05/20/2013</date>
+    </contribution>
+  </contributions>
+</CONTRIBUTIONDISCLOSURE>

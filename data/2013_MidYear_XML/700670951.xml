@@ -1,0 +1,76 @@
+<?xml version="1.0"?>
+<CONTRIBUTIONDISCLOSURE>
+  <filerType>L</filerType>
+  <organizationName>Association of American Publishers</organizationName>
+  <lobbyistPrefix>Mr.</lobbyistPrefix>
+  <lobbyistFirstName>Thomas</lobbyistFirstName>
+  <lobbyistMiddleName>H.</lobbyistMiddleName>
+  <lobbyistLastName>Allen</lobbyistLastName>
+  <lobbyistSuffix />
+  <contactName />
+  <senateRegID>4505</senateRegID>
+  <houseRegID>30508</houseRegID>
+  <reportYear>2013</reportYear>
+  <reportType>MM</reportType>
+  <amendment>true</amendment>
+  <comments>
+  </comments>
+  <signedDate>6/17/2013 1:40:39 PM</signedDate>
+  <certifiedcontent>true</certifiedcontent>
+  <noContributions>false</noContributions>
+  <pacs>
+    <pac>
+      <name />
+    </pac>
+  </pacs>
+  <contributions>
+    <contribution>
+      <type />
+      <contributorName />
+      <payeeName />
+      <recipientName />
+      <amount />
+      <date />
+    </contribution>
+    <contribution>
+      <type>FECA</type>
+      <contributorName>Self</contributorName>
+      <payeeName>Democratic Senatorial Campaign Committee</payeeName>
+      <recipientName>Democratic Senatorial Campaign Committee</recipientName>
+      <amount>100.00</amount>
+      <date>01/27/2013</date>
+    </contribution>
+    <contribution>
+      <type>FECA</type>
+      <contributorName>Self</contributorName>
+      <payeeName>Braley for Iowa</payeeName>
+      <recipientName>Bruce Braley</recipientName>
+      <amount>500.00</amount>
+      <date>02/08/2013</date>
+    </contribution>
+    <contribution>
+      <type>FECA</type>
+      <contributorName>Self</contributorName>
+      <payeeName>The Markey Committee</payeeName>
+      <recipientName>Edward Markey</recipientName>
+      <amount>500.00</amount>
+      <date>03/21/2013</date>
+    </contribution>
+    <contribution>
+      <type>FECA</type>
+      <contributorName>Self</contributorName>
+      <payeeName>John Tierney for Congress</payeeName>
+      <recipientName>John Tierney</recipientName>
+      <amount>500.00</amount>
+      <date>05/25/2013</date>
+    </contribution>
+    <contribution>
+      <type>FECA</type>
+      <contributorName>Self</contributorName>
+      <payeeName>Friends of Elizabeth Esty</payeeName>
+      <recipientName>Elizabeth Esty</recipientName>
+      <amount>250.00</amount>
+      <date>05/25/2013</date>
+    </contribution>
+  </contributions>
+</CONTRIBUTIONDISCLOSURE>

@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<CONTRIBUTIONDISCLOSURE>
+  <filerType>L</filerType>
+  <organizationName>PMI Global Services Inc.</organizationName>
+  <lobbyistPrefix>Ms.</lobbyistPrefix>
+  <lobbyistFirstName>BRANDIE</lobbyistFirstName>
+  <lobbyistMiddleName />
+  <lobbyistLastName>DAVIS</lobbyistLastName>
+  <lobbyistSuffix />
+  <contactName />
+  <senateRegID>400265213</senateRegID>
+  <houseRegID>40147</houseRegID>
+  <reportYear>2013</reportYear>
+  <reportType>MM</reportType>
+  <amendment>false</amendment>
+  <comments>
+  </comments>
+  <signedDate>7/1/2013 4:07:17 PM</signedDate>
+  <certifiedcontent>true</certifiedcontent>
+  <noContributions>false</noContributions>
+  <pacs>
+    <pac>
+      <name />
+    </pac>
+  </pacs>
+  <contributions>
+    <contribution>
+      <type />
+      <contributorName />
+      <payeeName />
+      <recipientName />
+      <amount />
+      <date />
+    </contribution>
+    <contribution>
+      <type>FECA</type>
+      <contributorName>Self</contributorName>
+      <payeeName>Coble for Congress</payeeName>
+      <recipientName>Rep. Howard Coble (reelection campaign)</recipientName>
+      <amount>250.00</amount>
+      <date>04/11/2013</date>
+    </contribution>
+  </contributions>
+</CONTRIBUTIONDISCLOSURE>

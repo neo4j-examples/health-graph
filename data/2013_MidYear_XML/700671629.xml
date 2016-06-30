@@ -1,0 +1,60 @@
+<?xml version="1.0"?>
+<CONTRIBUTIONDISCLOSURE>
+  <filerType>L</filerType>
+  <organizationName>Joel Kaplan Associates, LLC</organizationName>
+  <lobbyistPrefix>Mr.</lobbyistPrefix>
+  <lobbyistFirstName>JOEL</lobbyistFirstName>
+  <lobbyistMiddleName />
+  <lobbyistLastName>KAPLAN</lobbyistLastName>
+  <lobbyistSuffix />
+  <contactName />
+  <senateRegID>400502473</senateRegID>
+  <houseRegID>41044</houseRegID>
+  <reportYear>2013</reportYear>
+  <reportType>MM</reportType>
+  <amendment>false</amendment>
+  <comments>
+  </comments>
+  <signedDate>7/2/2013 1:47:24 PM</signedDate>
+  <certifiedcontent>true</certifiedcontent>
+  <noContributions>false</noContributions>
+  <pacs>
+    <pac>
+      <name />
+    </pac>
+  </pacs>
+  <contributions>
+    <contribution>
+      <type />
+      <contributorName />
+      <payeeName />
+      <recipientName />
+      <amount />
+      <date />
+    </contribution>
+    <contribution>
+      <type>FECA</type>
+      <contributorName>Self</contributorName>
+      <payeeName>Texans for Lamar Smith</payeeName>
+      <recipientName>Representative Lamar Smith</recipientName>
+      <amount>500.00</amount>
+      <date>03/19/2013</date>
+    </contribution>
+    <contribution>
+      <type>FECA</type>
+      <contributorName>Self</contributorName>
+      <payeeName>Ralph Hall for Congress</payeeName>
+      <recipientName>Representative Ralph M. Hall</recipientName>
+      <amount>500.00</amount>
+      <date>05/06/2013</date>
+    </contribution>
+    <contribution>
+      <type>FECA</type>
+      <contributorName>Self</contributorName>
+      <payeeName>Friends of Frank Wolf</payeeName>
+      <recipientName>Representative Frank Wolf</recipientName>
+      <amount>500.00</amount>
+      <date>05/14/2013</date>
+    </contribution>
+  </contributions>
+</CONTRIBUTIONDISCLOSURE>

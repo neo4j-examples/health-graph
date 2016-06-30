@@ -1,0 +1,76 @@
+<?xml version="1.0"?>
+<CONTRIBUTIONDISCLOSURE>
+  <filerType>L</filerType>
+  <organizationName>Greater New York Hospital Association</organizationName>
+  <lobbyistPrefix>Mr.</lobbyistPrefix>
+  <lobbyistFirstName>LEE</lobbyistFirstName>
+  <lobbyistMiddleName>H</lobbyistMiddleName>
+  <lobbyistLastName>PERLMAN</lobbyistLastName>
+  <lobbyistSuffix />
+  <contactName />
+  <senateRegID>16830</senateRegID>
+  <houseRegID>32495</houseRegID>
+  <reportYear>2013</reportYear>
+  <reportType>MM</reportType>
+  <amendment>false</amendment>
+  <comments>
+  </comments>
+  <signedDate>7/2/2013 2:12:13 PM</signedDate>
+  <certifiedcontent>true</certifiedcontent>
+  <noContributions>false</noContributions>
+  <pacs>
+    <pac>
+      <name />
+    </pac>
+  </pacs>
+  <contributions>
+    <contribution>
+      <type />
+      <contributorName />
+      <payeeName />
+      <recipientName />
+      <amount />
+      <date />
+    </contribution>
+    <contribution>
+      <type>FECA</type>
+      <contributorName>Self</contributorName>
+      <payeeName>Engel for Congress</payeeName>
+      <recipientName>Congressman Eliot Engel</recipientName>
+      <amount>2,000.00</amount>
+      <date>03/10/2013</date>
+    </contribution>
+    <contribution>
+      <type>FECA</type>
+      <contributorName>Self</contributorName>
+      <payeeName>Friends for Harry Reid</payeeName>
+      <recipientName>Senator Harry Reid</recipientName>
+      <amount>1,000.00</amount>
+      <date>03/15/2013</date>
+    </contribution>
+    <contribution>
+      <type>FECA</type>
+      <contributorName>Self</contributorName>
+      <payeeName>Nydia Velazquez for Congress</payeeName>
+      <recipientName>Congresswoman Nydia Velazquez</recipientName>
+      <amount>500.00</amount>
+      <date>04/01/2013</date>
+    </contribution>
+    <contribution>
+      <type>FECA</type>
+      <contributorName>Self</contributorName>
+      <payeeName>Collins for Senator</payeeName>
+      <recipientName>Senator Susan Collins</recipientName>
+      <amount>500.00</amount>
+      <date>05/14/2013</date>
+    </contribution>
+    <contribution>
+      <type>FECA</type>
+      <contributorName>Self</contributorName>
+      <payeeName>Wyden for Senate</payeeName>
+      <recipientName>Senator Ron Wyden</recipientName>
+      <amount>500.00</amount>
+      <date>05/14/2013</date>
+    </contribution>
+  </contributions>
+</CONTRIBUTIONDISCLOSURE>

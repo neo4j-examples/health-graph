@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+<CONTRIBUTIONDISCLOSURE>
+  <filerType>L</filerType>
+  <organizationName>THE TRAVELERS COS., INC. AND SUBSIDIARIES</organizationName>
+  <lobbyistPrefix>Mrs.</lobbyistPrefix>
+  <lobbyistFirstName>Josie</lobbyistFirstName>
+  <lobbyistMiddleName />
+  <lobbyistLastName>Storrs</lobbyistLastName>
+  <lobbyistSuffix />
+  <contactName />
+  <senateRegID>77173</senateRegID>
+  <houseRegID>36143</houseRegID>
+  <reportYear>2013</reportYear>
+  <reportType>MM</reportType>
+  <amendment>false</amendment>
+  <comments>
+  </comments>
+  <signedDate>5/15/2013 1:42:39 PM</signedDate>
+  <certifiedcontent>true</certifiedcontent>
+  <noContributions>false</noContributions>
+  <pacs>
+    <pac>
+      <name />
+    </pac>
+    <pac>
+      <name>Juan Vargas for Congress</name>
+    </pac>
+  </pacs>
+  <contributions>
+    <contribution>
+      <type />
+      <contributorName />
+      <payeeName />
+      <recipientName />
+      <amount />
+      <date />
+    </contribution>
+    <contribution>
+      <type>FECA</type>
+      <contributorName>Self</contributorName>
+      <payeeName>Juan Vargas for Congress</payeeName>
+      <recipientName>Juan Vargas</recipientName>
+      <amount>250.00</amount>
+      <date>05/14/2013</date>
+    </contribution>
+  </contributions>
+</CONTRIBUTIONDISCLOSURE>

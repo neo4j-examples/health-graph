@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<CONTRIBUTIONDISCLOSURE>
+  <filerType>L</filerType>
+  <organizationName>AnnDyl Policy Group, LLC</organizationName>
+  <lobbyistPrefix>Ms.</lobbyistPrefix>
+  <lobbyistFirstName>Kara</lobbyistFirstName>
+  <lobbyistMiddleName />
+  <lobbyistLastName>Saul Rinaldi</lobbyistLastName>
+  <lobbyistSuffix />
+  <contactName />
+  <senateRegID>400658979</senateRegID>
+  <houseRegID>41426</houseRegID>
+  <reportYear>2013</reportYear>
+  <reportType>MM</reportType>
+  <amendment>false</amendment>
+  <comments>
+  </comments>
+  <signedDate>6/24/2013 4:18:13 PM</signedDate>
+  <certifiedcontent>true</certifiedcontent>
+  <noContributions>false</noContributions>
+  <pacs>
+    <pac>
+      <name />
+    </pac>
+  </pacs>
+  <contributions>
+    <contribution>
+      <type />
+      <contributorName />
+      <payeeName />
+      <recipientName />
+      <amount />
+      <date />
+    </contribution>
+    <contribution>
+      <type>FECA</type>
+      <contributorName>Self</contributorName>
+      <payeeName>Ed Markey for Senate</payeeName>
+      <recipientName>Representative Ed Markey</recipientName>
+      <amount>150.00</amount>
+      <date>06/06/2013</date>
+    </contribution>
+  </contributions>
+</CONTRIBUTIONDISCLOSURE>

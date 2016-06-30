@@ -1,0 +1,84 @@
+<?xml version="1.0"?>
+<CONTRIBUTIONDISCLOSURE>
+  <filerType>L</filerType>
+  <organizationName>Predicate LLC</organizationName>
+  <lobbyistPrefix>Mr.</lobbyistPrefix>
+  <lobbyistFirstName>Donald</lobbyistFirstName>
+  <lobbyistMiddleName />
+  <lobbyistLastName>Gilligan</lobbyistLastName>
+  <lobbyistSuffix />
+  <contactName />
+  <senateRegID>400436108</senateRegID>
+  <houseRegID>40733</houseRegID>
+  <reportYear>2013</reportYear>
+  <reportType>MM</reportType>
+  <amendment>false</amendment>
+  <comments>
+  </comments>
+  <signedDate>6/28/2013 3:54:22 PM</signedDate>
+  <certifiedcontent>true</certifiedcontent>
+  <noContributions>false</noContributions>
+  <pacs>
+    <pac>
+      <name />
+    </pac>
+  </pacs>
+  <contributions>
+    <contribution>
+      <type />
+      <contributorName />
+      <payeeName />
+      <recipientName />
+      <amount />
+      <date />
+    </contribution>
+    <contribution>
+      <type>FECA</type>
+      <contributorName>Self</contributorName>
+      <payeeName>The Markey Committee</payeeName>
+      <recipientName>Edward Markey</recipientName>
+      <amount>200.00</amount>
+      <date>01/03/2013</date>
+    </contribution>
+    <contribution>
+      <type>FECA</type>
+      <contributorName>Self</contributorName>
+      <payeeName>John Tierney for Congress</payeeName>
+      <recipientName>John Tierney</recipientName>
+      <amount>250.00</amount>
+      <date>02/19/2013</date>
+    </contribution>
+    <contribution>
+      <type>FECA</type>
+      <contributorName>Self</contributorName>
+      <payeeName>ActBlue EdMarkey</payeeName>
+      <recipientName>Edward Markey</recipientName>
+      <amount>250.00</amount>
+      <date>03/02/2013</date>
+    </contribution>
+    <contribution>
+      <type>FECA</type>
+      <contributorName>Self</contributorName>
+      <payeeName>The Markey Committee</payeeName>
+      <recipientName>Edward Markey</recipientName>
+      <amount>250.00</amount>
+      <date>04/11/2013</date>
+    </contribution>
+    <contribution>
+      <type>FECA</type>
+      <contributorName>Self</contributorName>
+      <payeeName>ActBlue Democratic Congressional Campaign Committee</payeeName>
+      <recipientName>DCCC</recipientName>
+      <amount>110.00</amount>
+      <date>04/23/2013</date>
+    </contribution>
+    <contribution>
+      <type>FECA</type>
+      <contributorName>Self</contributorName>
+      <payeeName>The Markey Committee</payeeName>
+      <recipientName>Edward Markey</recipientName>
+      <amount>250.00</amount>
+      <date>05/23/2013</date>
+    </contribution>
+  </contributions>
+</CONTRIBUTIONDISCLOSURE>

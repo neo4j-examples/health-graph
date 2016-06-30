@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<CONTRIBUTIONDISCLOSURE>
+  <filerType>L</filerType>
+  <organizationName>BUCHANAN INGERSOLL &amp; ROONEY PC</organizationName>
+  <lobbyistPrefix>Mr.</lobbyistPrefix>
+  <lobbyistFirstName>MICHAEL</lobbyistFirstName>
+  <lobbyistMiddleName>P</lobbyistMiddleName>
+  <lobbyistLastName>STRAZZELLA</lobbyistLastName>
+  <lobbyistSuffix />
+  <contactName />
+  <senateRegID>55291</senateRegID>
+  <houseRegID>35132</houseRegID>
+  <reportYear>2013</reportYear>
+  <reportType>MM</reportType>
+  <amendment>false</amendment>
+  <comments>
+  </comments>
+  <signedDate>7/2/2013 10:05:11 AM</signedDate>
+  <certifiedcontent>true</certifiedcontent>
+  <noContributions>false</noContributions>
+  <pacs>
+    <pac>
+      <name />
+    </pac>
+  </pacs>
+  <contributions>
+    <contribution>
+      <type />
+      <contributorName />
+      <payeeName />
+      <recipientName />
+      <amount />
+      <date />
+    </contribution>
+    <contribution>
+      <type>FECA</type>
+      <contributorName>Self</contributorName>
+      <payeeName>Charlie Dent for Congress</payeeName>
+      <recipientName>Representative Charlie Dent</recipientName>
+      <amount>500.00</amount>
+      <date>06/05/2013</date>
+    </contribution>
+  </contributions>
+</CONTRIBUTIONDISCLOSURE>

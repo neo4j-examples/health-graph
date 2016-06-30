@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+<CONTRIBUTIONDISCLOSURE>
+  <filerType>L</filerType>
+  <organizationName>Long Term Care Pharmacy Alliance</organizationName>
+  <lobbyistPrefix>Mr.</lobbyistPrefix>
+  <lobbyistFirstName>Bill</lobbyistFirstName>
+  <lobbyistMiddleName />
+  <lobbyistLastName>Daniel</lobbyistLastName>
+  <lobbyistSuffix />
+  <contactName />
+  <senateRegID>400309443</senateRegID>
+  <houseRegID>40379</houseRegID>
+  <reportYear>2013</reportYear>
+  <reportType>MM</reportType>
+  <amendment>false</amendment>
+  <comments>
+  </comments>
+  <signedDate>5/29/2013 12:56:07 PM</signedDate>
+  <certifiedcontent>true</certifiedcontent>
+  <noContributions>false</noContributions>
+  <pacs>
+    <pac>
+      <name />
+    </pac>
+    <pac>
+      <name>Long Term Care Pharmacy Alliance</name>
+    </pac>
+  </pacs>
+  <contributions>
+    <contribution>
+      <type />
+      <contributorName />
+      <payeeName />
+      <recipientName />
+      <amount />
+      <date />
+    </contribution>
+    <contribution>
+      <type>FECA</type>
+      <contributorName>Long Term Care Pharmacy Alliance</contributorName>
+      <payeeName>Mark Pryor for the US Senate</payeeName>
+      <recipientName>Mark Pryor</recipientName>
+      <amount>1,000.00</amount>
+      <date>01/31/2013</date>
+    </contribution>
+  </contributions>
+</CONTRIBUTIONDISCLOSURE>

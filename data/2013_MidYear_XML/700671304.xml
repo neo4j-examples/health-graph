@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+<CONTRIBUTIONDISCLOSURE>
+  <filerType>L</filerType>
+  <organizationName>AARP</organizationName>
+  <lobbyistPrefix>Ms.</lobbyistPrefix>
+  <lobbyistFirstName>MICHELE</lobbyistFirstName>
+  <lobbyistMiddleName />
+  <lobbyistLastName>KIMBALL</lobbyistLastName>
+  <lobbyistSuffix />
+  <contactName />
+  <senateRegID>1694</senateRegID>
+  <houseRegID>30636</houseRegID>
+  <reportYear>2013</reportYear>
+  <reportType>MM</reportType>
+  <amendment>false</amendment>
+  <comments>
+  </comments>
+  <signedDate>7/1/2013 11:58:35 AM</signedDate>
+  <certifiedcontent>true</certifiedcontent>
+  <noContributions>false</noContributions>
+  <pacs>
+    <pac>
+      <name />
+    </pac>
+    <pac>
+      <name>womenwinning: Minnesota Women's Campaign Fund</name>
+    </pac>
+  </pacs>
+  <contributions>
+    <contribution>
+      <type />
+      <contributorName />
+      <payeeName />
+      <recipientName />
+      <amount />
+      <date />
+    </contribution>
+    <contribution>
+      <type>FECA</type>
+      <contributorName>Self</contributorName>
+      <payeeName>womenwinning: Minnesota Women's Campaign Fund</payeeName>
+      <recipientName>Sandra Fluke</recipientName>
+      <amount>150.00</amount>
+      <date>02/03/2013</date>
+    </contribution>
+  </contributions>
+</CONTRIBUTIONDISCLOSURE>

@@ -1,0 +1,60 @@
+<?xml version="1.0"?>
+<CONTRIBUTIONDISCLOSURE>
+  <filerType>O</filerType>
+  <organizationName>Cartwright &amp; Riley, Inc.</organizationName>
+  <lobbyistPrefix />
+  <lobbyistFirstName />
+  <lobbyistMiddleName />
+  <lobbyistLastName />
+  <lobbyistSuffix />
+  <contactName>Russell Cartwright</contactName>
+  <senateRegID>8395</senateRegID>
+  <houseRegID>32033</houseRegID>
+  <reportYear>2013</reportYear>
+  <reportType>MM</reportType>
+  <amendment>false</amendment>
+  <comments>
+  </comments>
+  <signedDate>6/5/2013 3:24:16 PM</signedDate>
+  <certifiedcontent>true</certifiedcontent>
+  <noContributions>false</noContributions>
+  <pacs>
+    <pac>
+      <name />
+    </pac>
+  </pacs>
+  <contributions>
+    <contribution>
+      <type />
+      <contributorName />
+      <payeeName />
+      <recipientName />
+      <amount />
+      <date />
+    </contribution>
+    <contribution>
+      <type>FECA</type>
+      <contributorName>Self</contributorName>
+      <payeeName>Congress Bill Young Campaign Committee</payeeName>
+      <recipientName>Rep. C.W. Bill Young</recipientName>
+      <amount>1,000.00</amount>
+      <date>06/05/2013</date>
+    </contribution>
+    <contribution>
+      <type>FECA</type>
+      <contributorName>Self</contributorName>
+      <payeeName>Mica for Congress</payeeName>
+      <recipientName>Rep. John Mica</recipientName>
+      <amount>500.00</amount>
+      <date>05/22/2013</date>
+    </contribution>
+    <contribution>
+      <type>FECA</type>
+      <contributorName>Self</contributorName>
+      <payeeName>Garcia for Congress</payeeName>
+      <recipientName>Rep. Joe Garcia</recipientName>
+      <amount>250.00</amount>
+      <date>05/01/2013</date>
+    </contribution>
+  </contributions>
+</CONTRIBUTIONDISCLOSURE>

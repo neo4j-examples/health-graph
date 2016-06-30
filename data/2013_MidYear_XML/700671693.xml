@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<CONTRIBUTIONDISCLOSURE>
+  <filerType>L</filerType>
+  <organizationName>Koch Companies Public Sector, LLC</organizationName>
+  <lobbyistPrefix>Mrs.</lobbyistPrefix>
+  <lobbyistFirstName>JENNIFER</lobbyistFirstName>
+  <lobbyistMiddleName>BONAR</lobbyistMiddleName>
+  <lobbyistLastName>GRAY</lobbyistLastName>
+  <lobbyistSuffix />
+  <contactName />
+  <senateRegID>400390816</senateRegID>
+  <houseRegID>40509</houseRegID>
+  <reportYear>2013</reportYear>
+  <reportType>MM</reportType>
+  <amendment>false</amendment>
+  <comments>
+  </comments>
+  <signedDate>7/2/2013 4:35:31 PM</signedDate>
+  <certifiedcontent>true</certifiedcontent>
+  <noContributions>false</noContributions>
+  <pacs>
+    <pac>
+      <name />
+    </pac>
+  </pacs>
+  <contributions>
+    <contribution>
+      <type />
+      <contributorName />
+      <payeeName />
+      <recipientName />
+      <amount />
+      <date />
+    </contribution>
+    <contribution>
+      <type>FECA</type>
+      <contributorName>Self</contributorName>
+      <payeeName>Young for Iowa</payeeName>
+      <recipientName>David Young</recipientName>
+      <amount>1,000.00</amount>
+      <date>06/02/2013</date>
+    </contribution>
+  </contributions>
+</CONTRIBUTIONDISCLOSURE>

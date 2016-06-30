@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<CONTRIBUTIONDISCLOSURE>
+  <filerType>L</filerType>
+  <organizationName>MetLife Group, Inc.</organizationName>
+  <lobbyistPrefix>Ms.</lobbyistPrefix>
+  <lobbyistFirstName>JANET</lobbyistFirstName>
+  <lobbyistMiddleName>D.</lobbyistMiddleName>
+  <lobbyistLastName>HOWARD</lobbyistLastName>
+  <lobbyistSuffix />
+  <contactName />
+  <senateRegID>40032280</senateRegID>
+  <houseRegID>39931</houseRegID>
+  <reportYear>2013</reportYear>
+  <reportType>MM</reportType>
+  <amendment>false</amendment>
+  <comments>MetLife Fund A and MetLife Inc. Fund A - Federal Only are separate and segregated funds and are connected PACs of MetLife Group, Inc.  I am in position of control of these PACs, whose contributions are disclosed in LDR-203 Report by MetLife Group, In</comments>
+  <signedDate>6/24/2013 2:05:17 PM</signedDate>
+  <certifiedcontent>true</certifiedcontent>
+  <noContributions>true</noContributions>
+  <pacs>
+    <pac>
+      <name />
+    </pac>
+    <pac>
+      <name>MetLife Inc Employees' Political Participation Fund A</name>
+    </pac>
+    <pac>
+      <name>MetLife Inc Employees' Pol Participation Fund A - Fed Only</name>
+    </pac>
+  </pacs>
+  <contributions>
+    <contribution>
+      <type />
+      <contributorName />
+      <payeeName />
+      <recipientName />
+      <amount />
+      <date />
+    </contribution>
+  </contributions>
+</CONTRIBUTIONDISCLOSURE>

@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<CONTRIBUTIONDISCLOSURE>
+  <filerType>L</filerType>
+  <organizationName>Allegiance Strategies, LLC</organizationName>
+  <lobbyistPrefix>Mr.</lobbyistPrefix>
+  <lobbyistFirstName>Torrey</lobbyistFirstName>
+  <lobbyistMiddleName />
+  <lobbyistLastName>Shearer</lobbyistLastName>
+  <lobbyistSuffix />
+  <contactName />
+  <senateRegID>400531585</senateRegID>
+  <houseRegID>41118</houseRegID>
+  <reportYear>2013</reportYear>
+  <reportType>MM</reportType>
+  <amendment>true</amendment>
+  <comments>This amends my previously submitted report of February 22 2013.</comments>
+  <signedDate>5/23/2013 12:16:18 PM</signedDate>
+  <certifiedcontent>true</certifiedcontent>
+  <noContributions>false</noContributions>
+  <pacs>
+    <pac>
+      <name />
+    </pac>
+  </pacs>
+  <contributions>
+    <contribution>
+      <type />
+      <contributorName />
+      <payeeName />
+      <recipientName />
+      <amount />
+      <date />
+    </contribution>
+    <contribution>
+      <type>FECA</type>
+      <contributorName>Self</contributorName>
+      <payeeName>Richard Hanna for Congress</payeeName>
+      <recipientName>Richard Hanna for Congress</recipientName>
+      <amount>500.00</amount>
+      <date>05/22/2013</date>
+    </contribution>
+  </contributions>
+</CONTRIBUTIONDISCLOSURE>

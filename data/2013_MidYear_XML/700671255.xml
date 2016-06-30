@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<CONTRIBUTIONDISCLOSURE>
+  <filerType>O</filerType>
+  <organizationName>H. Lee Moffitt Cancer Center &amp; Research Institute</organizationName>
+  <lobbyistPrefix />
+  <lobbyistFirstName />
+  <lobbyistMiddleName />
+  <lobbyistLastName />
+  <lobbyistSuffix />
+  <contactName>Jamie Wilson</contactName>
+  <senateRegID>40047366</senateRegID>
+  <houseRegID>40039</houseRegID>
+  <reportYear>2013</reportYear>
+  <reportType>MM</reportType>
+  <amendment>false</amendment>
+  <comments>
+  </comments>
+  <signedDate>7/1/2013 10:26:36 AM</signedDate>
+  <certifiedcontent>true</certifiedcontent>
+  <noContributions>true</noContributions>
+  <pacs>
+    <pac>
+      <name />
+    </pac>
+  </pacs>
+  <contributions>
+    <contribution>
+      <type />
+      <contributorName />
+      <payeeName />
+      <recipientName />
+      <amount />
+      <date />
+    </contribution>
+  </contributions>
+</CONTRIBUTIONDISCLOSURE>

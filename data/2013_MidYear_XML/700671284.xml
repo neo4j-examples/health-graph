@@ -1,0 +1,103 @@
+<?xml version="1.0"?>
+<CONTRIBUTIONDISCLOSURE>
+  <filerType>O</filerType>
+  <organizationName>Rapiscan Systems Inc.</organizationName>
+  <lobbyistPrefix />
+  <lobbyistFirstName />
+  <lobbyistMiddleName />
+  <lobbyistLastName />
+  <lobbyistSuffix />
+  <contactName>CHRISTOPHER C. ROMIG</contactName>
+  <senateRegID>313577</senateRegID>
+  <houseRegID>39195</houseRegID>
+  <reportYear>2013</reportYear>
+  <reportType>MM</reportType>
+  <amendment>false</amendment>
+  <comments>
+  </comments>
+  <signedDate>7/1/2013 11:09:59 AM</signedDate>
+  <certifiedcontent>true</certifiedcontent>
+  <noContributions>false</noContributions>
+  <pacs>
+    <pac>
+      <name />
+    </pac>
+    <pac>
+      <name>OSI PAC</name>
+    </pac>
+  </pacs>
+  <contributions>
+    <contribution>
+      <type />
+      <contributorName />
+      <payeeName />
+      <recipientName />
+      <amount />
+      <date />
+    </contribution>
+    <contribution>
+      <type>FECA</type>
+      <contributorName>OSI PAC</contributorName>
+      <payeeName>Ayotte for Senate</payeeName>
+      <recipientName>Kelly Ayotte</recipientName>
+      <amount>2,500.00</amount>
+      <date>02/08/2013</date>
+    </contribution>
+    <contribution>
+      <type>FECA</type>
+      <contributorName>OSI PAC</contributorName>
+      <payeeName>Rogers for Congress</payeeName>
+      <recipientName>Hal Rogers</recipientName>
+      <amount>1,000.00</amount>
+      <date>02/25/2013</date>
+    </contribution>
+    <contribution>
+      <type>FECA</type>
+      <contributorName>OSI PAC</contributorName>
+      <payeeName>Ayotte for Senate</payeeName>
+      <recipientName>Kelly Ayotte</recipientName>
+      <amount>1,000.00</amount>
+      <date>03/11/2013</date>
+    </contribution>
+    <contribution>
+      <type>FECA</type>
+      <contributorName>OSI PAC</contributorName>
+      <payeeName>Kay Hagan for US Senate</payeeName>
+      <recipientName>Kay Hagan</recipientName>
+      <amount>1,000.00</amount>
+      <date>03/15/2013</date>
+    </contribution>
+    <contribution>
+      <type>FECA</type>
+      <contributorName>OSI PAC</contributorName>
+      <payeeName>Kay Hagan for US Senate</payeeName>
+      <recipientName>Kay Hagan</recipientName>
+      <amount>1,000.00</amount>
+      <date>06/19/2013</date>
+    </contribution>
+    <contribution>
+      <type>FECA</type>
+      <contributorName>OSI PAC</contributorName>
+      <payeeName>Mike Honda for Congress</payeeName>
+      <recipientName>Mike Honda</recipientName>
+      <amount>1,000.00</amount>
+      <date>06/12/2013</date>
+    </contribution>
+    <contribution>
+      <type>FECA</type>
+      <contributorName>OSI PAC</contributorName>
+      <payeeName>Alaskans for Begich</payeeName>
+      <recipientName>Mark Begich</recipientName>
+      <amount>1,000.00</amount>
+      <date>06/20/2013</date>
+    </contribution>
+    <contribution>
+      <type>FECA</type>
+      <contributorName>OSI PAC</contributorName>
+      <payeeName>Friends of Mary Landrieu</payeeName>
+      <recipientName>Mary Landrieu</recipientName>
+      <amount>1,000.00</amount>
+      <date>06/27/2013</date>
+    </contribution>
+  </contributions>
+</CONTRIBUTIONDISCLOSURE>

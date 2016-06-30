@@ -1,0 +1,52 @@
+<?xml version="1.0"?>
+<CONTRIBUTIONDISCLOSURE>
+  <filerType>L</filerType>
+  <organizationName>Blank Rome LLP</organizationName>
+  <lobbyistPrefix>Ms.</lobbyistPrefix>
+  <lobbyistFirstName>Joan</lobbyistFirstName>
+  <lobbyistMiddleName>M.</lobbyistMiddleName>
+  <lobbyistLastName>Bondareff</lobbyistLastName>
+  <lobbyistSuffix>Esq.</lobbyistSuffix>
+  <contactName />
+  <senateRegID>89133</senateRegID>
+  <houseRegID>31577</houseRegID>
+  <reportYear>2013</reportYear>
+  <reportType>MM</reportType>
+  <amendment>false</amendment>
+  <comments>
+  </comments>
+  <signedDate>7/3/2013 9:50:39 AM</signedDate>
+  <certifiedcontent>true</certifiedcontent>
+  <noContributions>false</noContributions>
+  <pacs>
+    <pac>
+      <name />
+    </pac>
+  </pacs>
+  <contributions>
+    <contribution>
+      <type />
+      <contributorName />
+      <payeeName />
+      <recipientName />
+      <amount />
+      <date />
+    </contribution>
+    <contribution>
+      <type>FECA</type>
+      <contributorName>Self</contributorName>
+      <payeeName>Keep Nick Rahall in Congress Committee</payeeName>
+      <recipientName>Nick Rahall</recipientName>
+      <amount>250.00</amount>
+      <date>06/03/2013</date>
+    </contribution>
+    <contribution>
+      <type>FECA</type>
+      <contributorName>Self</contributorName>
+      <payeeName>Alaskans for Begich 2014</payeeName>
+      <recipientName>Senator Mark Begich</recipientName>
+      <amount>250.00</amount>
+      <date>06/04/2013</date>
+    </contribution>
+  </contributions>
+</CONTRIBUTIONDISCLOSURE>

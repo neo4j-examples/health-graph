@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<CONTRIBUTIONDISCLOSURE>
+  <filerType>O</filerType>
+  <organizationName>AMGENERAL LLC</organizationName>
+  <lobbyistPrefix />
+  <lobbyistFirstName />
+  <lobbyistMiddleName />
+  <lobbyistLastName />
+  <lobbyistSuffix />
+  <contactName>Thomas R. Douglas</contactName>
+  <senateRegID>292813</senateRegID>
+  <houseRegID>37329</houseRegID>
+  <reportYear>2013</reportYear>
+  <reportType>MM</reportType>
+  <amendment>false</amendment>
+  <comments>My certification below is to the best of my knowledge based on reasonable due diligence.</comments>
+  <signedDate>4/22/2013 9:50:36 AM</signedDate>
+  <certifiedcontent>true</certifiedcontent>
+  <noContributions>false</noContributions>
+  <pacs>
+    <pac>
+      <name />
+    </pac>
+    <pac>
+      <name>AM General Sales Corporation PAC</name>
+    </pac>
+  </pacs>
+  <contributions>
+    <contribution>
+      <type />
+      <contributorName />
+      <payeeName />
+      <recipientName />
+      <amount />
+      <date />
+    </contribution>
+    <contribution>
+      <type>FECA</type>
+      <contributorName>AM General Sales Corporation PAC</contributorName>
+      <payeeName>Calumet PAC</payeeName>
+      <recipientName>Pete Visclosky</recipientName>
+      <amount>2,000.00</amount>
+      <date>02/28/2013</date>
+    </contribution>
+  </contributions>
+</CONTRIBUTIONDISCLOSURE>

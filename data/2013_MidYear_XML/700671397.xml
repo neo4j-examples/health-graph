@@ -1,0 +1,52 @@
+<?xml version="1.0"?>
+<CONTRIBUTIONDISCLOSURE>
+  <filerType>L</filerType>
+  <organizationName>Charles F Fuller / The Results Company, Inc.</organizationName>
+  <lobbyistPrefix>Mr.</lobbyistPrefix>
+  <lobbyistFirstName>CHARLES</lobbyistFirstName>
+  <lobbyistMiddleName>F</lobbyistMiddleName>
+  <lobbyistLastName>FULLER</lobbyistLastName>
+  <lobbyistSuffix />
+  <contactName />
+  <senateRegID>294074</senateRegID>
+  <houseRegID>37399</houseRegID>
+  <reportYear>2013</reportYear>
+  <reportType>MM</reportType>
+  <amendment>false</amendment>
+  <comments>
+  </comments>
+  <signedDate>7/1/2013 2:54:35 PM</signedDate>
+  <certifiedcontent>true</certifiedcontent>
+  <noContributions>false</noContributions>
+  <pacs>
+    <pac>
+      <name />
+    </pac>
+  </pacs>
+  <contributions>
+    <contribution>
+      <type />
+      <contributorName />
+      <payeeName />
+      <recipientName />
+      <amount />
+      <date />
+    </contribution>
+    <contribution>
+      <type>FECA</type>
+      <contributorName>Self</contributorName>
+      <payeeName>Hudson for Congress</payeeName>
+      <recipientName>Hudson for Congress</recipientName>
+      <amount>1,000.00</amount>
+      <date>03/13/2013</date>
+    </contribution>
+    <contribution>
+      <type>FECA</type>
+      <contributorName>Self</contributorName>
+      <payeeName>McHenry for Congress</payeeName>
+      <recipientName>McHenry for Congress</recipientName>
+      <amount>500.00</amount>
+      <date>05/23/2013</date>
+    </contribution>
+  </contributions>
+</CONTRIBUTIONDISCLOSURE>

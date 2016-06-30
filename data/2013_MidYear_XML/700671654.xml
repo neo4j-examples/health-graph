@@ -1,0 +1,82 @@
+<?xml version="1.0"?>
+<CONTRIBUTIONDISCLOSURE>
+  <filerType>L</filerType>
+  <organizationName>ROBERT N. PYLE &amp; ASSOCIATES, INC.</organizationName>
+  <lobbyistPrefix>Mr.</lobbyistPrefix>
+  <lobbyistFirstName>NICHOLAS</lobbyistFirstName>
+  <lobbyistMiddleName />
+  <lobbyistLastName>PYLE</lobbyistLastName>
+  <lobbyistSuffix />
+  <contactName />
+  <senateRegID>32500</senateRegID>
+  <houseRegID>31506</houseRegID>
+  <reportYear>2013</reportYear>
+  <reportType>MM</reportType>
+  <amendment>false</amendment>
+  <comments>
+  </comments>
+  <signedDate>7/2/2013 2:45:33 PM</signedDate>
+  <certifiedcontent>true</certifiedcontent>
+  <noContributions>false</noContributions>
+  <pacs>
+    <pac>
+      <name />
+    </pac>
+    <pac>
+      <name>National Grape/Welch's</name>
+    </pac>
+    <pac>
+      <name>BakePAC of the Independent Bakers Association</name>
+    </pac>
+  </pacs>
+  <contributions>
+    <contribution>
+      <type />
+      <contributorName />
+      <payeeName />
+      <recipientName />
+      <amount />
+      <date />
+    </contribution>
+    <contribution>
+      <type>FECA</type>
+      <contributorName>BakePAC of the Independent Bakers Association</contributorName>
+      <payeeName>Friends of DeJarlais</payeeName>
+      <recipientName>Rep. Scott DeJarlais (R-TN)</recipientName>
+      <amount>1,000.00</amount>
+      <date>03/31/2013</date>
+    </contribution>
+    <contribution>
+      <type>FECA</type>
+      <contributorName>Self</contributorName>
+      <payeeName>Friends of DeJarlais</payeeName>
+      <recipientName>REp. Scott DeJarlais (R-TN)</recipientName>
+      <amount>350.00</amount>
+      <date>3/31/13</date>
+    </contribution>
+    <contribution>
+      <type>FECA</type>
+      <contributorName>National Grape/Welch's</contributorName>
+      <payeeName>Friends of GT</payeeName>
+      <recipientName>Rep. Glenn Thompson (R-PA)</recipientName>
+      <amount>1,000.00</amount>
+      <date>4/20/13</date>
+    </contribution>
+    <contribution>
+      <type>FECA</type>
+      <contributorName>BakePAC of the Independent Bakers Association</contributorName>
+      <payeeName>Friends of GT</payeeName>
+      <recipientName>Rep. Glenn Thompson (R-PA)</recipientName>
+      <amount>350.00</amount>
+      <date>6/10/2013</date>
+    </contribution>
+    <contribution>
+      <type>FECA</type>
+      <contributorName>BakePAC of the Independent Bakers Association</contributorName>
+      <payeeName>The Good Fund</payeeName>
+      <recipientName>Leadership PAC of Rep. Bob Goodlatte (R-VA)</recipientName>
+      <amount>3,000.00</amount>
+      <date>3/20/13</date>
+    </contribution>
+  </contributions>
+</CONTRIBUTIONDISCLOSURE>

@@ -1,0 +1,68 @@
+<?xml version="1.0"?>
+<CONTRIBUTIONDISCLOSURE>
+  <filerType>O</filerType>
+  <organizationName>Smith &amp; Nephew, Inc.</organizationName>
+  <lobbyistPrefix />
+  <lobbyistFirstName />
+  <lobbyistMiddleName />
+  <lobbyistLastName />
+  <lobbyistSuffix />
+  <contactName>debbie gangi</contactName>
+  <senateRegID>400728183</senateRegID>
+  <houseRegID>41625</houseRegID>
+  <reportYear>2013</reportYear>
+  <reportType>MM</reportType>
+  <amendment>false</amendment>
+  <comments>
+  </comments>
+  <signedDate>7/2/2013 10:41:44 AM</signedDate>
+  <certifiedcontent>true</certifiedcontent>
+  <noContributions>false</noContributions>
+  <pacs>
+    <pac>
+      <name />
+    </pac>
+  </pacs>
+  <contributions>
+    <contribution>
+      <type />
+      <contributorName />
+      <payeeName />
+      <recipientName />
+      <amount />
+      <date />
+    </contribution>
+    <contribution>
+      <type>FECA</type>
+      <contributorName>Self</contributorName>
+      <payeeName>HAGAN FOR US SENATE, INC.</payeeName>
+      <recipientName>KAY HAGAN</recipientName>
+      <amount>4,000.00</amount>
+      <date>04/01/2013</date>
+    </contribution>
+    <contribution>
+      <type>FECA</type>
+      <contributorName>Self</contributorName>
+      <payeeName>DIANE BLACK FOR CONGRESS</payeeName>
+      <recipientName>DIANE BLACK</recipientName>
+      <amount>2,000.00</amount>
+      <date>04/04/2013</date>
+    </contribution>
+    <contribution>
+      <type>FECA</type>
+      <contributorName>Self</contributorName>
+      <payeeName>MARSHA BLACKBURN FOR CONGRESS, INC.</payeeName>
+      <recipientName>MARSHA BLACKBURN</recipientName>
+      <amount>4,000.00</amount>
+      <date>04/09/2013</date>
+    </contribution>
+    <contribution>
+      <type>FECA</type>
+      <contributorName>Self</contributorName>
+      <payeeName>BILIRAKIS FOR CONGRESS</payeeName>
+      <recipientName>GUS M. BILIRAKIS</recipientName>
+      <amount>1,000.00</amount>
+      <date>05/17/2013</date>
+    </contribution>
+  </contributions>
+</CONTRIBUTIONDISCLOSURE>

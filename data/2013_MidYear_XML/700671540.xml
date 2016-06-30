@@ -1,0 +1,71 @@
+<?xml version="1.0"?>
+<CONTRIBUTIONDISCLOSURE>
+  <filerType>O</filerType>
+  <organizationName>Independent Telephone and Telecommunications Alliance</organizationName>
+  <lobbyistPrefix />
+  <lobbyistFirstName />
+  <lobbyistMiddleName />
+  <lobbyistLastName />
+  <lobbyistSuffix />
+  <contactName>MR. PAUL RAAK</contactName>
+  <senateRegID>294358</senateRegID>
+  <houseRegID>37414</houseRegID>
+  <reportYear>2013</reportYear>
+  <reportType>MM</reportType>
+  <amendment>false</amendment>
+  <comments>
+  </comments>
+  <signedDate>7/2/2013 10:57:13 AM</signedDate>
+  <certifiedcontent>true</certifiedcontent>
+  <noContributions>false</noContributions>
+  <pacs>
+    <pac>
+      <name />
+    </pac>
+    <pac>
+      <name>ITTA PAC</name>
+    </pac>
+  </pacs>
+  <contributions>
+    <contribution>
+      <type />
+      <contributorName />
+      <payeeName />
+      <recipientName />
+      <amount />
+      <date />
+    </contribution>
+    <contribution>
+      <type>FECA</type>
+      <contributorName>ITTA PAC</contributorName>
+      <payeeName>ITTA PAC</payeeName>
+      <recipientName>Anna Eshoo for Congress</recipientName>
+      <amount>1,000.00</amount>
+      <date>06/12/2013</date>
+    </contribution>
+    <contribution>
+      <type>FECA</type>
+      <contributorName>ITTA PAC</contributorName>
+      <payeeName>ITTA PAC</payeeName>
+      <recipientName>Cory Gardner for Congress</recipientName>
+      <amount>500.00</amount>
+      <date>06/19/2013</date>
+    </contribution>
+    <contribution>
+      <type>FECA</type>
+      <contributorName>ITTA PAC</contributorName>
+      <payeeName>ITTA PAC</payeeName>
+      <recipientName>Senator Begich for Alaska</recipientName>
+      <amount>500.00</amount>
+      <date>06/25/2013</date>
+    </contribution>
+    <contribution>
+      <type>FECA</type>
+      <contributorName>ITTA PAC</contributorName>
+      <payeeName>ITTA PAC</payeeName>
+      <recipientName>Billy Long for Congress</recipientName>
+      <amount>500.00</amount>
+      <date>06/26/2013</date>
+    </contribution>
+  </contributions>
+</CONTRIBUTIONDISCLOSURE>

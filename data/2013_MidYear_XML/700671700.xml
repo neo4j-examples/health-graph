@@ -1,0 +1,60 @@
+<?xml version="1.0"?>
+<CONTRIBUTIONDISCLOSURE>
+  <filerType>L</filerType>
+  <organizationName>Wexler &amp; Walker Public Policy Associates</organizationName>
+  <lobbyistPrefix>Mr.</lobbyistPrefix>
+  <lobbyistFirstName>JOEL</lobbyistFirstName>
+  <lobbyistMiddleName>MARTIN</lobbyistMiddleName>
+  <lobbyistLastName>MALINA</lobbyistLastName>
+  <lobbyistSuffix />
+  <contactName />
+  <senateRegID>41113</senateRegID>
+  <houseRegID>30756</houseRegID>
+  <reportYear>2013</reportYear>
+  <reportType>MM</reportType>
+  <amendment>false</amendment>
+  <comments>
+  </comments>
+  <signedDate>7/2/2013 5:02:07 PM</signedDate>
+  <certifiedcontent>true</certifiedcontent>
+  <noContributions>false</noContributions>
+  <pacs>
+    <pac>
+      <name />
+    </pac>
+  </pacs>
+  <contributions>
+    <contribution>
+      <type />
+      <contributorName />
+      <payeeName />
+      <recipientName />
+      <amount />
+      <date />
+    </contribution>
+    <contribution>
+      <type>FECA</type>
+      <contributorName>Self</contributorName>
+      <payeeName>Udall for Us All</payeeName>
+      <recipientName>Senator Tom Udall</recipientName>
+      <amount>1,000.00</amount>
+      <date>03/11/2013</date>
+    </contribution>
+    <contribution>
+      <type>FECA</type>
+      <contributorName>Self</contributorName>
+      <payeeName>Jessica Ehrlich for Congress</payeeName>
+      <recipientName>Jessica Ehrlich</recipientName>
+      <amount>250.00</amount>
+      <date>04/08/2013</date>
+    </contribution>
+    <contribution>
+      <type>FECA</type>
+      <contributorName>Self</contributorName>
+      <payeeName>DSCC</payeeName>
+      <recipientName>Democratic Senatorial Campaign Committee</recipientName>
+      <amount>15,000.00</amount>
+      <date>04/22/2013</date>
+    </contribution>
+  </contributions>
+</CONTRIBUTIONDISCLOSURE>
