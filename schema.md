@@ -3,9 +3,9 @@
 ### Drug-Manufacture-Lobby-Prescription Graph ###
 (This file is in development)
 
-#### Nodes ####
+#### Nodes
 
-##### (drug) #####
+##### (drug)
 
 * ndc: National Drug Code = labeler code-product code-package code
 * brand_name
@@ -15,14 +15,14 @@
 * dea_schedule :  drug’s acceptable medical use and the drug’s abuse or dependency potential
 * pharm_classes
 
-##### (manufacture) #####
+##### (manufacture)
 
 * labeler_code
 * firm_name
 * address
 * operations
 
-##### (provider) #####
+##### (provider)
 
 * npi: National Provider Identifier
 * first_name
@@ -33,15 +33,13 @@
 * npi_deactivation_date
 * npi_reactivation_date
 
-##### (prescription) #####
-
+##### (prescription)
 * bene_count: the total number of unique PartD beneficiaries ( <11 is not counted)
 * total_claim_count: Original prescription + refills (<11 is not counted)
 * cost: total drug cost
 * year: so far this is 2013
 
-##### (hospital) #####
-
+##### (hospital)
 * name
 * address
 * zipcode
@@ -49,49 +47,63 @@
 * state
 * Country
 
-##### (Lobby_firm) ##### 
-* Organization_name:
-* Organization_address:
-* Organization_city:  
-* Organization_state
-* Organization_country
-* Organization_zipcode
-* Organization_house_ID
-* Organization_senate_ID
+##### (LobbyFirm)
+* name
+* address
+* city
+* state
+* country
+* zip
+* houseOrgId
 
-##### (lobbyist) ##### 
-* First_name  
-* Last_name
+##### (Lobbyist)
+* firstName
+* lastName
+* postion*
 
 ##### (Disclosure) ##### 
-* Report_year:
-* House_ID: Organization_house_ID + client ID
-* file_id
+* report_year:
+* house_ID: houseOrgID(5digits) + client ID
+* senate_ID
+* pages : num of page of the disclosure
+* fileid : file id
 
-##### (Issue) ##### 
-* file_id
-* issue _area_code:
-* Description:
+##### (Issue)
+* code : issue area code
+* des
+* agency
 
-##### (Contribution) ##### 
-* house_ID: organization_house ID
-* Countribution_amount:
-* payee_name:
-* Recipim_name: 
+##### (Clinet)
+* name
 
-##### Relationships ##### 
+##### (Contribution)
+* amount
+* type
+
+##### (Legislator)
+* name
+
+##### (Committee)
+* name
+
+
+##### Relationships
 * (provider)-[:writes]->(prescription)  (the prescription contains aggregated properties)  
 * (provider)-[:works_at]->(hospital)
 * (prescription)-[:refers_to]->(drug)
 * (manufacture)-[:produces]->(drug) 
 * (manufacture)-[:hired]->(lobby_firm) 
-* (lobby_firm)-[:filed]->(disclosure) 
-* (disclosure)-[:represents]->(client)
-* (disclosure)-[:regards-to]->(issue)
-* (lobbyist)-[:lobbies]->(issue)
-* (lobbyist)-[:work_at]->(
-* (lobby_firm)-[:made]->(contribution)
-* (legislator)-[:received]->(contribution)
+
+* (Client)-[:SIGNED]->(Disclousure)
+* (LobbyFirm)-[:FILED]->(Disclosure)
+* (Disclosure)-[:HAS]->(Issue)
+* (Lobbyist)-[:LOBBIES]->(Issue)
+* (Lobbyist)-[:WORKS_AT]->(LobbyFirm)
+* (Lobbyist)-[:MADE {date}]->(Contribution)
+* (LobbyFirm)-[:MADE {date}]->(Contribution)
+* (Contribution)-[:MADE_TO]->(Committee)
+* (Committee)-[:FUNDS]->(Legislator)
+
 
 
 
