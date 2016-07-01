@@ -1,6 +1,6 @@
 from py2neo import Graph, Node
 import os
-
+from datetime import datetime
 
 pw = os.environ.get('NEO4J_PASS')
 g= Graph("http://localhost:7474/browser/",password = pw)  ## readme need to document setting environment variable in pycharm
@@ -9,15 +9,37 @@ tx = g.begin()
 
 
 #========================================== Get files ==========================================#
-root =  os.getcwd()
-path = os.path.join(root, "data")
-contribution_MidYear = os.path.join(path, "2013_MidYear_XML")
-files = [f for f in os.listdir(contribution_MidYear) if f.endswith('.xml')]
+# root =  os.getcwd()
+# path = os.path.join(root, "data")
+# contribution_MidYear = os.path.join(path, "2013_MidYear_XML")
+# files = [f for f in os.listdir(contribution_MidYear) if f.endswith('.xml')]
 # files = ['file:///Users/yaqi/Documents/vir_health_graph/health-graph/data/2013_MidYear_XML/700669542.xml'] #  Return xml files
-for file in files:
-    fi = 'file://' + os.path.join(contribution_MidYear, file)
-    # fi = file
-    print(fi)
+
+
+def get_file_path(kind):
+    root_dir = '/Users/yaqi/Documents/data/' + kind
+    filenames = [f for f in os.listdir(root_dir) if f.endswith('.xml')]
+    filepath = []
+    for file in filenames:
+        path = 'file://' + os.path.join(root_dir, file)
+        filepath.append(path)
+    return filepath
+
+f1 = get_file_path('2013_MidYear_XML')
+f2 = get_file_path('2013_YearEnd_XML')
+
+# print(len(f1))
+# print(len(f2))
+# print(len(f3))
+# print(len(f4))
+files = f1+f2
+
+now_all = datetime.now()
+for k, file in enumerate(files):
+    now = datetime.now()
+    # fi = 'file://' + os.path.join(contribution_MidYear, file)
+    fi = file
+    # print(fi)
 
 
 # ========================================== Node: lobbyFirm, lobbyist ==========================================#
@@ -173,6 +195,10 @@ for file in files:
 
                     elif contributorName != 'Self':
                         print(fi)
+    end = datetime.now()
+    print(k)
+    print(end-now)
 
-
+end_all = datetime.now()
+print (end_all - now_all)
 
