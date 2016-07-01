@@ -116,7 +116,10 @@ for k, file in enumerate(files):
     for contribution_info in contributions_info:
 
         if contribution_info['CB']['_type'] == 'noContributions':
-            noContributions = contribution_info['CB']['_text']
+            try:
+                noContributions = contribution_info['CB']['_text']
+            except KeyError:
+                noContributions = 'false'
 
             if noContributions == 'true':
                 break
