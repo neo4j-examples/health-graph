@@ -1,5 +1,6 @@
 from py2neo import Graph, Node
 import os
+from datetime import datetime
 
 
 pw = os.environ.get('NEO4J_PASS')
@@ -9,15 +10,45 @@ tx = g.begin()
 
 
 #========================================== Get files ==========================================#
-root =  os.getcwd()
-path = os.path.join(root, "data")
-disclosure_1st_path = os.path.join(path, "2013_1stQuarter_XML")
-files = [f for f in os.listdir(disclosure_1st_path) if f.endswith('.xml')]
+# root =  os.getcwd()
+# path = os.path.join(root, "data")
+# disclosure_1st_path = os.path.join(path, "2013_1stQuarter_XML")
+# files = [f for f in os.listdir(disclosure_1st_path) if f.endswith('.xml')]
 # files = ['file:///Users/yaqi/Documents/vir_health_graph/health-graph/data/2013_1stQuarter_XML/300545488.xml'] # Return xml files
-for file in files:
-    fi = 'file://' + os.path.join(disclosure_1st_path, file)
-    # fi = file
-    print(fi)
+# file1 = [f for f in os.listdir(dc_1) if f.endswith('.xml')]
+# print(file1)
+
+
+def get_file_path(kind):
+    root_dir = '/Users/yaqi/Documents/data/' + kind
+    filenames = [f for f in os.listdir(root_dir) if f.endswith('.xml')]
+    filepath = []
+    for file in filenames:
+        path = 'file://' + os.path.join(root_dir, file)
+        filepath.append(path)
+    return filepath
+
+f1 = get_file_path('2013_1stQuarter_XML')
+f2 = get_file_path('2013_2ndQuarter_XML')
+f3 = get_file_path('2013_3rdQuarter_XML')
+f4 = get_file_path('2013_4thQuarter_XML')
+# print(len(f1))
+# print(len(f2))
+# print(len(f3))
+# print(len(f4))
+files = f1+f2+f3+f4
+# print(len(files))
+
+
+now_all = datetime.now()
+## print(files[:10])
+for k,file in enumerate(files):
+# for file in files:
+    start = datetime.now()
+
+    # fi = 'file://' + os.path.join(disclosure_1st_path, file)
+    fi = file
+    # print(fi)
 
 
 # ========================================== Node: Disclosure ==========================================#
@@ -157,7 +188,7 @@ for file in files:
 
     # find_empty = False
     #find_empty data
-    for i,lobbyist_issuecode in enumerate(lobbyists_issuecode):
+    for j,lobbyist_issuecode in enumerate(lobbyists_issuecode):
 
         lobOrIss_item = lobbyist_issuecode['ali_info']
         #each item in the cursor object is a JSON object and represents a issuecode and lobbyists who are associated to that issuecode
@@ -235,7 +266,7 @@ for file in files:
             )
 
 
-    print(lobId_collector)
+    # print(lobId_collector)
     # if find_empty:
     #     break
 # ========================================== Node: Issue ==========================================#
@@ -321,7 +352,12 @@ for file in files:
         ''',
         parameters={'dc_id': dc_id, 'cl_id': cl_id}
     )
+    print(k)
+    end = datetime.now()
+    time = end-start
+    print(time)
 
 
 
-
+end_all = datetime.now()
+print (end_all - now_all)

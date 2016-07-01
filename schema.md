@@ -56,7 +56,7 @@
 * zip
 * houseOrgId
 
-##### (Lobbyist) #####
+##### (Lobbyist)
 * firstName
 * lastName
 * postion*
