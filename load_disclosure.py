@@ -1,13 +1,11 @@
 from py2neo import Graph, Node
 import os
-
 # ========================================== Node: Disclosure ==========================================#
-
-
 def get_Disclosure_property (file):
     '''
     :param file: the xml file path to be parsed
-    :return: properties of Disclosure
+    :return: a dictionary of properties of Disclsure
+    {'pates', 'houseID', 'senateID', 'reportYear'}
     '''
     query = '''
     CALL apoc.load.xml({file})
@@ -24,7 +22,8 @@ def get_Disclosure_property (file):
 
 def create_Disclousure_node (properties, file):
     '''
-    :param properties: the properties of the node
+    :param properties: a dictionary of properties of the node
+    :param file: the xml file path to be parsed
     :return: node internal id
     '''
     query = '''
@@ -33,7 +32,7 @@ def create_Disclousure_node (properties, file):
     RETURN id(dc)
     '''
 
-    return g.run(query, properties = properties, file = file).evaluate()
+    return g.run(query, properties = properties, file = file[-13:-4]).evaluate()
 
 
 # ========================================== Node: lobby firm ==========================================#
@@ -57,7 +56,7 @@ def get_LobbyFirm_property(file):
     property = {}
     # name
     if pre_property['organizationName'] == None and pre_property['firstName'] == None and pre_property['lastName'] == None:
-        property['name'] = None
+        property['name'] = 'NULL'
 
     elif pre_property['organizationName']== None and pre_property['firstName'] != None and pre_property['lastName'] != None :
         property['name'] = str(pre_property['firstName'] + ' ' + pre_property['lastName'])
@@ -67,7 +66,7 @@ def get_LobbyFirm_property(file):
 
     #Address
     if pre_property['address1']== None and pre_property['address2']== None:
-        property['address'] = None
+        property['address'] = 'NULL'
 
     elif pre_property['address1']!= None and pre_property['address2']!= None:
         property['address'] = str(pre_property['address1'] + ' ' + pre_property['address2'])
@@ -77,14 +76,14 @@ def get_LobbyFirm_property(file):
 
     #city
     if pre_property['city'] == None :
-        property['city'] = None
+        property['city'] = 'NULL'
 
     else:
         property['city'] = pre_property['city']
 
     #State
     if pre_property['state'] == None:
-        property['state'] = None
+        property['state'] = 'NULL'
 
     else:
         property['state'] = pre_property['state']
@@ -98,14 +97,14 @@ def get_LobbyFirm_property(file):
 
     # zip
     if pre_property['zip'] == None:
-        property['zip'] = None
+        property['zip'] = 'NULL'
 
     else:
         property['zip'] = pre_property['zip']
 
     # houseOrgId
     if pre_property['houseID'] == None:
-        property['houseOrgId'] = None
+        property['houseOrgId'] = 'NULL'
 
     else:
         property['houseOrgId'] = pre_property['houseID'][:5]
@@ -115,7 +114,7 @@ def get_LobbyFirm_property(file):
 
 def create_LobbyFirm_node(properties):
     '''
-    :param properties: the properties of the node
+    :param properties: a dict of properties of the node
     :return: node internal id
     '''
     query = '''
@@ -245,7 +244,7 @@ def create_Lobbyist_property(file):
             lobbyists = property['_children']
             for lobbyist in lobbyists:
                 dic = {}
-                if '_text' in (lobbyist['_children'][0] and lobbyist['_children'][1]):
+                if '_text' in (lobbyist['_children'][0]) and '_text' in (lobbyist['_children'][1]):
                     dic['issueNumber'] = issueNumber
                     dic['firstName'] = lobbyist['_children'][0]['_text']
                     dic['lastName'] = lobbyist['_children'][1]['_text']
@@ -256,6 +255,7 @@ def create_Lobbyist_property(file):
                 if dic:
                     properties.append(dic)
             issueNumber += 1
+    properties = [d for d in properties if 'n/a' not in d.values()]
     return properties
 
 
@@ -283,15 +283,10 @@ def create_lobbyist_node(properties, issueID):
     return id_lst
 
 
-
-
-
-
 #========================================== Get files ==========================================#
 
 if __name__ == "__main__":
     pw = os.environ.get('NEO4J_PASS')
-    # g= Graph("http://localhost:7474/browser/",password = pw)
     g = Graph("http://localhost:7474/", password=pw)  ## readme need to document setting environment variable in pycharm
     g.delete_all()
     tx = g.begin()
@@ -300,7 +295,8 @@ if __name__ == "__main__":
     path = os.path.join(root, "data")
     disclosure_1st_path = os.path.join(path, "2013_1stQuarter_XML")
     files = [f for f in os.listdir(disclosure_1st_path) if f.endswith('.xml')]
-    # files = ['file:///Users/yaqi/Documents/vir_health_graph/health-graph/data/2013_1stQuarter_XML/300529246.xml'] # Return xml files
+    # files = ['file:///Users/yaqi/Documents/vir_health_graph/health-graph/data/2013_1stQuarter_XML/300548161.xml'] # Return xml files
+
     for file in files:
         fi = 'file://' + os.path.join(disclosure_1st_path, file)
         # fi = file
@@ -325,28 +321,17 @@ if __name__ == "__main__":
 
         cl_pro = get_Client_property(fi)
         cl_id = create_Client_node(cl_pro)
-        # print(cl_pro)
 
         is_pro = create_Issue_property(fi)
+
         if is_pro:
             is_id = create_Issue_node(is_pro)
-            # print(is_id)
-        # print(is_pro)
-        # print(is_id)
+
             lb_pro = create_Lobbyist_property(fi)
-            # for i, ele in enumerate(lb_pro):
-                # print(i)
-                # print(ele['issueNumber']-1)
-                # print(is_id[ele['issueNumber']-1])
-                # print(lb_pro[i]['issueNumber'])
-            # print(lb_pro)
             lob_id = create_lobbyist_node(lb_pro, is_id)
-            # print(is_id)
-        # print(lb_pro)
 
 
     # #========================================== Rel==========================================#
-
         lf_dc_rel = g.run(
             '''MATCH (dc:Disclosure) WHERE id(dc) = {dc_id}
             MATCH (lf:LobbyFirm) WHERE id(lf) = {lf_id}
