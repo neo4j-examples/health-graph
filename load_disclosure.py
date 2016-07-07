@@ -214,8 +214,13 @@ def create_Issue_node(properties):
     CREATE (is: Issue {property})
     RETURN id(is)
     '''
+
+    index = '''
+    CREATE INDEX ON :Issue(issueNumber)
+    '''
     for i, property in enumerate(properties):
         id = g.run(query, property = property).evaluate()
+        idx = g.run(index)
         id_lst.append(id)
 
     return id_lst
