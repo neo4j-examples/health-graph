@@ -285,7 +285,7 @@ def create_legislator_node(property_lst, committeeID):
     MERGE (ll:Legislator {name: {name}})
     WITH ll
     MATCH(com: Committee) WHERE id(com) = {committee_id}
-    CREATE(com)-[:FUNDS]->(ll)
+    MERGE(com)-[:FUNDS]->(ll)
     RETURN id(ll)
     '''
 
