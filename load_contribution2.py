@@ -111,172 +111,238 @@ def create_Lobbyist_node_cb(properties):
                  lastName = properties['lobbyistLastName']).evaluate()
 
 
-#
-#
-#     lobbys_info = g.run(
-#         '''CALL apoc.load.xml({fi}) YIElD value
-#         WITH [attr in value._children WHERE attr._type in
-#         ['filerType','organizationName','lobbyistFirstName',
-#         'lobbyistLastName','senateRegID','houseRegID','noContributions']|[attr._type, attr._text]] as pairs
-#         CALL apoc.map.fromPairs(pairs)
-#         YIELD value
-#         RETURN value
-#         ''', parameters={'fi': fi}
-#     )
-#
-#     for lobby_info in lobbys_info:
-#         # if contribution['value']['noContributions'] == 'true':
-#         filerType = lobby_info['value']['filerType']
-#         name = lobby_info['value']['organizationName']
-#         houseOrgId = lobby_info['value']['houseRegID']
-#         senateID = lobby_info['value']['senateRegID']
-#         firstName = lobby_info['value']['lobbyistFirstName']
-#         lastName = lobby_info['value']['lobbyistLastName']
-#         # print(contribution['value'])
-#
-#     if filerType == 'L':
-#
-#         lobbyist_node = g.run(
-#             ''' MERGE (lob: Lobbyist {firstName: {firstName}, lastName: {lastName}})
-#             RETURN id(lob)
-#             ''', parameters= {'firstName': firstName, 'lastName': lastName}
-#         )
-#
-#         # lob_id = [lob['id(lob)'] for lob in lobbyist_node][0]
-#         lob_id = lobbyist_node.evaluate()
-#
-#         lobbyFirm_node = g.run(
-#             ''' MERGE (lf: LobbyFirm {houseOrgId:{houseOrgId}})
-#             ON CREATE SET lf.name = {name}, lf.confilename = {fi}
-#             RETURN id(lf)
-#             ''', parameters= {'name': name, 'houseOrgId': houseOrgId, 'fi':fi[-14:]}
-#         )
-#
-#         lf_id = lobbyFirm_node.evaluate()
-#
-#         # print(lf_id, lob_id)
-#
-#         lob_lf_rel = g.run(
-#             ''' MATCH (lob: Lobbyist) WHERE id(lob) = {lob_id}
-#             MATCH (lf: LobbyFirm) WHERE id(lf) = {lf_id}
-#             MERGE (lob)-[r:WORKS_AT]->(lf)
-#             ''', parameters={'lob_id': lob_id, 'lf_id':lf_id}
-#         )
-#
-#     elif filerType == 'O':
-#         lobbyFirm_node = g.run(
-#             ''' MERGE (lf: LobbyFirm {houseOrgId:{houseOrgId}})
-#             ON CREATE SET lf.name = {name}
-#             RETURN id(lf)
-#             ''', parameters={'name': name, 'houseOrgId': houseOrgId}
-#         )
-#
-#         lf_id = [lf['id(lf)'] for lf in lobbyFirm_node][0]
-#
-#
 # # ========================================== Node: contribution ==========================================#
 def get_contribution_property_cb(file):
-    pass
+    '''
 
-#     contributions_info = g.run(
-#         '''CALL apoc.load.xml({fi}) YIElD value
-#         UNWIND value._children as CB
-#         WITH CB WHERE CB._type in ['noContributions', 'contributions']
-#         RETURN CB
-#         ''', parameters={'fi': fi}
-#     )
-#
-#     for contribution_info in contributions_info:
-#
-#         if contribution_info['CB']['_type'] == 'noContributions':
-#             try:
-#                 noContributions = contribution_info['CB']['_text']
-#             except KeyError:
-#                 noContributions = 'false'
-#
-#             if noContributions == 'true':
-#                 break
-#
-#         elif contribution_info['CB']['_type'] == 'contributions':
-#             contributions = contribution_info['CB']['_children']
-#
-#             for contribution_list in contributions:
-#                 contribution_key = []
-#                 contribution_value = []
-#                 for contribution_dic in contribution_list['_children']:
-#                     if '_text' in contribution_dic:
-#                         contribution_key.append(contribution_dic['_type'])
-#                         contribution_value.append(contribution_dic['_text'])
-#
-#                 if contribution_key and contribution_value:
-#                     dic = dict(zip(contribution_key, contribution_value))
-#                     date = dic['date']
-#                     contributorName = dic['contributorName']
-#                     tpe = dic['type']
-#                     legislator = dic['recipientName']
-#                     committee = dic['payeeName']
-#                     amount = dic['amount']
-#
-#                     contribution_node = g.run(
-#                         '''CREATE (cb:Contribution {amount:{amount}, type:{tpe}})
-#                         RETURN id(cb)
-#                         ''', parameters={'amount': amount, 'tpe': tpe}
-#                     )
-#
-#                     cb_id = contribution_node.evaluate()
-#
-#                     legislator_node = g.run(
-#                         '''CREATE (ll:Legislator {name: {legislator}})
-#                         RETURN id(ll)
-#                         ''', parameters={'legislator': legislator}
-#                     )
-#                     ll_id = legislator_node.evaluate()
-#
-#                     committee_node = g.run(
-#                         '''CREATE (com:Committee {name: {committee}})
-#                         RETURN id(com)
-#                         ''', parameters={'committee': committee}
-#                     )
-#                     com_id = committee_node.evaluate()
-#
-#                     com_ll_rel = g.run(
-#                         '''MATCH (com:Committee) WHERE id(com) = {com_id}
-#                         MATCH (ll: Legislator) WHERE id(ll) = {ll_id}
-#                         CREATE (com)-[r:FUNDS]->(ll)
-#                         ''', parameters= {'com_id': com_id, 'll_id':ll_id}
-#                     )
-#
-#                     com_cb_rel = g.run(
-#                         '''MATCH (com:Committee) WHERE id(com) = {com_id}
-#                         MATCH (cb: Contribution) WHERE id(cb) = {cb_id}
-#                         CREATE (cb)-[r:MADE_TO]->(com)
-#                         ''', parameters={'com_id':com_id, 'cb_id':cb_id}
-#                     )
-#
-#
-#                     if contributorName == 'Self' and filerType == 'L':
-#                         lob_cb_rel = g.run(
-#                             ''' MATCH (cb: Contribution) WHERE id(cb) = {cb_id}
-#                             MATCH (lob: Lobbyist) WHERE id(lob) = {lob_id}
-#                             CREATE (lob)-[r: MADE {date: {date}}]-> (cb)
-#                             ''', parameters={'date': date, 'cb_id': cb_id, 'lob_id': lob_id }
-#                         )
-#                     elif contributorName == 'Self' and filerType == 'O':
-#                         lf_cb_rel = g.run(
-#                             ''' MATCH (cb: Contribution) WHERE id(cb) = {cb_id}
-#                             MATCH (lf: LobbyFirm) WHERE id(lf) = {lf_id}
-#                             CREATE (lf)-[r: MADE {date: {date}}]-> (cb)
-#                             ''', parameters={'date': date, 'cb_id': cb_id, 'lf_id': lf_id}
-#                         )
-#
-#                     elif contributorName != 'Self':
-#                         print(fi)
-#     end = datetime.now()
-#     print(k)
-#     print(end-now)
-#
-# end_all = datetime.now()
-# print (end_all - now_all)
+    :param file:
+    :return: a list of dict, each dict represent preperties for each contribution
+    '''
+    query = '''
+    CALL apoc.load.xml({file}) YIElD value
+    UNWIND value._children as CBS
+    WITH CBS WHERE CBS._type ='contributions'
+    UNWIND CBS._children as CB
+    UNWIND CB._children as arr
+    WITH collect(arr) as CBsInfo
+    RETURN CBsInfo
+    '''
+
+    pre_property = g.run(query, file = file).evaluate()
+    pre_property = [d for d in pre_property if '_text' in d]
+
+    cb_num = 0
+    property_lst = []
+    dic = {}
+    for i, info in enumerate(pre_property):
+
+        if i % 6 == 0:
+            dic = {}                               # type
+            dic['type'] = info['_text']
+            dic['con_num'] = cb_num
+            cb_num += 1
+            property_lst.append(dic)
+
+        elif (i - 4) % 6 == 0:                     # amount
+            dic['amount'] = info['_text']
+
+        elif (i-5)%6  == 0:                          # date
+            dic['date'] = info['_text']
+
+    return property_lst
+
+
+def create_contribution_node_cb(property_lst):
+    '''
+
+    :param property_lst:  a list of dict, each dict represent preperties for each contribution
+    :return: a list of id
+    '''
+    query = '''
+    CREATE (cb:Contribution {amount:{amount}, type:{tpe}, date:{date}})
+    RETURN id(cb)
+    '''
+
+    index = '''
+    CREATE INDEX ON: Contribution(type)
+    '''
+
+    id_lst = []
+    for contribution in property_lst:
+
+       id = g.run(query, amount = contribution['amount'], tpe = contribution['type'], date = contribution['date']).evaluate()
+       id_lst.append(id)
+
+    g.run(index)
+    return id_lst
+
+
+# # ========================================== Node: committee ==========================================#
+def get_committee_property_cb(file):
+    '''
+
+    :param file:
+    :return: a list of dict, each dict represent preperties for each contribution
+    '''
+    query = '''
+    CALL apoc.load.xml({file}) YIElD value
+    UNWIND value._children as CBS
+    WITH CBS WHERE CBS._type ='contributions'
+    UNWIND CBS._children as CB
+    UNWIND CB._children as arr
+    WITH collect(arr) as CBsInfo
+    RETURN CBsInfo
+    '''
+
+    pre_property = g.run(query, file = file).evaluate()
+    pre_property = [d for d in pre_property if '_text' in d]
+
+    cb_num = 0
+    property_lst = []
+    for i, info in enumerate(pre_property):
+
+        if (i - 2) % 6 == 0: # committee
+            dic = {}
+            dic['committee'] = info['_text']
+            dic['con_num'] = cb_num
+            cb_num += 1
+            property_lst.append(dic)
+
+    return property_lst
+
+
+def create_committee_node(property_lst, contributionID):
+    '''
+
+    :param property_lst:  a list of dict, each dict represent preperties for each contribution
+    :return: a list of id
+    '''
+    query = '''
+    MERGE (com:Committee {name: {name}})
+    WITH com
+    MATCH(cb: Contribution) WHERE id(cb) = {contribution_id}
+    CREATE(cb)-[:MADE_TO]->(com)
+    RETURN id(com)
+    '''
+
+    index = '''
+    CREATE INDEX ON: Committee(name)
+    '''
+
+    id_lst = []
+    for committee in property_lst:
+        idx = committee['con_num']
+        contribution_id = contributionID[idx]
+        id = g.run(query, name = committee['committee'], contribution_id = contribution_id).evaluate()
+        id_lst.append(id)
+
+    return id_lst
+
+
+# # ========================================== Node: legislator ==========================================#
+def get_legislator_property_cb(file):
+    '''
+
+    :param file:
+    :return: a list of dict, each dict represent preperties for each contribution
+    '''
+    query = '''
+    CALL apoc.load.xml({file}) YIElD value
+    UNWIND value._children as CBS
+    WITH CBS WHERE CBS._type ='contributions'
+    UNWIND CBS._children as CB
+    UNWIND CB._children as arr
+    WITH collect(arr) as CBsInfo
+    RETURN CBsInfo
+    '''
+
+    pre_property = g.run(query, file = file).evaluate()
+    pre_property = [d for d in pre_property if '_text' in d]
+
+    cb_num = 0
+    property_lst = []
+    for i, info in enumerate(pre_property):
+
+        if (i - 3) % 6 == 0:
+            dic = {} # legislator
+            dic['legislator'] = info['_text']
+            dic['con_num'] = cb_num
+            cb_num += 1
+            property_lst.append(dic)
+
+    return property_lst
+
+
+def create_legislator_node(property_lst, committeeID):
+    '''
+
+    :param property_lst:
+    :param committeeID:
+    :return:
+    '''
+
+    query = '''
+    MERGE (ll:Legislator {name: {name}})
+    WITH ll
+    MATCH(com: Committee) WHERE id(com) = {committee_id}
+    CREATE(com)-[:FUNDS]->(ll)
+    RETURN id(ll)
+    '''
+
+    id_lst = []
+    for legislator in property_lst:
+        idx = legislator['con_num']
+        committee_id = committeeID[idx]
+        id = g.run(query, name = legislator['legislator'], committee_id = committee_id).evaluate()
+        id_lst.append(id)
+
+    return id_lst
+
+
+# # ========================================== Node: contributerType ==========================================#
+def contributerType(file):
+    '''
+
+    :param file:
+    :return: a list of dict, each dict represent preperties for each contribution
+    '''
+    query = '''
+    CALL apoc.load.xml({file}) YIElD value
+    UNWIND value._children as CBS
+    WITH CBS WHERE CBS._type ='contributions'
+    UNWIND CBS._children as CB
+    UNWIND CB._children as arr
+    WITH collect(arr) as CBsInfo
+    RETURN CBsInfo
+    '''
+
+    pre_property = g.run(query, file = file).evaluate()
+    pre_property = [d for d in pre_property if '_text' in d]
+
+    cb_num = 0
+    property_lst = []
+    for i, info in enumerate(pre_property):
+
+        if (i - 1) % 6 == 0:  # contributorName
+            dic = {}
+            dic['contributorType'] = info['_text']
+            dic['con_num'] = cb_num
+            cb_num += 1
+            property_lst.append(dic)
+
+    return property_lst
+
+def create_contributor_node(property, contribution_id ):
+    query = '''
+    MERGE (contributor: Contributor {name:{name}})
+    WITH contributor
+    MATCH(cb: Contribution) where id(cb) = {contribution_id}
+    CREATE (contributor)-[:MADE]->(cb)
+    RETURN id(contributor)
+    '''
+    return g.run(query, name = property['contributorType'], contribution_id = contribution_id).evaluate()
+
+
 # #========================================== Get files ==========================================#
 
 if __name__ == "__main__":
@@ -288,27 +354,94 @@ if __name__ == "__main__":
     root =  os.getcwd()
     path = os.path.join(root, "data")
     disclosure_1st_path = os.path.join(path, "2013_MidYear_XML")
-    # files = [f for f in os.listdir(disclosure_1st_path) if f.endswith('.xml')]
-    files = ['file:///Users/yaqi/Documents/health-graph/data/2013_MidYear_XML/700669542.xml']  # Return xml files
+    files = [f for f in os.listdir(disclosure_1st_path) if f.endswith('.xml')]
+    # files = ['file:///Users/yaqi/Documents/health-graph/data/2013_MidYear_XML/700669542.xml']  # Return xml files
 
     for file in files:
-        # fi = 'file://' + os.path.join(disclosure_1st_path, file)
-        fi = file
+        fi = 'file://' + os.path.join(disclosure_1st_path, file)
+        # fi = file
         print(fi)
+        if has_contribution(fi):
 
-        filertype = filer_type(fi)
-        print(filertype)
-        contribution = has_contribution(fi)
-        print(contribution)
+            lf_pro = get_LobbyFirm_property_cb(fi)
+            lf_id = create_LobbyFirm_node_cb(lf_pro, fi)
 
-        lf_pro = get_LobbyFirm_property_cb(fi)
-        print(lf_pro)
+            cb_pro = get_contribution_property_cb(fi)
+            cb_id = create_contribution_node_cb(cb_pro)
 
-        lf_id = create_LobbyFirm_node_cb(lf_pro, fi)
-        print(type(lf_id))
+            com_pro = get_committee_property_cb(fi)
+            com_id = create_committee_node(com_pro, cb_id)
 
-        lb_pro = get_Lobbyist_property_cb(fi)
-        print(lb_pro)
+            ll_pro = get_legislator_property_cb(fi)
+            ll_id = create_legislator_node(ll_pro, com_id)
 
-        lb_id = create_Lobbyist_node_cb(lb_pro)
-        print(lb_id)
+            cb_type = contributerType(fi)
+
+            for contributor in cb_type:
+
+                idx = contributor['con_num']
+                contribution_id = cb_id[idx]
+
+                if contributor['contributorType'] == 'Self':
+
+                    if filer_type(fi) == 'L':
+
+                        lb_pro = get_Lobbyist_property_cb(fi)
+                        lb_id = create_Lobbyist_node_cb(lb_pro)
+
+                        lob_lf_rel = g.run('''
+                        MATCH (lob: Lobbyist) WHERE id(lob) = {lb_id}
+                        MATCH (lf: LobbyFirm) WHERE id(lf) = {lf_id}
+                        MERGE (lob)-[r:WORKS_AT]->(lf)
+                        ''', lb_id = lb_id, lf_id = lf_id)
+
+                        lb_cb_rel = g.run('''
+                        MATCH (lob: Lobbyist) WHERE id(lob) = {lb_id}
+                        MATCH (cb: Contribution) WHERE id(cb) = {contribution_id}
+                        CREATE (lob)-[:FILED {self:1}]->(cb)
+                        ''', lb_id = lb_id, contribution_id = contribution_id)
+
+                    elif filer_type(fi) == 'O' :
+                        lf_cb_rel = g.run('''
+                            MATCH (lf: LobbyFirm) WHERE id(lf) = {lf_id}
+                            MATCH (cb: Contribution) WHERE id(cb) = {contribution_id}
+                            CREATE (lf)-[:FILED {self:1}]->(cb)
+                            ''', lf_id=lf_id, contribution_id=contribution_id)
+
+                else:
+
+                    cbtor_id = create_contributor_node(contributor, contribution_id)
+
+                    if filer_type(fi) == 'L':
+
+                        lb_pro = get_Lobbyist_property_cb(fi)
+                        lb_id = create_Lobbyist_node_cb(lb_pro)
+
+                        lob_lf_rel = g.run('''
+                                            MATCH (lob: Lobbyist) WHERE id(lob) = {lb_id}
+                                            MATCH (lf: LobbyFirm) WHERE id(lf) = {lf_id}
+                                            MERGE (lob)-[r:WORKS_AT]->(lf)
+                                            ''', lb_id=lb_id, lf_id=lf_id)
+
+                        lb_cb_rel = g.run('''
+                                            MATCH (lob: Lobbyist) WHERE id(lob) = {lb_id}
+                                            MATCH (cb: Contribution) WHERE id(cb) = {contribution_id}
+                                            CREATE (lob)-[:FILED {self:0}]->(cb)
+                                            ''', lb_id=lb_id, contribution_id=contribution_id)
+
+                    elif filer_type(fi) == 'O':
+                        lf_cb_rel = g.run('''
+                                                MATCH (lf: LobbyFirm) WHERE id(lf) = {lf_id}
+                                                MATCH (cb: Contribution) WHERE id(cb) = {contribution_id}
+                                                CREATE (lf)-[:FILED {self:0}]->(cb)
+                                                ''', lf_id=lf_id, contribution_id=contribution_id)
+
+
+
+
+
+
+
+
+
+
