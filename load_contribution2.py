@@ -30,14 +30,18 @@ def has_contribution(file):
     CALL apoc.load.xml({file}) YIElD value
     UNWIND value._children as result
     WITH result WHERE result._type = 'noContributions'
-    RETURN result._text
+    RETURN result
     '''
 
     result = g.run(query, file = file).evaluate()
-    if result in ['F', "FALSE", 'false', 'NO', 'no', 'No']:
-        return True
-    else:
-        return False
+
+    try:
+        noContribution = result['_text']
+    except KeyError:
+        noContribution = 'false'
+
+    return noContribution in ['F', "FALSE", 'false', 'NO', 'no', 'No']
+
 
 # ========================================== Node: lobbyFirm ==========================================#
 def get_LobbyFirm_property_cb (file):
@@ -83,7 +87,7 @@ def get_Lobbyist_property_cb (file):
     query = '''
     CALL apoc.load.xml({file}) YIElD value
         WITH [attr in value._children WHERE attr._type in
-        ['lobbyistFirstName', 'lobbyistLastName',]|[attr._type, attr._text]] as pairs
+        ['lobbyistFirstName', 'lobbyistLastName']|[attr._type, attr._text]] as pairs
         CALL apoc.map.fromPairs(pairs)
         YIELD value
         RETURN value
@@ -92,21 +96,20 @@ def get_Lobbyist_property_cb (file):
     return g.run(query, file = file).evaluate()
 
 
-# def create_Lobbyist_node_cb(properties, file):
-#     '''
-#
-#     :param properties: a dictionary of lobbyfirm properties
-#     :return: an int, the internal node id
-#     '''
-#     query = '''
-#     MERGE (lf: LobbyFirm {houseOrgId:{houseOrgId}})
-#     ON CREATE SET lf.organizationName = {organizationName}, lf.confileId = {file}
-#     RETURN id(lf)
-#     '''
-#
-#     return g.run(query, organizationName = properties['organizationName'] ,
-#                  houseOrgId = properties['houseRegID'], file=file[-13:-4]).evaluate()
-#
+def create_Lobbyist_node_cb(properties):
+    '''
+
+    :param properties: a dictionary of lobbyfirm properties
+    :return: an int, the internal node id
+    '''
+    query = '''
+    MERGE (lob: Lobbyist {firstName: {firstName}, lastName: {lastName}})
+    RETURN id(lob)
+    '''
+
+    return g.run(query, firstName = properties['lobbyistFirstName'] ,
+                 lastName = properties['lobbyistLastName']).evaluate()
+
 
 #
 #
@@ -172,6 +175,9 @@ def get_Lobbyist_property_cb (file):
 #
 #
 # # ========================================== Node: contribution ==========================================#
+def get_contribution_property_cb(file):
+    pass
+
 #     contributions_info = g.run(
 #         '''CALL apoc.load.xml({fi}) YIElD value
 #         UNWIND value._children as CB
@@ -283,7 +289,7 @@ if __name__ == "__main__":
     path = os.path.join(root, "data")
     disclosure_1st_path = os.path.join(path, "2013_MidYear_XML")
     # files = [f for f in os.listdir(disclosure_1st_path) if f.endswith('.xml')]
-    files = ['file:///Users/yaqi/Documents/vir_health_graph/health-graph/data/2013_MidYear_XML/700669542.xml']  # Return xml files
+    files = ['file:///Users/yaqi/Documents/health-graph/data/2013_MidYear_XML/700669542.xml']  # Return xml files
 
     for file in files:
         # fi = 'file://' + os.path.join(disclosure_1st_path, file)
@@ -303,3 +309,6 @@ if __name__ == "__main__":
 
         lb_pro = get_Lobbyist_property_cb(fi)
         print(lb_pro)
+
+        lb_id = create_Lobbyist_node_cb(lb_pro)
+        print(lb_id)
