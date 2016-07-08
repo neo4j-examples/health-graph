@@ -10,6 +10,10 @@ def create_DrugFirm_node(file):
     address: line.ADDRESS, operations: line.OPERATIONS})
     '''
 
+    index = '''
+    CREATE INDEX ON: DrugFirm(firmName)'''
+
+    g.run(index)
     return g.run(query,file = file)
 
 if __name__ == "__main__":

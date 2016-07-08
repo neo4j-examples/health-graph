@@ -9,9 +9,16 @@ def create_Drug_node(file):
     CREATE(dr:Drug {drugcode: line.PRODUCTNDC, genericName: line.NONPROPRIETARYNAME,
     tradeName: line.PROPRIETARYNAME, labelerName: line.LABELERNAME, marketing: line.MARKETINGCATEGORYNAME
     })
+    RETURN dr.labelerName
     '''
 
+    index = '''
+    CREATE INDEX ON: Drug(labelerName)'''
+    g.run(index)
     return g.run(query,file = file)
+
+
+
 
 if __name__ == "__main__":
     pw = os.environ.get('NEO4J_PASS')
