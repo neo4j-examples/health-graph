@@ -32,7 +32,13 @@ def create_Disclousure_node (properties, file):
     RETURN id(dc)
     '''
 
-    return g.run(query, properties = properties, file = file[-13:-4]).evaluate()
+    index = '''
+    CREATE INDEX ON: Disclosure(houseID)
+    '''
+
+    id = g.run(query, properties = properties, file = file[-13:-4]).evaluate()
+    g.run(index)
+    return id
 
 
 # ========================================== Node: lobby firm ==========================================#
@@ -123,12 +129,15 @@ def create_LobbyFirm_node(properties):
         RETURN id(lf)
         '''
 
-    return g.run(query, houseOrgId = properties['houseOrgId'], properties=properties).evaluate()
+    index = '''
+    CREATE INDEX ON: LobbyFirm(houseOrgId)
+    '''
+    id = g.run(query, houseOrgId = properties['houseOrgId'], properties=properties).evaluate()
+    g.run(index)
+    return id
 
 
 # # ========================================== Node: clients ==========================================#
-
-
 def get_Client_property(file):
     '''
     :param file: the xml file path to be parsed
@@ -155,13 +164,16 @@ def create_Client_node(properties):
     MERGE (cl:Client {clientName: {clientName}})
     RETURN id(cl) '''
 
-    return g.run(query, clientName = properties['clientName']).evaluate()
+    index = '''
+    CREATE INDEX ON: Client(clientName)
+    '''
+    id = g.run(query, clientName = properties['clientName']).evaluate()
+    g.run(index)
+    return id
 
 
 # #========================================== Node: Issue ==========================================#
-
-
-def create_Issue_property(file):
+def get_Issue_property(file):
     query = '''
     CALL apoc.load.xml({file})
     YIElD value UNWIND value._children as dc
@@ -220,16 +232,14 @@ def create_Issue_node(properties):
     '''
     for i, property in enumerate(properties):
         id = g.run(query, property = property).evaluate()
-        idx = g.run(index)
+        g.run(index)
         id_lst.append(id)
 
     return id_lst
 
 
 # #========================================== Node: Lobbyist ==========================================#
-
-
-def create_Lobbyist_property(file):
+def get_Lobbyist_property(file):
     query = '''
     CALL apoc.load.xml({file})
     YIElD value UNWIND value._children as dc
@@ -278,12 +288,29 @@ def create_lobbyist_node(properties, issueID):
     CREATE (lob)-[:LOBBIES]->(is)
     RETURN id(lob)
     '''
+
+    index1 = '''
+    CREATE INDEX ON :Lobbyist(firstName)
+    '''
+
+    index2 = '''
+        CREATE INDEX ON :Lobbyist(lastName)
+        '''
+
+    index3 = '''
+        CREATE INDEX ON :Lobbyist(position);
+        '''
+
     for i, property in enumerate(properties):
-        index = property['issueNumber']-1
-        issue_id = issueID[index]
+        iss_index = property['issueNumber']-1
+        issue_id = issueID[iss_index]
         id = g.run(query, firstName = property['firstName'], lastName = property['lastName'],
                    position = property['position'], issue_id = issue_id).evaluate()
         id_lst.append(id)
+
+        g.run(index1)
+        g.run(index2)
+        g.run(index3)
 
     return id_lst
 
@@ -327,12 +354,12 @@ if __name__ == "__main__":
         cl_pro = get_Client_property(fi)
         cl_id = create_Client_node(cl_pro)
 
-        is_pro = create_Issue_property(fi)
+        is_pro = get_Issue_property(fi)
 
         if is_pro:
             is_id = create_Issue_node(is_pro)
 
-            lb_pro = create_Lobbyist_property(fi)
+            lb_pro = get_Lobbyist_property(fi)
             lob_id = create_lobbyist_node(lb_pro, is_id)
 
 
