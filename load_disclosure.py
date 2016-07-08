@@ -232,9 +232,9 @@ def create_Issue_node(properties):
     '''
     for i, property in enumerate(properties):
         id = g.run(query, property = property).evaluate()
-        g.run(index)
+        # g.run(index)
         id_lst.append(id)
-
+    g.run(index)
     return id_lst
 
 
@@ -278,6 +278,7 @@ def create_lobbyist_node(properties, issueID):
     '''
 
     :param properties: a list of dict
+           issueID: a list of issue id
     :return: the id of issue nodes
     '''
 
