@@ -1,6 +1,8 @@
 from py2neo import Graph, Node
 import os
 from datetime import datetime
+
+
 # ========================================== check contribution and filer type ==========================================#
 def filer_type(file):
     '''
@@ -76,6 +78,7 @@ def create_LobbyFirm_node_cb(properties, file):
 
     return g.run(query, organizationName = properties['organizationName'] ,
                  houseOrgId = properties['houseRegID'], file=file[-13:-4]).evaluate()
+
 
 # ========================================== Node: lobbyist ==========================================#
 def get_Lobbyist_property_cb (file):
@@ -170,7 +173,7 @@ def create_contribution_node_cb(property_lst):
     id_lst = []
     for contribution in property_lst:
 
-       id = g.run(query, amount = contribution['amount'], tpe = contribution['type'], date = contribution['date']).evaluate()
+       id = g.run(query, amount = float(contribution['amount']), tpe = contribution['type'], date = contribution['date']).evaluate()
        id_lst.append(id)
 
     g.run(index)
@@ -351,15 +354,30 @@ if __name__ == "__main__":
     g.delete_all()
     tx = g.begin()
 
-    root =  os.getcwd()
-    path = os.path.join(root, "data")
-    disclosure_1st_path = os.path.join(path, "2013_MidYear_XML")
-    files = [f for f in os.listdir(disclosure_1st_path) if f.endswith('.xml')]
-    # files = ['file:///Users/yaqi/Documents/health-graph/data/2013_MidYear_XML/700669542.xml']  # Return xml files
+    # root =  os.getcwd()
+    # path = os.path.join(root, "data")
+    # disclosure_1st_path = os.path.join(path, "2013_MidYear_XML")
+    # files = [f for f in os.listdir(disclosure_1st_path) if f.endswith('.xml')]
+    files = ['file:///Users/yaqi/Documents/health-graph/data/2013_MidYear_XML/700669542.xml']  # Return xml files
+
+    def get_file_path(kind):
+        root_dir = '/Users/yaqi/Documents/data/' + kind
+        filenames = [f for f in os.listdir(root_dir) if f.endswith('.xml')]
+        filepath = []
+        for file in filenames:
+            path = 'file://' + os.path.join(root_dir, file)
+            filepath.append(path)
+        return filepath
+
+
+    # f1 = get_file_path('2013_MidYear_XML')
+    # f2 = get_file_path('2013_YearEnd_XML')
+
+    # files = f1 + f2
 
     for file in files:
-        fi = 'file://' + os.path.join(disclosure_1st_path, file)
-        # fi = file
+        # fi = 'file://' + os.path.join(disclosure_1st_path, file)
+        fi = file
         print(fi)
         if has_contribution(fi):
 
