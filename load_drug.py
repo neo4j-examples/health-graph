@@ -1,4 +1,5 @@
 from py2neo import Graph, Node
+from load_drugfirm import create_DrugFirm_node
 import os
 
 def create_Drug_node(file):
@@ -15,9 +16,7 @@ def create_Drug_node(file):
     index = '''
     CREATE INDEX ON: Drug(labelerName)'''
     g.run(index)
-    return g.run(query,file = file)
-
-
+    return g.run(query, file = file)
 
 
 if __name__ == "__main__":
@@ -26,9 +25,16 @@ if __name__ == "__main__":
     g.delete_all()
     tx = g.begin()
 
-    datapath = '/Users/yaqi/Documents/data/product.txt'
+    datapath = '/Users/yaqi/Documents/data/ndctext/product.txt'
     file = 'file:///product.txt'
 
-    dr_node = create_Drug_node(file)
+    # drugs = create_Drug_node(file)
 
+    # datapath = '/Users/yaqi/Documents/data/drls_reg.txt'
+    file = 'file:///drls_reg.txt'
+    # load_drugfirm.g = g
+    df_node = create_DrugFirm_node(file, g)
 
+    # for drug in drugs:
+    #     print(drug.evaluate())
+    # print(dr_node)
