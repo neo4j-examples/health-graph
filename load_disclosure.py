@@ -1,5 +1,6 @@
 from py2neo import Graph, Node
 import os
+
 # ========================================== Node: Disclosure ==========================================#
 def get_Disclosure_property (file):
     '''
@@ -61,37 +62,37 @@ def get_LobbyFirm_property(file):
     pre_property = g.run(query, file=file).evaluate()
     property = {}
     # name
-    if pre_property['organizationName'] == None and pre_property['firstName'] == None and pre_property['lastName'] == None:
-        property['name'] = 'NULL'
+    # if pre_property['organizationName'] == None and pre_property['firstName'] == None and pre_property['lastName'] == None:
+    #     property['name'] = 'NULL'
 
-    elif pre_property['organizationName']== None and pre_property['firstName'] != None and pre_property['lastName'] != None :
+    if pre_property['organizationName']== None and pre_property['firstName'] != None and pre_property['lastName'] != None :
         property['name'] = str(pre_property['firstName'] + ' ' + pre_property['lastName'])
 
     elif pre_property['organizationName'] != None:
         property['name'] = pre_property['organizationName']
 
     #Address
-    if pre_property['address1']== None and pre_property['address2']== None:
-        property['address'] = 'NULL'
+    # if pre_property['address1']== None and pre_property['address2']== None:
+    #     property['address'] = 'NULL'
 
-    elif pre_property['address1']!= None and pre_property['address2']!= None:
+    if pre_property['address1']!= None and pre_property['address2']!= None:
         property['address'] = str(pre_property['address1'] + ' ' + pre_property['address2'])
 
     elif pre_property['address1']!= None and pre_property['address2']== None:
         property['address'] = pre_property['address1']
 
     #city
-    if pre_property['city'] == None :
-        property['city'] = 'NULL'
+    # if pre_property['city'] == None :
+    #     property['city'] = 'NULL'
 
-    else:
+    if pre_property['city'] != None:
         property['city'] = pre_property['city']
 
     #State
-    if pre_property['state'] == None:
-        property['state'] = 'NULL'
+    # if pre_property['state'] == None:
+    #     property['state'] = 'NULL'
 
-    else:
+    if pre_property['state'] != None:
         property['state'] = pre_property['state']
 
     # Country
@@ -102,17 +103,17 @@ def get_LobbyFirm_property(file):
         property['country'] = pre_property['country']
 
     # zip
-    if pre_property['zip'] == None:
-        property['zip'] = 'NULL'
+    # if pre_property['zip'] == None:
+    #     property['zip'] = 'NULL'
 
-    else:
+    if pre_property['zip'] != None:
         property['zip'] = pre_property['zip']
 
     # houseOrgId
-    if pre_property['houseID'] == None:
-        property['houseOrgId'] = 'NULL'
+    # if pre_property['houseID'] == None:
+    #     property['houseOrgId'] = 'NULL'
 
-    else:
+    if pre_property['houseID'] != None:
         property['houseOrgId'] = pre_property['houseID'][:5]
 
     return property
@@ -124,9 +125,9 @@ def create_LobbyFirm_node(properties):
     :return: node internal id
     '''
     query = '''
-        MERGE (lf: LobbyFirm {houseOrgId:{houseOrgId}})
-        ON CREATE SET lf = {properties}
-        RETURN id(lf)
+        MERGE (lbf: LobbyFirm {houseOrgId:{houseOrgId}})
+        ON CREATE SET lbf = {properties}
+        RETURN id(lbf)
         '''
 
     index = '''
@@ -203,13 +204,15 @@ def get_Issue_property(file):
             try:
                 dic['description'] = property['_children'][0]['_text']
             except KeyError:
-                dic['description'] = 'NULL'
+                # dic['description'] = 'NULL'
+                continue
 
         elif (i - 2) % 5 == 0: #fed_agen
             try:
                 dic['federal_agencies'] = property['_text']
             except KeyError:
-                dic['federal_agencies'] = 'NULL'
+                # dic['federal_agencies'] = 'NULL'
+                continue
 
     return properties
 
@@ -309,9 +312,9 @@ def create_lobbyist_node(properties, issueID):
                    position = property['position'], issue_id = issue_id).evaluate()
         id_lst.append(id)
 
-        g.run(index1)
-        g.run(index2)
-        g.run(index3)
+    g.run(index1)
+    g.run(index2)
+    g.run(index3)
 
     return id_lst
 
@@ -328,20 +331,20 @@ if __name__ == "__main__":
     path = os.path.join(root, "data")
     disclosure_1st_path = os.path.join(path, "2013_1stQuarter_XML")
     files = [f for f in os.listdir(disclosure_1st_path) if f.endswith('.xml')]
-    # files = ['file:///Users/yaqi/Documents/vir_health_graph/health-graph/data/2013_1stQuarter_XML/300548161.xml'] # Return xml files
+    # files = ['file:///Users/yaqi/Documents/health-graph/data/2013_1stQuarter_XML/300529228.xml'] # Return xml files
 
     for file in files:
         fi = 'file://' + os.path.join(disclosure_1st_path, file)
         # fi = file
         print(fi)
         dc_pro = {}
-        lf_pro = {}
+        lbf_pro = {}
         cl_pro = {}
         is_pro = []
         lb_pro = []
 
         dc_id = ''
-        lf_id = ''
+        lbf_id = ''
         cl_id = ''
         is_id = []
         lob_id = []
@@ -349,8 +352,10 @@ if __name__ == "__main__":
         dc_pro = get_Disclosure_property(fi)
         dc_id = create_Disclousure_node(dc_pro, fi)
 
-        lf_pro = get_LobbyFirm_property(fi)
-        lf_id = create_LobbyFirm_node(lf_pro)
+        lbf_pro = get_LobbyFirm_property(fi)
+        # print(lbf_pro)
+        # print('type of properties:', type(lbf_pro))
+        lbf_id = create_LobbyFirm_node(lbf_pro)
 
         cl_pro = get_Client_property(fi)
         cl_id = create_Client_node(cl_pro)
@@ -365,11 +370,11 @@ if __name__ == "__main__":
 
 
     # #========================================== Rel==========================================#
-        lf_dc_rel = g.run(
+        lbf_dc_rel = g.run(
             '''MATCH (dc:Disclosure) WHERE id(dc) = {dc_id}
-            MATCH (lf:LobbyFirm) WHERE id(lf) = {lf_id}
-            CREATE (lf)-[r:FILED]->(dc)
-            ''', dc_id = dc_id, lf_id = lf_id
+            MATCH (lbf:LobbyFirm) WHERE id(lbf) = {lbf_id}
+            CREATE (lbf)-[r:FILED]->(dc)
+            ''', dc_id = dc_id, lbf_id = lbf_id
         )
 
         cl_dc_rel = g.run(
@@ -389,12 +394,12 @@ if __name__ == "__main__":
             )
 
         if lob_id:
-            lob_lf_rel = g.run(
+            lob_lbf_rel = g.run(
                 '''MATCH (lob:Lobbyist) WHERE id(lob) in {lob_id}
-                MATCH (lf:LobbyFirm) WHERE id(lf) = {lf_id}
-                MERGE (lob)-[r:WORKS_AT]->(lf)
+                MATCH (lbf:LobbyFirm) WHERE id(lbf) = {lbf_id}
+                MERGE (lob)-[r:WORKS_AT]->(lbf)
                 ''',
-                lob_id = lob_id, lf_id = lf_id
+                lob_id = lob_id, lbf_id = lbf_id
             )
 
 
