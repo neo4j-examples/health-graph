@@ -2,6 +2,7 @@
 # health-graph
 ### Drug-Manufacture-Lobby-Prescription Graph ###
 (This file is in development)
+![Health-Graph schema](/schema.png)
 
 #### Nodes
 
