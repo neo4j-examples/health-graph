@@ -22,13 +22,13 @@ def create_Drug_node(file):
 if __name__ == "__main__":
     pw = os.environ.get('NEO4J_PASS')
     g = Graph("http://localhost:7474/", password=pw)  ## readme need to document setting environment variable in pycharm
-    g.delete_all()
+    # g.delete_all()
     tx = g.begin()
 
     datapath = '/Users/yaqi/Documents/data/ndctext/product.txt'
     file = 'file:///product.txt'
 
-    # drugs = create_Drug_node(file)
+    drugs = create_Drug_node(file)
 
     # datapath = '/Users/yaqi/Documents/data/drls_reg.txt'
     file = 'file:///drls_reg.txt'

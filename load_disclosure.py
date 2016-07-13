@@ -330,12 +330,32 @@ if __name__ == "__main__":
     root =  os.getcwd()
     path = os.path.join(root, "data")
     disclosure_1st_path = os.path.join(path, "2013_1stQuarter_XML")
-    files = [f for f in os.listdir(disclosure_1st_path) if f.endswith('.xml')]
+    # files = [f for f in os.listdir(disclosure_1st_path) if f.endswith('.xml')]
     # files = ['file:///Users/yaqi/Documents/health-graph/data/2013_1stQuarter_XML/300529228.xml'] # Return xml files
 
+    def get_file_path(kind):
+        root_dir = '/Users/yaqi/Documents/data/' + kind
+        filenames = [f for f in os.listdir(root_dir) if f.endswith('.xml')]
+        filepath = []
+        for file in filenames:
+            path = 'file://' + os.path.join(root_dir, file)
+            filepath.append(path)
+        return filepath
+
+
+    f1 = get_file_path('2013_1stQuarter_XML')
+    f2 = get_file_path('2013_2ndQuarter_XML')
+    f3 = get_file_path('2013_3rdQuarter_XML')
+    f4 = get_file_path('2013_4thQuarter_XML')
+    # print(len(f1))
+    # print(len(f2))
+    # print(len(f3))
+    # print(len(f4))
+    files = f1 + f2 + f3 + f4
+
     for file in files:
-        fi = 'file://' + os.path.join(disclosure_1st_path, file)
-        # fi = file
+        # fi = 'file://' + os.path.join(disclosure_1st_path, file)
+        fi = file
         print(fi)
         dc_pro = {}
         lbf_pro = {}

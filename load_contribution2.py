@@ -173,7 +173,7 @@ def create_contribution_node_cb(property_lst):
     id_lst = []
     for contribution in property_lst:
 
-       id = g.run(query, amount = float(contribution['amount']), tpe = contribution['type'], date = contribution['date']).evaluate()
+       id = g.run(query, amount = contribution['amount'], tpe = contribution['type'], date = contribution['date']).evaluate()
        id_lst.append(id)
 
     g.run(index)
@@ -351,14 +351,14 @@ def create_contributor_node(property, contribution_id ):
 if __name__ == "__main__":
     pw = os.environ.get('NEO4J_PASS')
     g = Graph("http://localhost:7474/", password=pw)  ## readme need to document setting environment variable in pycharm
-    g.delete_all()
+    # g.delete_all()
     tx = g.begin()
 
     # root =  os.getcwd()
     # path = os.path.join(root, "data")
     # disclosure_1st_path = os.path.join(path, "2013_MidYear_XML")
     # files = [f for f in os.listdir(disclosure_1st_path) if f.endswith('.xml')]
-    files = ['file:///Users/yaqi/Documents/health-graph/data/2013_MidYear_XML/700669542.xml']  # Return xml files
+    # files = ['file:///Users/yaqi/Documents/health-graph/data/2013_MidYear_XML/700669542.xml']  # Return xml files
 
     def get_file_path(kind):
         root_dir = '/Users/yaqi/Documents/data/' + kind
@@ -370,10 +370,10 @@ if __name__ == "__main__":
         return filepath
 
 
-    # f1 = get_file_path('2013_MidYear_XML')
-    # f2 = get_file_path('2013_YearEnd_XML')
+    f1 = get_file_path('2013_MidYear_XML')
+    f2 = get_file_path('2013_YearEnd_XML')
 
-    # files = f1 + f2
+    files = f1 + f2
 
     for file in files:
         # fi = 'file://' + os.path.join(disclosure_1st_path, file)
