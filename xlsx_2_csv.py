@@ -20,7 +20,7 @@ def csv_from_excel(xls, target):
         wb = xlrd.open_workbook(xls)
         sh = wb.sheet_by_index(0)
 
-        csvFile = open(target, 'wb')
+        csvFile = open(target, 'w')
         wr = csv.writer(csvFile, quoting=csv.QUOTE_ALL)
 
         for row in range(sh.nrows):
@@ -66,7 +66,7 @@ def csv_from_excel(xls, target):
 #     return
 #
 xlsx = '/Users/yaqi/Documents/data/PartD_Prescriber/PartD_Prescriber_PUF_NPI_DRUG_Aa_Al_CY2013.xlsx'
-csv = '/Users/yaqi/Documents/data/PartD_Prescriber/PartD_Prescriber_PUF_NPI_DRUG_Aa_Al_CY2013.csv'
-csv_from_excel(xlsx,csv)
+csvpath = '/Users/yaqi/Documents/data/PartD_Prescriber/PartD_Prescriber_PUF_NPI_DRUG_Aa_Al_CY2013.csv'
+csv_from_excel(xlsx,csvpath)
 # xlsx_csv(xlsx, csv)
 
