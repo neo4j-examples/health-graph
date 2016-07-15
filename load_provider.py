@@ -5,7 +5,7 @@ import csv
 
 def create_provider_node(file, g):
     query = '''
-    USING PERIODIC COMMIT 500
+    USING PERIODIC COMMIT 1000
     LOAD CSV FROM {file} AS col
     CREATE (pd:Provider {npi: col[0], entityType: col[1], address: col[20]+col[21], city: col[22], state: col[23], zip: col[24], country: col[25]})
     FOREACH (row in (CASE WHEN col[1]='1' THEN [1] else [] END) | SET pd.firstName=col[6], pd.lastName = col[5], pd.credential= col[10])
@@ -38,7 +38,8 @@ if __name__ == "__main__":
     # http.socket_timeout = 9999
 
     # file = 'file:///Users/yaqi/Documents/Neo4j/dev/import/PartD_Prescriber_PUF_NPI_DRUG_Aa_Al_CY2013.csv'
-    file = 'file:///npidata_20050523-20160612.csv'
+    # file = 'file:///npidata_20050523-20160612.csv'
+    file = 'file:///clean.csv'
     file1 = '/Users/yaqi/Documents/Neo4j/dev/import/npidata_20050523-20160612FileHeader.csv'
     file2 = '/Users/yaqi/Documents/Neo4j/dev/import/provider.csv'
     file3 = '/Users/yaqi/Documents/Neo4j/dev/import/npidata_20050523-20160612.csv'
@@ -61,7 +62,7 @@ if __name__ == "__main__":
     #         writer.writerow(row)
 
     #sed '1d' npidata_20050523-20160612.csv > mynewfile.csv ####### to cut off the first line
-
+    # Could access the title that has space using line.` `
 
 
 
