@@ -2,10 +2,11 @@ from py2neo import Graph, Node
 from py2neo.packages.httpstream import http
 import os
 import csv
+from load_prescription import create_prescription_node
 
 def create_provider_node(file, g):
     query = '''
-    #USING PERIODIC COMMIT 1000
+     USING PERIODIC COMMIT 1000
      LOAD CSV FROM {file} AS col
      CREATE (pd:Provider {npi: col[0], entityType: col[1], address: col[20]+col[21], city: col[22], state: col[23], zip: col[24], country: col[25]})
      FOREACH (row in CASE WHEN col[1]='1' THEN [1] else [] END | SET pd.firstName=col[6], pd.lastName = col[5], pd.credential= col[10], pd.gender = col[41])
@@ -35,18 +36,33 @@ if __name__ == "__main__":
     g = Graph("http://localhost:7474/", password=pw)  ## readme need to document setting environment variable in pycharm
     # g.delete_all()
     tx = g.begin()
+    print('graph begin')
     # http.socket_timeout = 9999
 
     # file = 'file:///Users/yaqi/Documents/Neo4j/dev/import/PartD_Prescriber_PUF_NPI_DRUG_Aa_Al_CY2013.csv'
     # file = 'file:///npidata_20050523-20160612.csv'
-    file = 'file:///clean.csv'
-    file1 = '/Users/yaqi/Documents/Neo4j/dev/import/npidata_20050523-20160612FileHeader.csv'
-    file2 = '/Users/yaqi/Documents/Neo4j/dev/import/provider.csv'
-    file3 = '/Users/yaqi/Documents/Neo4j/dev/import/npidata_20050523-20160612.csv'
-    file4 = 'file:///replace.csv'
+    # file = 'file:///clean.csv'
+    # file1 = '/Users/yaqi/Documents/Neo4j/dev/import/npidata_20050523-20160612FileHeader.csv'
+    # file2 = '/Users/yaqi/Documents/Neo4j/dev/import/provider.csv'
+    # file3 = '/Users/yaqi/Documents/Neo4j/dev/import/npidata_20050523-20160612.csv'
+    # file4 = 'file:///replace.csv'
+    # file5 = 'file:///PartD_Prescriber_PUF_NPI_DRUG_Aa_Al_CY2013.csv'
+    #
+    # print('Start creating provider')
+    # create_provider_node(file4, g)
+    # print('created provider')
+    # print('start creating prescription')
+    # create_prescription_node(file5, g)
+    # print('created prescription')
 
+    print('start creating rel')
+    g.run('''
+    MATCH (pc: Prescription), (pd: Provider)
+    WHERE pc.npi = pd.npi
+    CREATE (pd)-[:PRESCRIBES]->(pc)
+    ''')
 
-    create_provider_node(file4, g)
+    print('created rel')
     # new_header = []
     # with open(file3, newline='') as infile, open(file2, 'w', newline= '') as outfile:
     #     reader = csv.DictReader(infile)
