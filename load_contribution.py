@@ -204,7 +204,7 @@ def get_committee_property_cb(file):
     property_lst = []
     for i, info in enumerate(pre_property):
 
-        if (i - 2) % 6 == 0: # committee
+        if (i - 2) % 6 == 0: # committee           ###### Need to clean the data that are n/a, na, none, null, N/A
             dic = {}
             dic['committee'] = info['_text']
             dic['con_num'] = cb_num
