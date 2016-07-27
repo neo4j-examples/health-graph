@@ -1,52 +1,50 @@
 
 # health-graph
 ### Drug-Manufacture-Lobby-Prescription Graph ###
-(This file is in development)
-![Health-Graph schema](/schema.png)
+(This file is updated on 07/26/2016)
+![Health-Graph schema](/schema_healthGraph.png)
 
 #### Nodes
+##### (Drug)
+* drugcode: National Drug Code = 'labeler code'-'product code'-'package code'
+* tradeName: Brand name
+* genericName
+* startDate: Start marketing date
+* ['marketing'](http://www.fda.gov/ForIndustry/DataStandards/StructuredProductLabeling/ucm162528.htm)
+* DEA: Dea Schedule,  drug’s acceptable medical use and the drug’s abuse or dependency potential
+* labelerName
 
-##### (drug)
-
-* ndc: National Drug Code = labeler code-product code-package code
-* brand_name
-* generic_name
-* start_marketing_date:
-* ['marketing_category'](http://www.fda.gov/ForIndustry/DataStandards/StructuredProductLabeling/ucm162528.htm)
-* dea_schedule :  drug’s acceptable medical use and the drug’s abuse or dependency potential
-* pharm_classes
-
-##### (manufacture)
-
-* labeler_code
-* firm_name
+##### (DrugFirm)
+* dunsNumber
+* firmName
 * address
 * operations
 
-##### (provider)
-
+##### (Provider)
 * npi: National Provider Identifier
-* first_name
-* last_name
-* credential
-* specialty
-* gender
-* npi_deactivation_date
-* npi_reactivation_date
-
-##### (prescription)
-* bene_count: the total number of unique PartD beneficiaries ( <11 is not counted)
-* total_claim_count: Original prescription + refills (<11 is not counted)
-* cost: total drug cost
-* year: so far this is 2013
-
-##### (hospital)
-* name
 * address
-* zipcode
 * city
 * state
-* Country
+* country
+* zip
+* entityType: 1-Individual, 2-Org
+* firstName: if entityType is 1
+* lastName: if entityType is 1
+* credential: if entityType is 1
+* gender: if entityType is 1
+* orgName: if entityType is 2
+
+##### (Prescription) 
+* npi: National Provider Idendifier
+* speciality
+* genericName
+* drugName: Brand Name, if does not have a brand name, this will be generic name
+* beneCount: the total number of unique PartD beneficiaries ( <11 is not counted)
+* beneCountAge65: for people age > 65
+* totalClaimCount: Original prescription + refills (<11 is not counted)
+* totalClaimCountAge65
+* totalDrugCost
+* totalDrugCostAge65
 
 ##### (LobbyFirm)
 * name
@@ -71,7 +69,7 @@
 
 ##### (Issue)
 * code : issue area code
-* des
+* des: description
 * agency
 
 ##### (Clinet)
@@ -80,6 +78,7 @@
 ##### (Contribution)
 * amount
 * type
+* date
 
 ##### (Legislator)
 * name
@@ -87,23 +86,20 @@
 ##### (Committee)
 * name
 
-
 ##### Relationships
-* (provider)-[:writes]->(prescription)  (the prescription contains aggregated properties)  
-* (provider)-[:works_at]->(hospital)
-* (prescription)-[:refers_to]->(drug)
-* (manufacture)-[:produces]->(drug) 
-* (manufacture)-[:hired]->(lobby_firm) 
-
-* (Client)-[:SIGNED]->(Disclousure)
-* (LobbyFirm)-[:FILED]->(Disclosure)
-* (Disclosure)-[:HAS]->(Issue)
-* (Lobbyist)-[:LOBBIES]->(Issue)
-* (Lobbyist)-[:WORKS_AT]->(LobbyFirm)
-* (Lobbyist)-[:MADE {date}]->(Contribution)
-* (LobbyFirm)-[:MADE {date}]->(Contribution)
-* (Contribution)-[:MADE_TO]->(Committee)
-* (Committee)-[:FUNDS]->(Legislator)
+* (:Provider)-[:WRITES]->(:Prescription)  (the prescription contains aggregated properties)  
+* (:Prescription)-[:PRESCRIBE]-(:Drug)
+* (:DrugFirm)-[:BRANDS]->(:DRUG) 
+* (:Client:DrugFirm)-[:SIGNED]->(Disclousure)
+* (:LobbyFirm)-[:FILED]->(:Disclosure)
+* (:Disclosure)-[:HAS]->(:Issue)
+* (:Lobbyist)-[:LOBBIES]->(:Issue)
+* (:Lobbyist)-[:WORKS_AT]->(:LobbyFirm)
+* (:Lobbyist)-[:FILED {self:0 or 1}]->(:Contribution)
+* (:LobbyFirm)-[:FILED {self:0 or 1}]->(:Contribution)
+* (:Contributor)-[:MADE]->(:Contribution) (Only created contributor if self=0)
+* (:Contribution)-[:MADE_TO]->(:Committee)
+* (:Committee)-[:FUNDS]->(:Legislator)
 
 
 
