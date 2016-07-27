@@ -181,7 +181,7 @@ create_prescription_node(file, g)
 Take the prescription csv file to extract properties and create the prescription node.
 
 ## Load_provider.py
-** ETL provider csv file**
+**ETL provider csv file**
 ```
 create_provider_node(file, g)
 ```
@@ -189,6 +189,7 @@ Take the provider csv file to extract properties and create the provider node.
 
 ## drug_df_rel.py
 **Create drugfirm-[:BRANDS]->(drug) by doing fuzzy match.**
+
 Stored drug.labelerNames, drug internal IDs in a list of dictionaries:
 
 [{laberName1: name1, id: id1}..{laberNameX: nameX, id: idX}]
