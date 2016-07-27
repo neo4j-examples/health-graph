@@ -320,7 +320,7 @@ def contributerType(file):
     '''
 
     pre_property = g.run(query, file = file).evaluate()
-    pre_property = [d for d in pre_property if '_text' in d]
+    pre_property = [d for d in pre_property if '_text' in d]  #Filter out items without values.
 
     cb_num = 0
     property_lst = []
