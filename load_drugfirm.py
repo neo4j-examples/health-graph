@@ -3,12 +3,13 @@ import os
 
 def create_DrugFirm_node(file, g):
     query = '''
+    USING PERIODIC COMMIT 500
     LOAD CSV WITH HEADERS FROM {file}
     AS line
     FIELDTERMINATOR '	'
     CREATE(df:DrugFirm {dunsNumber: line.DUNS_NUMBER, firmName: line.FIRM_NAME,
     address: line.ADDRESS, operations: line.OPERATIONS})
-    RETURN df.firmName
+    RETURN id(df), df.firmName
     '''
 
     index = '''

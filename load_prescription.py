@@ -5,7 +5,7 @@ import os
 def create_prescription_node(file, g):
     query = '''
     USING PERIODIC COMMIT 500
-    LOAD CSV WITH HEADERS FROM 'file:///PartD_Prescriber_PUF_NPI_DRUG_Aa_Al_CY2013.csv' AS row
+    LOAD CSV WITH HEADERS FROM {file} AS row
     CREATE (pc:Prescription {npi: row.npi, drugName: row.drug_name, genericName: row.generic_name, speciality: row.specialty_description})
     FOREACH(ignoreME IN CASE WHEN trim(row.bene_count) <> "" THEN [1] ELSE [] END | SET pc.beneCount = toInt(row.bene_count))
     FOREACH(ignoreME IN CASE WHEN trim(row.total_claim_count) <> "" THEN [1] ELSE [] END | SET pc.totalClaimCount = toInt(row.total_claim_count))
