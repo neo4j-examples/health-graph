@@ -1,6 +1,16 @@
 # health-graph
 ![Health-Graph schema](/schema_healthGraph.png)
-Click to check the ['detailed documentation'](/schema.md) of the schema. 
+Click to check the [detailed documentation](/schema.md) of the schema. 
+I [blog post](https://neo4j.com/blog/contributor/yaqi-shi/) about this project where you can find topic about [Modeling data in Neo4j](https://neo4j.com/blog/neo4j-world-healthcare-part-1/), [ETL XML data using APOC](https://neo4j.com/blog/neo4j-world-healthcare-part-2/). 
+
+follow me at: 
+
+[Twitter](https://twitter.com/shiyaqi29)
+
+[LinkedIn](https://www.linkedin.com/in/yaqishi)
+
+email: shiyaqi29@hotmail.com
+
 ## Data Source
 
 All the data for this project are avalible online and you can download or get the detailed data documentation by clicking on the link.
