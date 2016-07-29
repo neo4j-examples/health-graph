@@ -5,9 +5,10 @@ import xlrd
 import csv
 import sys
 import re
+import os
+
 
 logging.basicConfig(level=logging.INFO, format='%(asctime)s %(message)s')
-
 
 def csv_from_excel(xls, target):
     # xls = sys.argv[1]
@@ -60,13 +61,23 @@ def csv_from_excel(xls, target):
 
 
 
-
-# def xlsx_csv(xlsxFile, csvFile):
-#     xlsx2csv(xlsxFile, open(csvFile, "w"))
-#     return
-#
-xlsx = '/Users/yaqi/Documents/data/PartD_Prescriber/PartD_Prescriber_PUF_NPI_DRUG_Aa_Al_CY2013.xlsx'
-csvpath = '/Users/yaqi/Documents/data/PartD_Prescriber/PartD_Prescriber_PUF_NPI_DRUG_Aa_Al_CY2013.csv'
-csv_from_excel(xlsx,csvpath)
+# ============================================= convert to csv =============================================
+if __name__ == "__main__":
+# xlsx = '/Users/yaqi/Documents/data/PartD_Prescriber/PartD_Prescriber_PUF_NPI_DRUG_Aa_Al_CY2013.xlsx'
+# csvpath = '/Users/yaqi/Documents/data/PartD_Prescriber/PartD_Prescriber_PUF_NPI_DRUG_Aa_Al_CY2013.csv'
+# csv_from_excel(xlsx,csvpath)
 # xlsx_csv(xlsx, csv)
+    root =  '/Users/yaqi/Documents/data/PartD_Prescriber/'
+    filenames = [f for f in os.listdir(root) if f.endswith('.xlsx')]
+    filepath = []
+    n = 0
+    for file in filenames:
+        path = os.path.join(root, file)
+        n+=1
+        csvname = os.path.join(root, file[:-4]+'csv')
+        csv_from_excel(path, csvname)
+        print(file)
+        print(path)
+        print(csvname)
+
 
