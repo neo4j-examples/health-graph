@@ -4,16 +4,6 @@ from fuzzywuzzy import fuzz
 from fuzzywuzzy import process
 from collections import defaultdict
 
-# def lower_case(lst):
-#     '''
-#
-#     :param lst: a list of dic: {strings: value, id: value}
-#     :return: a new list of lowercase strings
-#     '''
-#     lower_lst = []
-#     for string in lst:``
-#         lower_lst.append(string.lower())
-#     return lower_lst
 
 def lower_case(lst, key):
     '''
@@ -30,16 +20,6 @@ def lower_case(lst, key):
         result.append(dict)
     return result
 
-# def remove_non_alphaNumerics(lst):
-#     '''
-#
-#     :param lst: a list of strings
-#     :return: a new list of strings only contain numbers and letters
-#     '''
-#     new_lst = []
-#     for string in lst:
-#         new_lst.append(re.sub(r'([^\s\w]|_)+', '', string))
-#     return new_lst
 
 def remove_non_alphaNumerics(lst, key):
     '''
@@ -56,20 +36,6 @@ def remove_non_alphaNumerics(lst, key):
         result.append(dict)
     return result
 
-# def string_filter(lst, stopwords):
-#     '''
-#
-#     :param lst:
-#     :param stopwords:
-#     :return:
-#     '''
-#     result_lst = []
-#     for string in lst:
-#         words = string.split()
-#         result_words = [word for word in words if word not in stopwords]
-#         result = ' '.join(result_words)
-#         result_lst.append(result)
-#     return result_lst
 
 def string_filter(strng, stopwords):
     '''
@@ -83,14 +49,6 @@ def string_filter(strng, stopwords):
     result = ' '.join(result_words)
     return result
 
-# def sort_strings(lst, key):
-#     result_lst = []
-#     for string in lst:
-#         words = string.split()
-#         words.sort()
-#         result = ' '.join(words)
-#         result_lst.append(result)
-#     return result_lst
 
 def sort_strings(lst, key):
     result = []
@@ -104,15 +62,6 @@ def sort_strings(lst, key):
         result.append(dict)
     return result
 
-
-
-# def uniq_elem(lst):
-#     result = []
-#     for ele in lst:
-#         if ele not in result:
-#             result.append(ele)
-#     return result
-    # return list(set(lst))
 
 def uniq_elem(lst, key):
     '''
@@ -129,19 +78,6 @@ def uniq_elem(lst, key):
         result[name].append(id)
     return result
 
-
-# def chop_end(lst, ending):
-#     result_lst = []
-#     for strings in lst:
-#         words = strings.split()
-#         result_string = []
-#         for word in words:
-#             if word.endswith(ending):
-#                 word = word[:-len(ending)]
-#             result_string.append(word)
-#         result =  ' '.join(result_string)
-#         result_lst.append(result)
-#     return result_lst
 
 def chop_end(lst, key, ending):
     result_lst = []
