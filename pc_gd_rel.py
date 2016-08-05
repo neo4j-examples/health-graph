@@ -23,7 +23,6 @@ if __name__ == "__main__":
         gd_dic['id'] = object['id(gd)']
         gd_dic['rxcui'] = object['gd.rxcui']
         gd_lst.append(gd_dic)
-    pc_lst = []
 
 #===================== Create relation, Iterate genericDrug (faster, about 4000+ interations)====================#
     q3 = '''
@@ -40,7 +39,7 @@ if __name__ == "__main__":
             match_num += 1
             print("CREATE :PRESCRIBE for Prescription and GenericDrug:", match_num)
 
-    print("finish create relationship: ")
+    print("finish create relationship")
 
 
     #===================== Create relation, Iterate Prescription (slow, about 22,941,414 interations) =====================#
@@ -48,7 +47,7 @@ if __name__ == "__main__":
     # MATCH (pc:Prescription) RETURN id(pc), pc.rxcui
     # '''
     # pc_obj = g.run(q2)
-    #
+    # pc_lst = []
     # for object in pc_obj:
     #     pc_dic = {}
     #     pc_dic['id'] = object['id(pc)']
