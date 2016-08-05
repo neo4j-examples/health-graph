@@ -1,5 +1,4 @@
 from py2neo import Graph, Node
-from py2neo.packages.httpstream import http
 import os
 
 def create_prescription_node(file, g):
@@ -31,7 +30,6 @@ if __name__ == "__main__":
     pw = os.environ.get('NEO4J_PASS')
     g = Graph("http://localhost:7474/", password=pw)  ## readme need to document setting environment variable in pycharm
     tx = g.begin()
-    # http.socket_timeout = 9999
 
     # file = 'file:///Users/yaqi/Documents/Neo4j/dev/import/PartD_Prescriber_PUF_NPI_DRUG_Aa_Al_CY2013.csv'
     # file = 'file:///PartD_Prescriber_PUF_NPI_DRUG_Aa_Al_CY2013.csv'
@@ -42,6 +40,7 @@ if __name__ == "__main__":
 
     for file in filenames:
         filename = 'file:///'+file
+        print(filename)
         create_prescription_node(filename, g)
         print('finish loading:', file)
 
