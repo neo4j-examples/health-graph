@@ -1,24 +1,21 @@
-from py2neo import Graph, Node
+from py2neo import Graph
 from load_drugfirm import create_DrugFirm_node
 import os
 from string_converter import uniq_elem
 
 
-def create_Drug_node(file):
+def create_Drug_node(file, g):
     query = '''
         USING PERIODIC COMMIT 500
         LOAD CSV WITH HEADERS FROM {file}
         AS line
         FIELDTERMINATOR '	'
-        CREATE(dr:Drug {drugcode: line.PRODUCTNDC, genericName: line.NONPROPRIETARYNAME,
-        tradeName: line.PROPRIETARYNAME, labelerName: line.LABELERNAME, marketing: line.MARKETINGCATEGORYNAME, DEA: line.DEASCHEDULE, startDate:line.STARTMARKETINGDATE
-        })
+        CREATE(dr:Drug {ndcCode: line.PRODUCTNDC, genericName: line.NONPROPRIETARYNAME,
+        tradeName: line.PROPRIETARYNAME, labelerName: line.LABELERNAME, marketing: line.MARKETINGCATEGORYNAME,
+        DEA: line.DEASCHEDULE, startDate:line.STARTMARKETINGDATE})
         RETURN id(dr), dr.labelerName
         '''
 
-    index = '''
-    CREATE INDEX ON: Drug(labelerName)'''
-    g.run(index)
     return g.run(query, file = file)
 
 
@@ -28,18 +25,21 @@ if __name__ == "__main__":
     tx = g.begin()
 
     # ============================================= CREATE Drug node=============================================
-    # datapath = '/Users/yaqi/Documents/data/ndctext/product.txt'
-    # file = 'file:///product.txt'
-    # drugs = create_Drug_node(file)
+    index1 = '''
+    CREATE INDEX ON: Drug(labelerName)
+    '''
+    index2 = '''
+        CREATE INDEX ON: Drug(genericName)
+        '''
+    g.run(index1)
+    g.run(index2)
 
-    # ============================================= CREATE DrugFirm node=============================================
-    # datapath = '/Users/yaqi/Documents/data/drls_reg.txt'
-    # file1 = 'file:///drls_reg.txt'
-    # load_drugfirm.g = g
-    # df_node = create_DrugFirm_node(file1, g)
+    file = 'file:///product.txt'
+    drugs = create_Drug_node(file, g)
+    print("finish loading Drug")
 
     # ============================================= CREATE GenericDrug node=============================================
-    # ============================================= CREATE GenericDrug_drug_rel node=============================================
+    # ============================================= CREATE Relation for node GenericDrug and Drug=======================
     idx = '''CREATE INDEX ON :GenericDrug(genericName) '''
     g.run(idx)
 
@@ -47,6 +47,7 @@ if __name__ == "__main__":
     '''
     drugs = g.run(q2)
 
+    #======= RETURN Drug object: list of dics, key: genericName, id ======#
     drugs_lst = []
     for drug in drugs:
         drug_dic = {}
@@ -58,6 +59,7 @@ if __name__ == "__main__":
     uq_drug = uniq_elem(drugs_lst, 'genericName')
     # print(len(uq_drug)) #15275
 
+    #===========  CREATE GenericDrug ==========##
     q3 = '''
     MATCH (d:Drug) where id(d) in {drug_node}
     WITH d
@@ -70,6 +72,9 @@ if __name__ == "__main__":
         genericName = key
         g.run(q3,drug_node=drug_node,genericName = genericName )
         num += 1
-        print(num)
+        print("CREATE node generic number:", num)
+
+    print("finish loading genericDrug.")
+    print("Created relation for: GenericDrug and:Drug.")
 
 
