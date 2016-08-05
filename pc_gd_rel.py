@@ -11,13 +11,13 @@ if __name__ == "__main__":
     g = Graph("http://localhost:7474/", password=pw)
     tx = g.begin()
 
+#===================== RETURN GenericDrug object: list of dics, key: rxcui, id =====================#
     q1 = '''
     MATCH (gd:GenericDrug) RETURN id(gd), gd.rxcui
     '''
     gd_obj=g.run(q1)
 
     gd_lst = []
-
     for object in gd_obj:
         gd_dic = {}
         gd_dic['id'] = object['id(gd)']
@@ -25,29 +25,25 @@ if __name__ == "__main__":
         gd_lst.append(gd_dic)
     pc_lst = []
 
+#===================== Create relation, Iterate genericDrug (faster, about 4000+ interations)====================#
     q3 = '''
        MATCH (pc:Prescription) where pc.rxcui = {gd_rxcui}
        MATCH (gd:GenericDrug) where id(gd) = {id_gd}
        CREATE (pc)-[:PRESCRIBE]->(gd)
        '''
-
     match_num = 0
-    unmatch_num = 0
     for gd in gd_lst:
         gd_rxcui = gd['rxcui']
         id_gd = gd['id']
         if gd_rxcui != 'None':
             g.run(q3, gd_rxcui = gd_rxcui, id_gd = id_gd)
             match_num += 1
-            print("match_num:", match_num)
-        else:
-            unmatch_num += 1
-            print("unmatch_num:", unmatch_num)
-    print("match_num:", match_num)
-    print("unmatch_num:", unmatch_num)
+            print("CREATE :PRESCRIBE for Prescription and GenericDrug:", match_num)
+
+    print("finish create relationship: ")
 
 
-
+    #===================== Create relation, Iterate Prescription (slow, about 22,941,414 interations) =====================#
     # q2 = '''
     # MATCH (pc:Prescription) RETURN id(pc), pc.rxcui
     # '''
