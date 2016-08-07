@@ -33,12 +33,8 @@ def create_Disclousure_node (properties, file):
     RETURN id(dc)
     '''
 
-    index = '''
-    CREATE INDEX ON: Disclosure(houseID)
-    '''
-
     id = g.run(query, properties = properties, file = file[-13:-4]).evaluate()
-    g.run(index)
+
     return id
 
 
@@ -61,10 +57,8 @@ def get_LobbyFirm_property(file):
         '''
     pre_property = g.run(query, file=file).evaluate()
     property = {}
-    # name
-    # if pre_property['organizationName'] == None and pre_property['firstName'] == None and pre_property['lastName'] == None:
-    #     property['name'] = 'NULL'
 
+    # name
     if pre_property['organizationName']== None and pre_property['firstName'] != None and pre_property['lastName'] != None :
         property['name'] = str(pre_property['firstName'] + ' ' + pre_property['lastName'])
 
@@ -72,9 +66,6 @@ def get_LobbyFirm_property(file):
         property['name'] = pre_property['organizationName']
 
     #Address
-    # if pre_property['address1']== None and pre_property['address2']== None:
-    #     property['address'] = 'NULL'
-
     if pre_property['address1']!= None and pre_property['address2']!= None:
         property['address'] = str(pre_property['address1'] + ' ' + pre_property['address2'])
 
@@ -82,16 +73,10 @@ def get_LobbyFirm_property(file):
         property['address'] = pre_property['address1']
 
     #city
-    # if pre_property['city'] == None :
-    #     property['city'] = 'NULL'
-
     if pre_property['city'] != None:
         property['city'] = pre_property['city']
 
     #State
-    # if pre_property['state'] == None:
-    #     property['state'] = 'NULL'
-
     if pre_property['state'] != None:
         property['state'] = pre_property['state']
 
@@ -103,16 +88,10 @@ def get_LobbyFirm_property(file):
         property['country'] = pre_property['country']
 
     # zip
-    # if pre_property['zip'] == None:
-    #     property['zip'] = 'NULL'
-
     if pre_property['zip'] != None:
         property['zip'] = pre_property['zip']
 
     # houseOrgId
-    # if pre_property['houseID'] == None:
-    #     property['houseOrgId'] = 'NULL'
-
     if pre_property['houseID'] != None:
         property['houseOrgId'] = pre_property['houseID'][:5]
 
@@ -130,11 +109,8 @@ def create_LobbyFirm_node(properties):
         RETURN id(lbf)
         '''
 
-    index = '''
-    CREATE INDEX ON: LobbyFirm(houseOrgId)
-    '''
     id = g.run(query, houseOrgId = properties['houseOrgId'], properties=properties).evaluate()
-    g.run(index)
+
     return id
 
 
@@ -153,6 +129,7 @@ def get_Client_property(file):
         YIELD value
         return value
         '''
+
     return g.run(query, file=file).evaluate()
 
 
@@ -165,11 +142,8 @@ def create_Client_node(properties):
     MERGE (cl:Client {clientName: {clientName}})
     RETURN id(cl) '''
 
-    index = '''
-    CREATE INDEX ON: Client(clientName)
-    '''
     id = g.run(query, clientName = properties['clientName']).evaluate()
-    g.run(index)
+
     return id
 
 
@@ -204,14 +178,12 @@ def get_Issue_property(file):
             try:
                 dic['description'] = property['_children'][0]['_text']
             except KeyError:
-                # dic['description'] = 'NULL'
                 continue
 
         elif (i - 2) % 5 == 0: #fed_agen
             try:
                 dic['federal_agencies'] = property['_text']
             except KeyError:
-                # dic['federal_agencies'] = 'NULL'
                 continue
 
     return properties
@@ -230,14 +202,10 @@ def create_Issue_node(properties):
     RETURN id(is)
     '''
 
-    index = '''
-    CREATE INDEX ON :Issue(issueNumber)
-    '''
     for i, property in enumerate(properties):
         id = g.run(query, property = property).evaluate()
-        # g.run(index)
         id_lst.append(id)
-    g.run(index)
+
     return id_lst
 
 
@@ -260,8 +228,10 @@ def get_Lobbyist_property(file):
 
         if (i - 3) % 5 == 0: #lobbyists
             lobbyists = property['_children']
+
             for lobbyist in lobbyists:
                 dic = {}
+
                 if '_text' in (lobbyist['_children'][0]) and '_text' in (lobbyist['_children'][1]):
                     dic['issueNumber'] = issueNumber
                     dic['firstName'] = lobbyist['_children'][0]['_text']
@@ -274,6 +244,7 @@ def get_Lobbyist_property(file):
                     properties.append(dic)
             issueNumber += 1
     properties = [d for d in properties if 'n/a' not in d.values()]
+
     return properties
 
 
@@ -293,18 +264,6 @@ def create_lobbyist_node(properties, issueID):
     RETURN id(lob)
     '''
 
-    index1 = '''
-    CREATE INDEX ON :Lobbyist(firstName)
-    '''
-
-    index2 = '''
-        CREATE INDEX ON :Lobbyist(lastName)
-        '''
-
-    index3 = '''
-        CREATE INDEX ON :Lobbyist(position);
-        '''
-
     for i, property in enumerate(properties):
         iss_index = property['issueNumber']-1
         issue_id = issueID[iss_index]
@@ -312,49 +271,66 @@ def create_lobbyist_node(properties, issueID):
                    position = property['position'], issue_id = issue_id).evaluate()
         id_lst.append(id)
 
-    g.run(index1)
-    g.run(index2)
-    g.run(index3)
-
     return id_lst
 
+
+def get_file_path(kind):
+    root_dir = '/Users/yaqi/Documents/data/' + kind
+    filenames = [f for f in os.listdir(root_dir) if f.endswith('.xml')]
+    filepath = []
+    for file in filenames:
+        path = 'file://' + os.path.join(root_dir, file)
+        filepath.append(path)
+    return filepath
 
 #========================================== Get files ==========================================#
 
 if __name__ == "__main__":
     pw = os.environ.get('NEO4J_PASS')
     g = Graph("http://localhost:7474/", password=pw)  ## readme need to document setting environment variable in pycharm
-    g.delete_all()
+    # g.delete_all()
     tx = g.begin()
 
-    root =  os.getcwd()
-    path = os.path.join(root, "data")
-    disclosure_1st_path = os.path.join(path, "2013_1stQuarter_XML")
-    # files = [f for f in os.listdir(disclosure_1st_path) if f.endswith('.xml')]
-    # files = ['file:///Users/yaqi/Documents/health-graph/data/2013_1stQuarter_XML/300529228.xml'] # Return xml files
+    index1 = '''
+    CREATE INDEX ON: Disclosure(houseID)
+    '''
+    index2 = '''
+    CREATE INDEX ON: LobbyFirm(houseOrgId)
+    '''
+    index3 = '''
+    CREATE INDEX ON: Client(clientName)
+    '''
+    index4 = '''
+    CREATE INDEX ON :Issue(issueNumber)
+    '''
+    index5 = '''
+    CREATE INDEX ON :Lobbyist(firstName)
+    '''
 
-    def get_file_path(kind):
-        root_dir = '/Users/yaqi/Documents/data/' + kind
-        filenames = [f for f in os.listdir(root_dir) if f.endswith('.xml')]
-        filepath = []
-        for file in filenames:
-            path = 'file://' + os.path.join(root_dir, file)
-            filepath.append(path)
-        return filepath
+    index6 = '''
+        CREATE INDEX ON :Lobbyist(lastName)
+        '''
 
+    index7 = '''
+        CREATE INDEX ON :Lobbyist(position);
+        '''
+    g.run(index1)
+    g.run(index2)
+    g.run(index3)
+    g.run(index4)
+    g.run(index5)
+    g.run(index6)
+    g.run(index7)
 
     f1 = get_file_path('2013_1stQuarter_XML')
     f2 = get_file_path('2013_2ndQuarter_XML')
     f3 = get_file_path('2013_3rdQuarter_XML')
     f4 = get_file_path('2013_4thQuarter_XML')
-    # print(len(f1))
-    # print(len(f2))
-    # print(len(f3))
-    # print(len(f4))
+
     files = f1 + f2 + f3 + f4
 
     for file in files:
-        # fi = 'file://' + os.path.join(disclosure_1st_path, file)
+
         fi = file
         print(fi)
         dc_pro = {}
@@ -373,8 +349,6 @@ if __name__ == "__main__":
         dc_id = create_Disclousure_node(dc_pro, fi)
 
         lbf_pro = get_LobbyFirm_property(fi)
-        # print(lbf_pro)
-        # print('type of properties:', type(lbf_pro))
         lbf_id = create_LobbyFirm_node(lbf_pro)
 
         cl_pro = get_Client_property(fi)
@@ -422,6 +396,7 @@ if __name__ == "__main__":
                 lob_id = lob_id, lbf_id = lbf_id
             )
 
+    print("Finish loading disclosure.")
 
 
 
