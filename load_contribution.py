@@ -2,7 +2,6 @@ from py2neo import Graph, Node
 import os
 from datetime import datetime
 
-
 # ========================================== check contribution and filer type ==========================================#
 def filer_type(file):
     '''
@@ -166,17 +165,12 @@ def create_contribution_node_cb(property_lst):
     RETURN id(cb)
     '''
 
-    index = '''
-    CREATE INDEX ON: Contribution(type)
-    '''
-
     id_lst = []
     for contribution in property_lst:
 
        id = g.run(query, amount = contribution['amount'], tpe = contribution['type'], date = contribution['date']).evaluate()
        id_lst.append(id)
 
-    g.run(index)
     return id_lst
 
 
@@ -226,10 +220,6 @@ def create_committee_node(property_lst, contributionID):
     MATCH(cb: Contribution) WHERE id(cb) = {contribution_id}
     CREATE(cb)-[:MADE_TO]->(com)
     RETURN id(com)
-    '''
-
-    index = '''
-    CREATE INDEX ON: Committee(name)
     '''
 
     id_lst = []
@@ -353,6 +343,15 @@ if __name__ == "__main__":
     g = Graph("http://localhost:7474/", password=pw)  ## readme need to document setting environment variable in pycharm
     # g.delete_all()
     tx = g.begin()
+
+    index1 = '''
+    CREATE INDEX ON: Contribution(type)
+    '''
+    index2 = '''
+    CREATE INDEX ON: Committee(name)
+    '''
+    g.run(index1)
+    g.run(index2)
 
     # root =  os.getcwd()
     # path = os.path.join(root, "data")
