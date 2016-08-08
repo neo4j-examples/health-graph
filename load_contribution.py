@@ -456,6 +456,9 @@ if __name__ == "__main__":
 
 
 
+## In Neo4j:
+## Clean NA:
+## MATCH (l: Legislator) WHERE l.name in ['na','n/a', 'NA','N/A','none','None', 'N/a', 'N.A', 'N?A', 'N.A.', 'n.a'] DETACH DELETE l
 
 
 
