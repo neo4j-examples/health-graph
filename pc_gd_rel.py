@@ -24,7 +24,7 @@ if __name__ == "__main__":
         gd_dic['rxcui'] = object['gd.rxcui']
         gd_lst.append(gd_dic)
 
-#===================== Create relation, Iterate genericDrug (faster, about 4000+ interations)====================#
+#===================== Create relation, Iterate genericDrug (faster, about 15276 interations)====================#
     q3 = '''
        MATCH (pc:Prescription) where pc.rxcui = {gd_rxcui}
        MATCH (gd:GenericDrug) where id(gd) = {id_gd}
