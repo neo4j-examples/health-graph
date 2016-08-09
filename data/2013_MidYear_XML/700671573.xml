@@ -1,0 +1,71 @@
+<?xml version="1.0"?>
+<CONTRIBUTIONDISCLOSURE>
+  <filerType>O</filerType>
+  <organizationName>Western Growers</organizationName>
+  <lobbyistPrefix />
+  <lobbyistFirstName />
+  <lobbyistMiddleName />
+  <lobbyistLastName />
+  <lobbyistSuffix />
+  <contactName>Cory Lunde</contactName>
+  <senateRegID>40006042</senateRegID>
+  <houseRegID>39740</houseRegID>
+  <reportYear>2013</reportYear>
+  <reportType>MM</reportType>
+  <amendment>false</amendment>
+  <comments>
+  </comments>
+  <signedDate>7/2/2013 11:56:47 AM</signedDate>
+  <certifiedcontent>true</certifiedcontent>
+  <noContributions>false</noContributions>
+  <pacs>
+    <pac>
+      <name />
+    </pac>
+    <pac>
+      <name>Western Growers Political Action Committee - Federal</name>
+    </pac>
+  </pacs>
+  <contributions>
+    <contribution>
+      <type />
+      <contributorName />
+      <payeeName />
+      <recipientName />
+      <amount />
+      <date />
+    </contribution>
+    <contribution>
+      <type>FECA</type>
+      <contributorName>Western Growers Political Action Committee - Federal</contributorName>
+      <payeeName>Rubio Victory Committee</payeeName>
+      <recipientName>Marco Rubio</recipientName>
+      <amount>1,000.00</amount>
+      <date>03/19/2013</date>
+    </contribution>
+    <contribution>
+      <type>FECA</type>
+      <contributorName>Western Growers Political Action Committee - Federal</contributorName>
+      <payeeName>Denham for Congress</payeeName>
+      <recipientName>Jeff Denham</recipientName>
+      <amount>2,500.00</amount>
+      <date>03/29/2013</date>
+    </contribution>
+    <contribution>
+      <type>FECA</type>
+      <contributorName>Western Growers Political Action Committee - Federal</contributorName>
+      <payeeName>Team Graham</payeeName>
+      <recipientName>Lindsey Graham</recipientName>
+      <amount>1,000.00</amount>
+      <date>05/01/2013</date>
+    </contribution>
+    <contribution>
+      <type>FECA</type>
+      <contributorName>Western Growers Political Action Committee - Federal</contributorName>
+      <payeeName>Raul Labrador for Idaho</payeeName>
+      <recipientName>Raul Labrador</recipientName>
+      <amount>1,000.00</amount>
+      <date>06/21/2013</date>
+    </contribution>
+  </contributions>
+</CONTRIBUTIONDISCLOSURE>

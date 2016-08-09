@@ -1,0 +1,52 @@
+<?xml version="1.0"?>
+<CONTRIBUTIONDISCLOSURE>
+  <filerType>L</filerType>
+  <organizationName>Value Place LLC</organizationName>
+  <lobbyistPrefix>Mr.</lobbyistPrefix>
+  <lobbyistFirstName>Jack</lobbyistFirstName>
+  <lobbyistMiddleName />
+  <lobbyistLastName>DeBoer</lobbyistLastName>
+  <lobbyistSuffix />
+  <contactName />
+  <senateRegID>400402901</senateRegID>
+  <houseRegID>40557</houseRegID>
+  <reportYear>2013</reportYear>
+  <reportType>MM</reportType>
+  <amendment>false</amendment>
+  <comments>
+  </comments>
+  <signedDate>7/3/2013 12:23:27 PM</signedDate>
+  <certifiedcontent>true</certifiedcontent>
+  <noContributions>false</noContributions>
+  <pacs>
+    <pac>
+      <name />
+    </pac>
+  </pacs>
+  <contributions>
+    <contribution>
+      <type />
+      <contributorName />
+      <payeeName />
+      <recipientName />
+      <amount />
+      <date />
+    </contribution>
+    <contribution>
+      <type>FECA</type>
+      <contributorName>Self</contributorName>
+      <payeeName>Republicans for Choice</payeeName>
+      <recipientName>Conservative Republicans seeking leadership positions</recipientName>
+      <amount>250.00</amount>
+      <date>4/30/13</date>
+    </contribution>
+    <contribution>
+      <type>FECA</type>
+      <contributorName>Self</contributorName>
+      <payeeName>Kansans for Huelskamp</payeeName>
+      <recipientName>Tim Huelskamp</recipientName>
+      <amount>1,000.00</amount>
+      <date>6/24/13</date>
+    </contribution>
+  </contributions>
+</CONTRIBUTIONDISCLOSURE>

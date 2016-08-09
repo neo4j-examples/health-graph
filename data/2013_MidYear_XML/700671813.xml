@@ -1,0 +1,54 @@
+<?xml version="1.0"?>
+<CONTRIBUTIONDISCLOSURE>
+  <filerType>L</filerType>
+  <organizationName>NATL ASSN OF MANUFACTURERS</organizationName>
+  <lobbyistPrefix>Mr.</lobbyistPrefix>
+  <lobbyistFirstName>Ned</lobbyistFirstName>
+  <lobbyistMiddleName />
+  <lobbyistLastName>Monroe</lobbyistLastName>
+  <lobbyistSuffix />
+  <contactName />
+  <senateRegID>26912</senateRegID>
+  <houseRegID>31664</houseRegID>
+  <reportYear>2013</reportYear>
+  <reportType>MM</reportType>
+  <amendment>false</amendment>
+  <comments>I am the Assistant Treasurer of National Association of Manufacturers PAC.  NAM-PAC contributions will be reported on the NAM LD-203.</comments>
+  <signedDate>7/3/2013 12:04:49 PM</signedDate>
+  <certifiedcontent>true</certifiedcontent>
+  <noContributions>false</noContributions>
+  <pacs>
+    <pac>
+      <name />
+    </pac>
+    <pac>
+      <name>National Association of Manufacturers PAC</name>
+    </pac>
+  </pacs>
+  <contributions>
+    <contribution>
+      <type />
+      <contributorName />
+      <payeeName />
+      <recipientName />
+      <amount />
+      <date />
+    </contribution>
+    <contribution>
+      <type>FECA</type>
+      <contributorName>Self</contributorName>
+      <payeeName>McConnell for Senate</payeeName>
+      <recipientName>Sen. Mitch McConnell</recipientName>
+      <amount>500.00</amount>
+      <date>06/20/2013</date>
+    </contribution>
+    <contribution>
+      <type>FECA</type>
+      <contributorName>Self</contributorName>
+      <payeeName>Cornyn for Senate</payeeName>
+      <recipientName>Sen. John Cornyn</recipientName>
+      <amount>500.00</amount>
+      <date>06/20/2013</date>
+    </contribution>
+  </contributions>
+</CONTRIBUTIONDISCLOSURE>

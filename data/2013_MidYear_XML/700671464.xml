@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<CONTRIBUTIONDISCLOSURE>
+  <filerType>L</filerType>
+  <organizationName>AMERICAN COLLEGE OF CLINICAL PHARMACY</organizationName>
+  <lobbyistPrefix>Mr.</lobbyistPrefix>
+  <lobbyistFirstName>C</lobbyistFirstName>
+  <lobbyistMiddleName>EDWIN</lobbyistMiddleName>
+  <lobbyistLastName>WEBB</lobbyistLastName>
+  <lobbyistSuffix />
+  <contactName />
+  <senateRegID>57258</senateRegID>
+  <houseRegID>35223</houseRegID>
+  <reportYear>2013</reportYear>
+  <reportType>MM</reportType>
+  <amendment>false</amendment>
+  <comments>
+  </comments>
+  <signedDate>7/1/2013 6:04:00 PM</signedDate>
+  <certifiedcontent>true</certifiedcontent>
+  <noContributions>false</noContributions>
+  <pacs>
+    <pac>
+      <name />
+    </pac>
+  </pacs>
+  <contributions>
+    <contribution>
+      <type />
+      <contributorName />
+      <payeeName />
+      <recipientName />
+      <amount />
+      <date />
+    </contribution>
+    <contribution>
+      <type>FECA</type>
+      <contributorName>Self</contributorName>
+      <payeeName>ACCP-PAC</payeeName>
+      <recipientName>None</recipientName>
+      <amount>250.00</amount>
+      <date>05/30/2013</date>
+    </contribution>
+  </contributions>
+</CONTRIBUTIONDISCLOSURE>

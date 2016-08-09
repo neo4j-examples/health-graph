@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<CONTRIBUTIONDISCLOSURE>
+  <filerType>L</filerType>
+  <organizationName>Mr. Robert Kalik</organizationName>
+  <lobbyistPrefix>Mr.</lobbyistPrefix>
+  <lobbyistFirstName>ROBERT</lobbyistFirstName>
+  <lobbyistMiddleName>G</lobbyistMiddleName>
+  <lobbyistLastName>KALIK</lobbyistLastName>
+  <lobbyistSuffix />
+  <contactName />
+  <senateRegID>21038</senateRegID>
+  <houseRegID>33884</houseRegID>
+  <reportYear>2013</reportYear>
+  <reportType>MM</reportType>
+  <amendment>false</amendment>
+  <comments>
+  </comments>
+  <signedDate>7/1/2013 12:01:27 PM</signedDate>
+  <certifiedcontent>true</certifiedcontent>
+  <noContributions>false</noContributions>
+  <pacs>
+    <pac>
+      <name />
+    </pac>
+  </pacs>
+  <contributions>
+    <contribution>
+      <type />
+      <contributorName />
+      <payeeName />
+      <recipientName />
+      <amount />
+      <date />
+    </contribution>
+    <contribution>
+      <type>FECA</type>
+      <contributorName>Self</contributorName>
+      <payeeName>Steve Israel for Congress</payeeName>
+      <recipientName>Steve Israel</recipientName>
+      <amount>1,000.00</amount>
+      <date>06/05/2013</date>
+    </contribution>
+  </contributions>
+</CONTRIBUTIONDISCLOSURE>

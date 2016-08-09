@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<CONTRIBUTIONDISCLOSURE>
+  <filerType>L</filerType>
+  <organizationName>SHELL OIL COMPANY</organizationName>
+  <lobbyistPrefix>Mr.</lobbyistPrefix>
+  <lobbyistFirstName>CAMDEN</lobbyistFirstName>
+  <lobbyistMiddleName />
+  <lobbyistLastName>TOOHEY</lobbyistLastName>
+  <lobbyistSuffix />
+  <contactName />
+  <senateRegID>35092</senateRegID>
+  <houseRegID>31689</houseRegID>
+  <reportYear>2013</reportYear>
+  <reportType>MM</reportType>
+  <amendment>false</amendment>
+  <comments>
+  </comments>
+  <signedDate>7/1/2013 6:43:38 PM</signedDate>
+  <certifiedcontent>true</certifiedcontent>
+  <noContributions>false</noContributions>
+  <pacs>
+    <pac>
+      <name />
+    </pac>
+  </pacs>
+  <contributions>
+    <contribution>
+      <type />
+      <contributorName />
+      <payeeName />
+      <recipientName />
+      <amount />
+      <date />
+    </contribution>
+    <contribution>
+      <type>FECA</type>
+      <contributorName>Self</contributorName>
+      <payeeName>Alaskans for Mark Begich</payeeName>
+      <recipientName>Senator Mark Begich</recipientName>
+      <amount>500.00</amount>
+      <date>03/01/2013</date>
+    </contribution>
+  </contributions>
+</CONTRIBUTIONDISCLOSURE>

@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<CONTRIBUTIONDISCLOSURE>
+  <filerType>L</filerType>
+  <organizationName>JDRF Intl. (formerly known as Juvenile Diabetes Research Foundation Intl.)</organizationName>
+  <lobbyistPrefix>Mrs.</lobbyistPrefix>
+  <lobbyistFirstName>Sarah</lobbyistFirstName>
+  <lobbyistMiddleName />
+  <lobbyistLastName>Kyle</lobbyistLastName>
+  <lobbyistSuffix />
+  <contactName />
+  <senateRegID>20994</senateRegID>
+  <houseRegID>31468</houseRegID>
+  <reportYear>2013</reportYear>
+  <reportType>MM</reportType>
+  <amendment>false</amendment>
+  <comments>
+  </comments>
+  <signedDate>4/12/2013 2:20:15 PM</signedDate>
+  <certifiedcontent>true</certifiedcontent>
+  <noContributions>false</noContributions>
+  <pacs>
+    <pac>
+      <name />
+    </pac>
+  </pacs>
+  <contributions>
+    <contribution>
+      <type />
+      <contributorName />
+      <payeeName />
+      <recipientName />
+      <amount />
+      <date />
+    </contribution>
+    <contribution>
+      <type>FECA</type>
+      <contributorName>Self</contributorName>
+      <payeeName>Women Under Forty Political Action Committee</payeeName>
+      <recipientName>Women Under Forty Political Action Committee</recipientName>
+      <amount>25.00</amount>
+      <date>02/27/2013</date>
+    </contribution>
+  </contributions>
+</CONTRIBUTIONDISCLOSURE>

@@ -1,0 +1,52 @@
+<?xml version="1.0"?>
+<CONTRIBUTIONDISCLOSURE>
+  <filerType>L</filerType>
+  <organizationName>Chamber of Commerce of the U.S.A.</organizationName>
+  <lobbyistPrefix>Mr.</lobbyistPrefix>
+  <lobbyistFirstName>RANDEL</lobbyistFirstName>
+  <lobbyistMiddleName>K</lobbyistMiddleName>
+  <lobbyistLastName>JOHNSON</lobbyistLastName>
+  <lobbyistSuffix />
+  <contactName />
+  <senateRegID>38756</senateRegID>
+  <houseRegID>31886</houseRegID>
+  <reportYear>2013</reportYear>
+  <reportType>MM</reportType>
+  <amendment>false</amendment>
+  <comments>
+  </comments>
+  <signedDate>7/2/2013 3:28:41 PM</signedDate>
+  <certifiedcontent>true</certifiedcontent>
+  <noContributions>false</noContributions>
+  <pacs>
+    <pac>
+      <name />
+    </pac>
+  </pacs>
+  <contributions>
+    <contribution>
+      <type />
+      <contributorName />
+      <payeeName />
+      <recipientName />
+      <amount />
+      <date />
+    </contribution>
+    <contribution>
+      <type>FECA</type>
+      <contributorName>Self</contributorName>
+      <payeeName>Kline for Congress</payeeName>
+      <recipientName>Rep. John Kline</recipientName>
+      <amount>250.00</amount>
+      <date>05/08/2013</date>
+    </contribution>
+    <contribution>
+      <type>FECA</type>
+      <contributorName>Self</contributorName>
+      <payeeName>Boehner for Speaker</payeeName>
+      <recipientName>Speaker John Boehner</recipientName>
+      <amount>500.00</amount>
+      <date>06/19/2013</date>
+    </contribution>
+  </contributions>
+</CONTRIBUTIONDISCLOSURE>

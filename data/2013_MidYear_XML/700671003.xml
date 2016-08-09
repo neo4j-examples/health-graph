@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<CONTRIBUTIONDISCLOSURE>
+  <filerType>L</filerType>
+  <organizationName>LEWIS-BURKE ASSOCIATES LLC</organizationName>
+  <lobbyistPrefix>Ms.</lobbyistPrefix>
+  <lobbyistFirstName>Laura</lobbyistFirstName>
+  <lobbyistMiddleName>A.</lobbyistMiddleName>
+  <lobbyistLastName>Uttley</lobbyistLastName>
+  <lobbyistSuffix />
+  <contactName />
+  <senateRegID>22781</senateRegID>
+  <houseRegID>30442</houseRegID>
+  <reportYear>2013</reportYear>
+  <reportType>MM</reportType>
+  <amendment>false</amendment>
+  <comments>
+  </comments>
+  <signedDate>6/20/2013 2:04:48 PM</signedDate>
+  <certifiedcontent>true</certifiedcontent>
+  <noContributions>false</noContributions>
+  <pacs>
+    <pac>
+      <name />
+    </pac>
+  </pacs>
+  <contributions>
+    <contribution>
+      <type />
+      <contributorName />
+      <payeeName />
+      <recipientName />
+      <amount />
+      <date />
+    </contribution>
+    <contribution>
+      <type>FECA</type>
+      <contributorName>Self</contributorName>
+      <payeeName>HURT PAC</payeeName>
+      <recipientName>Representative Robert Hurt</recipientName>
+      <amount>15.00</amount>
+      <date>02/27/2013</date>
+    </contribution>
+  </contributions>
+</CONTRIBUTIONDISCLOSURE>

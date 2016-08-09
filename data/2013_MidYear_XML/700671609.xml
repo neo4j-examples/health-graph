@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<CONTRIBUTIONDISCLOSURE>
+  <filerType>L</filerType>
+  <organizationName>SCAN HEALTHPLAN</organizationName>
+  <lobbyistPrefix>Mr.</lobbyistPrefix>
+  <lobbyistFirstName>THOMAS</lobbyistFirstName>
+  <lobbyistMiddleName />
+  <lobbyistLastName>DEY</lobbyistLastName>
+  <lobbyistSuffix />
+  <contactName />
+  <senateRegID>67934</senateRegID>
+  <houseRegID>35700</houseRegID>
+  <reportYear>2013</reportYear>
+  <reportType>MM</reportType>
+  <amendment>false</amendment>
+  <comments>Final report, I am no longer affiliated with SCAN Health Plan</comments>
+  <signedDate>7/2/2013 1:11:01 PM</signedDate>
+  <certifiedcontent>true</certifiedcontent>
+  <noContributions>true</noContributions>
+  <pacs>
+    <pac>
+      <name />
+    </pac>
+  </pacs>
+  <contributions>
+    <contribution>
+      <type />
+      <contributorName />
+      <payeeName />
+      <recipientName />
+      <amount />
+      <date />
+    </contribution>
+  </contributions>
+</CONTRIBUTIONDISCLOSURE>

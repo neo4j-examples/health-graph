@@ -1,0 +1,52 @@
+<?xml version="1.0"?>
+<CONTRIBUTIONDISCLOSURE>
+  <filerType>L</filerType>
+  <organizationName>Capitol Alliance Consulting, LLC</organizationName>
+  <lobbyistPrefix>Mr.</lobbyistPrefix>
+  <lobbyistFirstName>DAVID</lobbyistFirstName>
+  <lobbyistMiddleName />
+  <lobbyistLastName>KENNETT</lobbyistLastName>
+  <lobbyistSuffix />
+  <contactName />
+  <senateRegID>400314465</senateRegID>
+  <houseRegID>40219</houseRegID>
+  <reportYear>2013</reportYear>
+  <reportType>MM</reportType>
+  <amendment>true</amendment>
+  <comments>
+  </comments>
+  <signedDate>5/17/2013 4:14:43 PM</signedDate>
+  <certifiedcontent>true</certifiedcontent>
+  <noContributions>false</noContributions>
+  <pacs>
+    <pac>
+      <name />
+    </pac>
+  </pacs>
+  <contributions>
+    <contribution>
+      <type />
+      <contributorName />
+      <payeeName />
+      <recipientName />
+      <amount />
+      <date />
+    </contribution>
+    <contribution>
+      <type>FECA</type>
+      <contributorName>Self</contributorName>
+      <payeeName>Ken Calvert for Congress</payeeName>
+      <recipientName>Ken Calvert</recipientName>
+      <amount>2,600.00</amount>
+      <date>05/17/2013</date>
+    </contribution>
+    <contribution>
+      <type>FECA</type>
+      <contributorName>Self</contributorName>
+      <payeeName>Ken Calvert for Congress</payeeName>
+      <recipientName>Ken Calvert</recipientName>
+      <amount>2,500.00</amount>
+      <date>03/01/2013</date>
+    </contribution>
+  </contributions>
+</CONTRIBUTIONDISCLOSURE>

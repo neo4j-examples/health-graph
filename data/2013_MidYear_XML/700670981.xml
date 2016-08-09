@@ -1,0 +1,52 @@
+<?xml version="1.0"?>
+<CONTRIBUTIONDISCLOSURE>
+  <filerType>L</filerType>
+  <organizationName>INTERNATIONAL BUSINESS MACHINES CORPORATION (IBM)</organizationName>
+  <lobbyistPrefix>Ms.</lobbyistPrefix>
+  <lobbyistFirstName>LINDA</lobbyistFirstName>
+  <lobbyistMiddleName>C</lobbyistMiddleName>
+  <lobbyistLastName>EVANS</lobbyistLastName>
+  <lobbyistSuffix />
+  <contactName />
+  <senateRegID>19877</senateRegID>
+  <houseRegID>31123</houseRegID>
+  <reportYear>2013</reportYear>
+  <reportType>MM</reportType>
+  <amendment>false</amendment>
+  <comments>
+  </comments>
+  <signedDate>6/19/2013 12:53:10 PM</signedDate>
+  <certifiedcontent>true</certifiedcontent>
+  <noContributions>false</noContributions>
+  <pacs>
+    <pac>
+      <name />
+    </pac>
+  </pacs>
+  <contributions>
+    <contribution>
+      <type />
+      <contributorName />
+      <payeeName />
+      <recipientName />
+      <amount />
+      <date />
+    </contribution>
+    <contribution>
+      <type>FECA</type>
+      <contributorName>Self</contributorName>
+      <payeeName>Dave Camp for Congress</payeeName>
+      <recipientName>Rep Dave Camp </recipientName>
+      <amount>350.00</amount>
+      <date>02/25/2013</date>
+    </contribution>
+    <contribution>
+      <type>FECA</type>
+      <contributorName>Self</contributorName>
+      <payeeName>Dave Camp for Congress</payeeName>
+      <recipientName>Rep.  Dave Camp</recipientName>
+      <amount>500.00</amount>
+      <date>04/11/2013</date>
+    </contribution>
+  </contributions>
+</CONTRIBUTIONDISCLOSURE>

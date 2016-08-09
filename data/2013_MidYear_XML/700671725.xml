@@ -1,0 +1,84 @@
+<?xml version="1.0"?>
+<CONTRIBUTIONDISCLOSURE>
+  <filerType>L</filerType>
+  <organizationName>The Russell Group, Inc.</organizationName>
+  <lobbyistPrefix>Mr.</lobbyistPrefix>
+  <lobbyistFirstName>TYSON</lobbyistFirstName>
+  <lobbyistMiddleName />
+  <lobbyistLastName>REDPATH</lobbyistLastName>
+  <lobbyistSuffix />
+  <contactName />
+  <senateRegID>22688</senateRegID>
+  <houseRegID>30441</houseRegID>
+  <reportYear>2013</reportYear>
+  <reportType>MM</reportType>
+  <amendment>false</amendment>
+  <comments>
+  </comments>
+  <signedDate>7/3/2013 8:32:34 AM</signedDate>
+  <certifiedcontent>true</certifiedcontent>
+  <noContributions>false</noContributions>
+  <pacs>
+    <pac>
+      <name />
+    </pac>
+  </pacs>
+  <contributions>
+    <contribution>
+      <type />
+      <contributorName />
+      <payeeName />
+      <recipientName />
+      <amount />
+      <date />
+    </contribution>
+    <contribution>
+      <type>FECA</type>
+      <contributorName>Self</contributorName>
+      <payeeName>Lucas for Congress Committee</payeeName>
+      <recipientName>Frank Lucas</recipientName>
+      <amount>1,500.00</amount>
+      <date>02/05/2013</date>
+    </contribution>
+    <contribution>
+      <type>FECA</type>
+      <contributorName>Self</contributorName>
+      <payeeName>Boehner for Speaker</payeeName>
+      <recipientName>John Boehner</recipientName>
+      <amount>1,000.00</amount>
+      <date>03/18/2013</date>
+    </contribution>
+    <contribution>
+      <type>FECA</type>
+      <contributorName>Self</contributorName>
+      <payeeName>Adrian Smith for Congress</payeeName>
+      <recipientName>Adrian Smith</recipientName>
+      <amount>1,000.00</amount>
+      <date>04/16/2013</date>
+    </contribution>
+    <contribution>
+      <type>FECA</type>
+      <contributorName>Self</contributorName>
+      <payeeName>Steve Womack for Congress</payeeName>
+      <recipientName>Steve Womack</recipientName>
+      <amount>500.00</amount>
+      <date>04/23/2013</date>
+    </contribution>
+    <contribution>
+      <type>FECA</type>
+      <contributorName>Self</contributorName>
+      <payeeName>Matsui for Congress</payeeName>
+      <recipientName>Doris Matsui</recipientName>
+      <amount>1,000.00</amount>
+      <date>05/14/2013</date>
+    </contribution>
+    <contribution>
+      <type>FECA</type>
+      <contributorName>Self</contributorName>
+      <payeeName>Robert Aderholt for Congress</payeeName>
+      <recipientName>Robert Aderholt</recipientName>
+      <amount>1,000.00</amount>
+      <date>06/19/2013</date>
+    </contribution>
+  </contributions>
+</CONTRIBUTIONDISCLOSURE>

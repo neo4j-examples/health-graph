@@ -1,0 +1,68 @@
+<?xml version="1.0"?>
+<CONTRIBUTIONDISCLOSURE>
+  <filerType>L</filerType>
+  <organizationName>Patton Boggs LLP</organizationName>
+  <lobbyistPrefix>Ms.</lobbyistPrefix>
+  <lobbyistFirstName>PENELOPE</lobbyistFirstName>
+  <lobbyistMiddleName>S</lobbyistMiddleName>
+  <lobbyistLastName>FARTHING</lobbyistLastName>
+  <lobbyistSuffix />
+  <contactName />
+  <senateRegID>30906</senateRegID>
+  <houseRegID>31917</houseRegID>
+  <reportYear>2013</reportYear>
+  <reportType>MM</reportType>
+  <amendment>false</amendment>
+  <comments>
+  </comments>
+  <signedDate>6/28/2013 10:46:31 AM</signedDate>
+  <certifiedcontent>true</certifiedcontent>
+  <noContributions>false</noContributions>
+  <pacs>
+    <pac>
+      <name />
+    </pac>
+  </pacs>
+  <contributions>
+    <contribution>
+      <type />
+      <contributorName />
+      <payeeName />
+      <recipientName />
+      <amount />
+      <date />
+    </contribution>
+    <contribution>
+      <type>FECA</type>
+      <contributorName>Self</contributorName>
+      <payeeName>Begich for Alaska</payeeName>
+      <recipientName>Mark Begich</recipientName>
+      <amount>250.00</amount>
+      <date>03/14/2013</date>
+    </contribution>
+    <contribution>
+      <type>FECA</type>
+      <contributorName>Self</contributorName>
+      <payeeName>Friends of Pete Gallego</payeeName>
+      <recipientName>Cong. Pete Gallego</recipientName>
+      <amount>250.00</amount>
+      <date>03/16/2013</date>
+    </contribution>
+    <contribution>
+      <type>FECA</type>
+      <contributorName>Self</contributorName>
+      <payeeName>Pryn for Senate</payeeName>
+      <recipientName>Senator Mark Pryn</recipientName>
+      <amount>250.00</amount>
+      <date>06/10/2013</date>
+    </contribution>
+    <contribution>
+      <type>FECA</type>
+      <contributorName>Self</contributorName>
+      <payeeName>Marjorie 2014</payeeName>
+      <recipientName>Marjorie Margolies</recipientName>
+      <amount>200.00</amount>
+      <date>06/25/2013</date>
+    </contribution>
+  </contributions>
+</CONTRIBUTIONDISCLOSURE>

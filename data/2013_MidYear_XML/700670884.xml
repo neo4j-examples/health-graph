@@ -1,0 +1,92 @@
+<?xml version="1.0"?>
+<CONTRIBUTIONDISCLOSURE>
+  <filerType>L</filerType>
+  <organizationName>BOEING COMPANY</organizationName>
+  <lobbyistPrefix>Ms.</lobbyistPrefix>
+  <lobbyistFirstName>Tillie</lobbyistFirstName>
+  <lobbyistMiddleName />
+  <lobbyistLastName>Fowler</lobbyistLastName>
+  <lobbyistSuffix />
+  <contactName />
+  <senateRegID>6597</senateRegID>
+  <houseRegID>31701</houseRegID>
+  <reportYear>2013</reportYear>
+  <reportType>MM</reportType>
+  <amendment>false</amendment>
+  <comments>
+  </comments>
+  <signedDate>6/10/2013 7:46:22 PM</signedDate>
+  <certifiedcontent>true</certifiedcontent>
+  <noContributions>false</noContributions>
+  <pacs>
+    <pac>
+      <name />
+    </pac>
+  </pacs>
+  <contributions>
+    <contribution>
+      <type />
+      <contributorName />
+      <payeeName />
+      <recipientName />
+      <amount />
+      <date />
+    </contribution>
+    <contribution>
+      <type>FECA</type>
+      <contributorName>Self</contributorName>
+      <payeeName>National Republican Senatorial Committee</payeeName>
+      <recipientName>National Republican Senatorial Committee</recipientName>
+      <amount>75.00</amount>
+      <date>01/15/2013</date>
+    </contribution>
+    <contribution>
+      <type>FECA</type>
+      <contributorName>Self</contributorName>
+      <payeeName>National Republican Senatorial Committee</payeeName>
+      <recipientName>National Republican Senatorial Committee</recipientName>
+      <amount>75.00</amount>
+      <date>02/15/2013</date>
+    </contribution>
+    <contribution>
+      <type>FECA</type>
+      <contributorName>Self</contributorName>
+      <payeeName>National Republican Senatorial Committee</payeeName>
+      <recipientName>National Republican Senatorial Committee</recipientName>
+      <amount>75.00</amount>
+      <date>03/15/2013</date>
+    </contribution>
+    <contribution>
+      <type>FECA</type>
+      <contributorName>Self</contributorName>
+      <payeeName>National Republican Senatorial Committee</payeeName>
+      <recipientName>National Republican Senatorial Committee</recipientName>
+      <amount>75.00</amount>
+      <date>04/15/2013</date>
+    </contribution>
+    <contribution>
+      <type>FECA</type>
+      <contributorName>Self</contributorName>
+      <payeeName>National Republican Senatorial Committee</payeeName>
+      <recipientName>National Republican Senatorial Committee</recipientName>
+      <amount>75.00</amount>
+      <date>05/15/2013</date>
+    </contribution>
+    <contribution>
+      <type>FECA</type>
+      <contributorName>Self</contributorName>
+      <payeeName>National Republican Senatorial Committee</payeeName>
+      <recipientName>National Republican Senatorial Committee</recipientName>
+      <amount>75.00</amount>
+      <date>06/15/2013</date>
+    </contribution>
+    <contribution>
+      <type>FECA</type>
+      <contributorName>Self</contributorName>
+      <payeeName>David Schwarz for Congress</payeeName>
+      <recipientName>David Schwarz for Congress</recipientName>
+      <amount>250.00</amount>
+      <date>06/12/2013</date>
+    </contribution>
+  </contributions>
+</CONTRIBUTIONDISCLOSURE>

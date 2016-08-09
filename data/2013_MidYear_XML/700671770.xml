@@ -1,0 +1,66 @@
+<?xml version="1.0"?>
+<CONTRIBUTIONDISCLOSURE>
+  <filerType>L</filerType>
+  <organizationName>Citigroup Management Corp.</organizationName>
+  <lobbyistPrefix>Ms.</lobbyistPrefix>
+  <lobbyistFirstName>AMY</lobbyistFirstName>
+  <lobbyistMiddleName>E</lobbyistMiddleName>
+  <lobbyistLastName>OVERTON</lobbyistLastName>
+  <lobbyistSuffix />
+  <contactName />
+  <senateRegID>400275286</senateRegID>
+  <houseRegID>40053</houseRegID>
+  <reportYear>2013</reportYear>
+  <reportType>MM</reportType>
+  <amendment>false</amendment>
+  <comments>
+  </comments>
+  <signedDate>7/3/2013 10:25:18 AM</signedDate>
+  <certifiedcontent>true</certifiedcontent>
+  <noContributions>false</noContributions>
+  <pacs>
+    <pac>
+      <name />
+    </pac>
+    <pac>
+      <name>Hagan for Senate</name>
+    </pac>
+    <pac>
+      <name>DSCC</name>
+    </pac>
+  </pacs>
+  <contributions>
+    <contribution>
+      <type />
+      <contributorName />
+      <payeeName />
+      <recipientName />
+      <amount />
+      <date />
+    </contribution>
+    <contribution>
+      <type>FECA</type>
+      <contributorName>Self</contributorName>
+      <payeeName>Hagan for Senate</payeeName>
+      <recipientName>Kay Hagan</recipientName>
+      <amount>500.00</amount>
+      <date>03/01/2013</date>
+    </contribution>
+    <contribution>
+      <type>FECA</type>
+      <contributorName>Self</contributorName>
+      <payeeName>Hagan for Senate</payeeName>
+      <recipientName>Kay Hagan</recipientName>
+      <amount>500.00</amount>
+      <date>06/06/2013</date>
+    </contribution>
+    <contribution>
+      <type>FECA</type>
+      <contributorName>Self</contributorName>
+      <payeeName>DSCC</payeeName>
+      <recipientName>DSCC</recipientName>
+      <amount>500.00</amount>
+      <date>05/14/2013</date>
+    </contribution>
+  </contributions>
+</CONTRIBUTIONDISCLOSURE>

@@ -1,0 +1,68 @@
+<?xml version="1.0"?>
+<CONTRIBUTIONDISCLOSURE>
+  <filerType>L</filerType>
+  <organizationName>WASHINGTON2 ADVOCATES</organizationName>
+  <lobbyistPrefix>Ms.</lobbyistPrefix>
+  <lobbyistFirstName>NINA</lobbyistFirstName>
+  <lobbyistMiddleName>N</lobbyistMiddleName>
+  <lobbyistLastName>COLLIER</lobbyistLastName>
+  <lobbyistSuffix />
+  <contactName />
+  <senateRegID>63451</senateRegID>
+  <houseRegID>35517</houseRegID>
+  <reportYear>2013</reportYear>
+  <reportType>MM</reportType>
+  <amendment>false</amendment>
+  <comments>
+  </comments>
+  <signedDate>7/2/2013 6:56:54 PM</signedDate>
+  <certifiedcontent>true</certifiedcontent>
+  <noContributions>false</noContributions>
+  <pacs>
+    <pac>
+      <name />
+    </pac>
+  </pacs>
+  <contributions>
+    <contribution>
+      <type />
+      <contributorName />
+      <payeeName />
+      <recipientName />
+      <amount />
+      <date />
+    </contribution>
+    <contribution>
+      <type>FECA</type>
+      <contributorName>Self</contributorName>
+      <payeeName>Adam Smith for Congress</payeeName>
+      <recipientName>Adam Smith</recipientName>
+      <amount>500.00</amount>
+      <date>06/20/2013</date>
+    </contribution>
+    <contribution>
+      <type>FECA</type>
+      <contributorName>Self</contributorName>
+      <payeeName>Citizens to Elect Rick Larsen</payeeName>
+      <recipientName>Rick Larsen</recipientName>
+      <amount>500.00</amount>
+      <date>05/10/2013</date>
+    </contribution>
+    <contribution>
+      <type>FECA</type>
+      <contributorName>Self</contributorName>
+      <payeeName>Denny Heck for Congress</payeeName>
+      <recipientName>Denny Heck</recipientName>
+      <amount>500.00</amount>
+      <date>05/10/2013</date>
+    </contribution>
+    <contribution>
+      <type>FECA</type>
+      <contributorName>Self</contributorName>
+      <payeeName>DelBene for Congress</payeeName>
+      <recipientName>Suzan DelBene</recipientName>
+      <amount>500.00</amount>
+      <date>03/31/2013</date>
+    </contribution>
+  </contributions>
+</CONTRIBUTIONDISCLOSURE>

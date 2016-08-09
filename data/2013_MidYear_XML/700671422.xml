@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+<CONTRIBUTIONDISCLOSURE>
+  <filerType>L</filerType>
+  <organizationName>NATIONAL ASSOCIATION OF FEDERAL CREDIT UNIONS</organizationName>
+  <lobbyistPrefix>Mr.</lobbyistPrefix>
+  <lobbyistFirstName>Dan</lobbyistFirstName>
+  <lobbyistMiddleName />
+  <lobbyistLastName>O'Brien</lobbyistLastName>
+  <lobbyistSuffix />
+  <contactName />
+  <senateRegID>26763</senateRegID>
+  <houseRegID>30263</houseRegID>
+  <reportYear>2013</reportYear>
+  <reportType>MM</reportType>
+  <amendment>false</amendment>
+  <comments>
+  </comments>
+  <signedDate>7/1/2013 3:54:48 PM</signedDate>
+  <certifiedcontent>true</certifiedcontent>
+  <noContributions>false</noContributions>
+  <pacs>
+    <pac>
+      <name />
+    </pac>
+    <pac>
+      <name>NAFCU/PAC</name>
+    </pac>
+  </pacs>
+  <contributions>
+    <contribution>
+      <type />
+      <contributorName />
+      <payeeName />
+      <recipientName />
+      <amount />
+      <date />
+    </contribution>
+    <contribution>
+      <type>FECA</type>
+      <contributorName>Self</contributorName>
+      <payeeName>Friends of Jeanne Shaheen</payeeName>
+      <recipientName>Senator Jeanne Shaheen </recipientName>
+      <amount>250.00</amount>
+      <date>03/18/2013</date>
+    </contribution>
+  </contributions>
+</CONTRIBUTIONDISCLOSURE>

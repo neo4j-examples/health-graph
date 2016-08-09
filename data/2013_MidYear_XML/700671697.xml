@@ -1,0 +1,52 @@
+<?xml version="1.0"?>
+<CONTRIBUTIONDISCLOSURE>
+  <filerType>L</filerType>
+  <organizationName>Mayforth Group, LLC</organizationName>
+  <lobbyistPrefix>Mr.</lobbyistPrefix>
+  <lobbyistFirstName>Jeffrey</lobbyistFirstName>
+  <lobbyistMiddleName>M</lobbyistMiddleName>
+  <lobbyistLastName>Taylor</lobbyistLastName>
+  <lobbyistSuffix />
+  <contactName />
+  <senateRegID>76412</senateRegID>
+  <houseRegID>36092</houseRegID>
+  <reportYear>2013</reportYear>
+  <reportType>MM</reportType>
+  <amendment>false</amendment>
+  <comments>
+  </comments>
+  <signedDate>7/2/2013 4:49:44 PM</signedDate>
+  <certifiedcontent>true</certifiedcontent>
+  <noContributions>false</noContributions>
+  <pacs>
+    <pac>
+      <name />
+    </pac>
+  </pacs>
+  <contributions>
+    <contribution>
+      <type />
+      <contributorName />
+      <payeeName />
+      <recipientName />
+      <amount />
+      <date />
+    </contribution>
+    <contribution>
+      <type>FECA</type>
+      <contributorName>Self</contributorName>
+      <payeeName>Langevin for Congress</payeeName>
+      <recipientName>Congressman James Langevin</recipientName>
+      <amount>300.00</amount>
+      <date>06/22/2013</date>
+    </contribution>
+    <contribution>
+      <type>FECA</type>
+      <contributorName>Self</contributorName>
+      <payeeName>The Reed Committee</payeeName>
+      <recipientName>United States Senator Jack Reed</recipientName>
+      <amount>1,000.00</amount>
+      <date>06/30/2013</date>
+    </contribution>
+  </contributions>
+</CONTRIBUTIONDISCLOSURE>

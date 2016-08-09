@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<CONTRIBUTIONDISCLOSURE>
+  <filerType>L</filerType>
+  <organizationName>SHELL OIL COMPANY</organizationName>
+  <lobbyistPrefix>Mrs.</lobbyistPrefix>
+  <lobbyistFirstName>Jennifer</lobbyistFirstName>
+  <lobbyistMiddleName />
+  <lobbyistLastName>Thompson</lobbyistLastName>
+  <lobbyistSuffix />
+  <contactName />
+  <senateRegID>35092</senateRegID>
+  <houseRegID>31689</houseRegID>
+  <reportYear>2013</reportYear>
+  <reportType>MM</reportType>
+  <amendment>false</amendment>
+  <comments>
+  </comments>
+  <signedDate>7/1/2013 4:55:25 PM</signedDate>
+  <certifiedcontent>true</certifiedcontent>
+  <noContributions>true</noContributions>
+  <pacs>
+    <pac>
+      <name />
+    </pac>
+    <pac>
+      <name>SEPAC</name>
+    </pac>
+  </pacs>
+  <contributions>
+    <contribution>
+      <type />
+      <contributorName />
+      <payeeName />
+      <recipientName />
+      <amount />
+      <date />
+    </contribution>
+  </contributions>
+</CONTRIBUTIONDISCLOSURE>

@@ -1,0 +1,100 @@
+<?xml version="1.0"?>
+<CONTRIBUTIONDISCLOSURE>
+  <filerType>L</filerType>
+  <organizationName>The Roosevelt Group</organizationName>
+  <lobbyistPrefix>Mr.</lobbyistPrefix>
+  <lobbyistFirstName>CHRISTOPHER</lobbyistFirstName>
+  <lobbyistMiddleName>JOHN</lobbyistMiddleName>
+  <lobbyistLastName>GOODE</lobbyistLastName>
+  <lobbyistSuffix />
+  <contactName />
+  <senateRegID>400886595</senateRegID>
+  <houseRegID>41976</houseRegID>
+  <reportYear>2013</reportYear>
+  <reportType>MM</reportType>
+  <amendment>false</amendment>
+  <comments>
+  </comments>
+  <signedDate>6/27/2013 6:22:25 PM</signedDate>
+  <certifiedcontent>true</certifiedcontent>
+  <noContributions>false</noContributions>
+  <pacs>
+    <pac>
+      <name />
+    </pac>
+  </pacs>
+  <contributions>
+    <contribution>
+      <type />
+      <contributorName />
+      <payeeName />
+      <recipientName />
+      <amount />
+      <date />
+    </contribution>
+    <contribution>
+      <type>FECA</type>
+      <contributorName>Self</contributorName>
+      <payeeName>Friends of Jim Inhofe</payeeName>
+      <recipientName>Jim Inhofe</recipientName>
+      <amount>500.00</amount>
+      <date>02/14/2013</date>
+    </contribution>
+    <contribution>
+      <type>FECA</type>
+      <contributorName>Self</contributorName>
+      <payeeName>Alaskans for Begich</payeeName>
+      <recipientName>Mark Begich</recipientName>
+      <amount>500.00</amount>
+      <date>03/10/2013</date>
+    </contribution>
+    <contribution>
+      <type>FECA</type>
+      <contributorName>Self</contributorName>
+      <payeeName>Friends of Dan Maffei</payeeName>
+      <recipientName>Dan Maffei</recipientName>
+      <amount>500.00</amount>
+      <date>03/18/2013</date>
+    </contribution>
+    <contribution>
+      <type>FECA</type>
+      <contributorName>Self</contributorName>
+      <payeeName>Rogers for Congress</payeeName>
+      <recipientName>Hal Rogers</recipientName>
+      <amount>1,000.00</amount>
+      <date>04/11/2013</date>
+    </contribution>
+    <contribution>
+      <type>FECA</type>
+      <contributorName>Self</contributorName>
+      <payeeName>Mikulski for Senate</payeeName>
+      <recipientName>Barbara Mikulski</recipientName>
+      <amount>1,000.00</amount>
+      <date>05/13/2013</date>
+    </contribution>
+    <contribution>
+      <type>FECA</type>
+      <contributorName>Self</contributorName>
+      <payeeName>The Reed Committee</payeeName>
+      <recipientName>Jack Reed</recipientName>
+      <amount>500.00</amount>
+      <date>06/02/2013</date>
+    </contribution>
+    <contribution>
+      <type>FECA</type>
+      <contributorName>Self</contributorName>
+      <payeeName>Common Ground PAC</payeeName>
+      <recipientName>Tim Kaine</recipientName>
+      <amount>1,000.00</amount>
+      <date>05/04/2013</date>
+    </contribution>
+    <contribution>
+      <type>FECA</type>
+      <contributorName>Self</contributorName>
+      <payeeName>Niki Tsongas Committee</payeeName>
+      <recipientName>Niki Tsongas</recipientName>
+      <amount>1,000.00</amount>
+      <date>06/27/2013</date>
+    </contribution>
+  </contributions>
+</CONTRIBUTIONDISCLOSURE>

@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<CONTRIBUTIONDISCLOSURE>
+  <filerType>L</filerType>
+  <organizationName>Chamber of Commerce of the U.S.A.</organizationName>
+  <lobbyistPrefix>Mr.</lobbyistPrefix>
+  <lobbyistFirstName>JOHN</lobbyistFirstName>
+  <lobbyistMiddleName>MARCUS</lobbyistMiddleName>
+  <lobbyistLastName>GONZALES</lobbyistLastName>
+  <lobbyistSuffix />
+  <contactName />
+  <senateRegID>38756</senateRegID>
+  <houseRegID>31886</houseRegID>
+  <reportYear>2013</reportYear>
+  <reportType>MM</reportType>
+  <amendment>false</amendment>
+  <comments>
+  </comments>
+  <signedDate>6/19/2013 4:28:10 PM</signedDate>
+  <certifiedcontent>true</certifiedcontent>
+  <noContributions>false</noContributions>
+  <pacs>
+    <pac>
+      <name />
+    </pac>
+  </pacs>
+  <contributions>
+    <contribution>
+      <type />
+      <contributorName />
+      <payeeName />
+      <recipientName />
+      <amount />
+      <date />
+    </contribution>
+    <contribution>
+      <type>FECA</type>
+      <contributorName>Self</contributorName>
+      <payeeName>Pete Sessions for Congress</payeeName>
+      <recipientName>Pete Sessions</recipientName>
+      <amount>250.00</amount>
+      <date>05/13/2013</date>
+    </contribution>
+  </contributions>
+</CONTRIBUTIONDISCLOSURE>

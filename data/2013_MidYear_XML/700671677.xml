@@ -1,0 +1,52 @@
+<?xml version="1.0"?>
+<CONTRIBUTIONDISCLOSURE>
+  <filerType>L</filerType>
+  <organizationName>Greater New York Hospital Association</organizationName>
+  <lobbyistPrefix>Mr.</lobbyistPrefix>
+  <lobbyistFirstName>KENNETH</lobbyistFirstName>
+  <lobbyistMiddleName>E</lobbyistMiddleName>
+  <lobbyistLastName>RASKE</lobbyistLastName>
+  <lobbyistSuffix />
+  <contactName />
+  <senateRegID>16830</senateRegID>
+  <houseRegID>32495</houseRegID>
+  <reportYear>2013</reportYear>
+  <reportType>MM</reportType>
+  <amendment>false</amendment>
+  <comments>
+  </comments>
+  <signedDate>7/2/2013 3:47:13 PM</signedDate>
+  <certifiedcontent>true</certifiedcontent>
+  <noContributions>false</noContributions>
+  <pacs>
+    <pac>
+      <name />
+    </pac>
+  </pacs>
+  <contributions>
+    <contribution>
+      <type />
+      <contributorName />
+      <payeeName />
+      <recipientName />
+      <amount />
+      <date />
+    </contribution>
+    <contribution>
+      <type>FECA</type>
+      <contributorName>Self</contributorName>
+      <payeeName>Engel for Congress</payeeName>
+      <recipientName>Congressman Eliot Engel</recipientName>
+      <amount>1,000.00</amount>
+      <date>03/10/2013</date>
+    </contribution>
+    <contribution>
+      <type>FECA</type>
+      <contributorName>Self</contributorName>
+      <payeeName>Friends for Harry Reid</payeeName>
+      <recipientName>Senator Harry Reid</recipientName>
+      <amount>1,000.00</amount>
+      <date>03/22/2013</date>
+    </contribution>
+  </contributions>
+</CONTRIBUTIONDISCLOSURE>

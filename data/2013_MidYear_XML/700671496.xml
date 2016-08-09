@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<CONTRIBUTIONDISCLOSURE>
+  <filerType>L</filerType>
+  <organizationName>ASSOCIATED GENERAL CONTRACTORS OF AMERICA</organizationName>
+  <lobbyistPrefix>Mr.</lobbyistPrefix>
+  <lobbyistFirstName>James</lobbyistFirstName>
+  <lobbyistMiddleName />
+  <lobbyistLastName>Christianson</lobbyistLastName>
+  <lobbyistSuffix />
+  <contactName />
+  <senateRegID>4790</senateRegID>
+  <houseRegID>31244</houseRegID>
+  <reportYear>2013</reportYear>
+  <reportType>MM</reportType>
+  <amendment>false</amendment>
+  <comments>
+  </comments>
+  <signedDate>7/2/2013 9:25:40 AM</signedDate>
+  <certifiedcontent>true</certifiedcontent>
+  <noContributions>false</noContributions>
+  <pacs>
+    <pac>
+      <name />
+    </pac>
+  </pacs>
+  <contributions>
+    <contribution>
+      <type />
+      <contributorName />
+      <payeeName />
+      <recipientName />
+      <amount />
+      <date />
+    </contribution>
+    <contribution>
+      <type>FECA</type>
+      <contributorName>Self</contributorName>
+      <payeeName>Friends of Jack Kingston</payeeName>
+      <recipientName>Representative Jack Kingston</recipientName>
+      <amount>250.00</amount>
+      <date>06/27/2013</date>
+    </contribution>
+  </contributions>
+</CONTRIBUTIONDISCLOSURE>

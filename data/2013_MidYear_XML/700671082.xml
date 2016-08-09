@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<CONTRIBUTIONDISCLOSURE>
+  <filerType>L</filerType>
+  <organizationName>INTERNATIONAL BUSINESS MACHINES CORPORATION (IBM)</organizationName>
+  <lobbyistPrefix>Mr.</lobbyistPrefix>
+  <lobbyistFirstName>TIMOTHY</lobbyistFirstName>
+  <lobbyistMiddleName>J</lobbyistMiddleName>
+  <lobbyistLastName>SHEEHY</lobbyistLastName>
+  <lobbyistSuffix />
+  <contactName />
+  <senateRegID>19877</senateRegID>
+  <houseRegID>31123</houseRegID>
+  <reportYear>2013</reportYear>
+  <reportType>MM</reportType>
+  <amendment>false</amendment>
+  <comments>
+  </comments>
+  <signedDate>6/26/2013 10:23:08 AM</signedDate>
+  <certifiedcontent>true</certifiedcontent>
+  <noContributions>false</noContributions>
+  <pacs>
+    <pac>
+      <name />
+    </pac>
+  </pacs>
+  <contributions>
+    <contribution>
+      <type />
+      <contributorName />
+      <payeeName />
+      <recipientName />
+      <amount />
+      <date />
+    </contribution>
+    <contribution>
+      <type>FECA</type>
+      <contributorName>Self</contributorName>
+      <payeeName>Leahy for U.S. Senate</payeeName>
+      <recipientName>Patick Leahy</recipientName>
+      <amount>500.00</amount>
+      <date>06/13/2013</date>
+    </contribution>
+  </contributions>
+</CONTRIBUTIONDISCLOSURE>

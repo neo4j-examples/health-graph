@@ -1,0 +1,52 @@
+<?xml version="1.0"?>
+<CONTRIBUTIONDISCLOSURE>
+  <filerType>L</filerType>
+  <organizationName>Dalrymple &amp; Associates, LLC</organizationName>
+  <lobbyistPrefix>Mr.</lobbyistPrefix>
+  <lobbyistFirstName>DONALD</lobbyistFirstName>
+  <lobbyistMiddleName>(DACK)</lobbyistMiddleName>
+  <lobbyistLastName>DALRYMPLE</lobbyistLastName>
+  <lobbyistSuffix />
+  <contactName />
+  <senateRegID>5073</senateRegID>
+  <houseRegID>34019</houseRegID>
+  <reportYear>2013</reportYear>
+  <reportType>MM</reportType>
+  <amendment>false</amendment>
+  <comments>
+  </comments>
+  <signedDate>7/1/2013 4:12:17 PM</signedDate>
+  <certifiedcontent>true</certifiedcontent>
+  <noContributions>false</noContributions>
+  <pacs>
+    <pac>
+      <name />
+    </pac>
+  </pacs>
+  <contributions>
+    <contribution>
+      <type />
+      <contributorName />
+      <payeeName />
+      <recipientName />
+      <amount />
+      <date />
+    </contribution>
+    <contribution>
+      <type>FECA</type>
+      <contributorName>Self</contributorName>
+      <payeeName>Dent for Congress</payeeName>
+      <recipientName>Rep. Charlie Dent</recipientName>
+      <amount>500.00</amount>
+      <date>05/23/2013</date>
+    </contribution>
+    <contribution>
+      <type>FECA</type>
+      <contributorName>Self</contributorName>
+      <payeeName>Barletta for Congress</payeeName>
+      <recipientName>Rep. Barletta</recipientName>
+      <amount>500.00</amount>
+      <date>06/04/2013</date>
+    </contribution>
+  </contributions>
+</CONTRIBUTIONDISCLOSURE>

@@ -1,0 +1,68 @@
+<?xml version="1.0"?>
+<CONTRIBUTIONDISCLOSURE>
+  <filerType>L</filerType>
+  <organizationName>Miller/Wenhold Capitol Strategies</organizationName>
+  <lobbyistPrefix>Mr.</lobbyistPrefix>
+  <lobbyistFirstName>PAUL</lobbyistFirstName>
+  <lobbyistMiddleName />
+  <lobbyistLastName>MILLER</lobbyistLastName>
+  <lobbyistSuffix />
+  <contactName />
+  <senateRegID>307034</senateRegID>
+  <houseRegID>38322</houseRegID>
+  <reportYear>2013</reportYear>
+  <reportType>MM</reportType>
+  <amendment>false</amendment>
+  <comments>
+  </comments>
+  <signedDate>7/1/2013 12:19:13 PM</signedDate>
+  <certifiedcontent>true</certifiedcontent>
+  <noContributions>false</noContributions>
+  <pacs>
+    <pac>
+      <name />
+    </pac>
+  </pacs>
+  <contributions>
+    <contribution>
+      <type />
+      <contributorName />
+      <payeeName />
+      <recipientName />
+      <amount />
+      <date />
+    </contribution>
+    <contribution>
+      <type>FECA</type>
+      <contributorName>Self</contributorName>
+      <payeeName>Bennet For Colorado</payeeName>
+      <recipientName>Bennet For Colorado</recipientName>
+      <amount>250.00</amount>
+      <date>02/07/2013</date>
+    </contribution>
+    <contribution>
+      <type>FECA</type>
+      <contributorName>Self</contributorName>
+      <payeeName>Friends of Erik Paulsen</payeeName>
+      <recipientName>Friends of Erik Paulsen</recipientName>
+      <amount>500.00</amount>
+      <date>02/26/2013</date>
+    </contribution>
+    <contribution>
+      <type>FECA</type>
+      <contributorName>Self</contributorName>
+      <payeeName>Coffman For Congress</payeeName>
+      <recipientName>Coffman For Congress</recipientName>
+      <amount>250.00</amount>
+      <date>03/05/2013</date>
+    </contribution>
+    <contribution>
+      <type>FECA</type>
+      <contributorName>Self</contributorName>
+      <payeeName>Graves For Congress</payeeName>
+      <recipientName>Graves For Congress</recipientName>
+      <amount>500.00</amount>
+      <date>03/18/2013</date>
+    </contribution>
+  </contributions>
+</CONTRIBUTIONDISCLOSURE>

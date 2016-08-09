@@ -1,0 +1,60 @@
+<?xml version="1.0"?>
+<CONTRIBUTIONDISCLOSURE>
+  <filerType>L</filerType>
+  <organizationName>AT-SEA PROCESSORS ASSN</organizationName>
+  <lobbyistPrefix>Mr.</lobbyistPrefix>
+  <lobbyistFirstName>JAMES</lobbyistFirstName>
+  <lobbyistMiddleName />
+  <lobbyistLastName>GILMORE</lobbyistLastName>
+  <lobbyistSuffix />
+  <contactName />
+  <senateRegID>4868</senateRegID>
+  <houseRegID>31022</houseRegID>
+  <reportYear>2013</reportYear>
+  <reportType>MM</reportType>
+  <amendment>false</amendment>
+  <comments>
+  </comments>
+  <signedDate>7/2/2013 1:09:29 PM</signedDate>
+  <certifiedcontent>true</certifiedcontent>
+  <noContributions>false</noContributions>
+  <pacs>
+    <pac>
+      <name />
+    </pac>
+  </pacs>
+  <contributions>
+    <contribution>
+      <type />
+      <contributorName />
+      <payeeName />
+      <recipientName />
+      <amount />
+      <date />
+    </contribution>
+    <contribution>
+      <type>FECA</type>
+      <contributorName>Self</contributorName>
+      <payeeName>People for Patty Murray</payeeName>
+      <recipientName>Senator Patty Murray</recipientName>
+      <amount>500.00</amount>
+      <date>02/19/2013</date>
+    </contribution>
+    <contribution>
+      <type>FECA</type>
+      <contributorName>Self</contributorName>
+      <payeeName>DelBene for Congress</payeeName>
+      <recipientName>Rep. Suzan DelBene</recipientName>
+      <amount>250.00</amount>
+      <date>02/13/2013</date>
+    </contribution>
+    <contribution>
+      <type>FECA</type>
+      <contributorName>Self</contributorName>
+      <payeeName>DelBene for Congress</payeeName>
+      <recipientName>Rep. Suzan DelBene</recipientName>
+      <amount>500.00</amount>
+      <date>06/24/2013</date>
+    </contribution>
+  </contributions>
+</CONTRIBUTIONDISCLOSURE>

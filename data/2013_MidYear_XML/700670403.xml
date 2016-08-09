@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<CONTRIBUTIONDISCLOSURE>
+  <filerType>L</filerType>
+  <organizationName>Flagship Government Relations, Inc.</organizationName>
+  <lobbyistPrefix>Mr.</lobbyistPrefix>
+  <lobbyistFirstName>DANIEL</lobbyistFirstName>
+  <lobbyistMiddleName />
+  <lobbyistLastName>CUNNINGHAM</lobbyistLastName>
+  <lobbyistSuffix />
+  <contactName />
+  <senateRegID>400407927</senateRegID>
+  <houseRegID>40577</houseRegID>
+  <reportYear>2013</reportYear>
+  <reportType>MM</reportType>
+  <amendment>false</amendment>
+  <comments>
+  </comments>
+  <signedDate>4/25/2013 1:46:02 PM</signedDate>
+  <certifiedcontent>true</certifiedcontent>
+  <noContributions>false</noContributions>
+  <pacs>
+    <pac>
+      <name />
+    </pac>
+  </pacs>
+  <contributions>
+    <contribution>
+      <type />
+      <contributorName />
+      <payeeName />
+      <recipientName />
+      <amount />
+      <date />
+    </contribution>
+    <contribution>
+      <type>FECA</type>
+      <contributorName>Self</contributorName>
+      <payeeName>Friends of Dick Durbin</payeeName>
+      <recipientName>Senator Dick Durbin</recipientName>
+      <amount>500.00</amount>
+      <date>03/21/2013</date>
+    </contribution>
+  </contributions>
+</CONTRIBUTIONDISCLOSURE>

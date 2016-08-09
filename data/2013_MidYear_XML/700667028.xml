@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<CONTRIBUTIONDISCLOSURE>
+  <filerType>L</filerType>
+  <organizationName>Twenty-First Century Group, Inc.</organizationName>
+  <lobbyistPrefix>Ms.</lobbyistPrefix>
+  <lobbyistFirstName>JOCELYN</lobbyistFirstName>
+  <lobbyistMiddleName />
+  <lobbyistLastName>HONG</lobbyistLastName>
+  <lobbyistSuffix />
+  <contactName />
+  <senateRegID>38687</senateRegID>
+  <houseRegID>33675</houseRegID>
+  <reportYear>2013</reportYear>
+  <reportType>MM</reportType>
+  <amendment>false</amendment>
+  <comments>
+  </comments>
+  <signedDate>1/31/2013 12:07:37 AM</signedDate>
+  <certifiedcontent>true</certifiedcontent>
+  <noContributions>false</noContributions>
+  <pacs>
+    <pac>
+      <name />
+    </pac>
+  </pacs>
+  <contributions>
+    <contribution>
+      <type />
+      <contributorName />
+      <payeeName />
+      <recipientName />
+      <amount />
+      <date />
+    </contribution>
+    <contribution>
+      <type>FECA</type>
+      <contributorName>Self</contributorName>
+      <payeeName>People for Ben Lujan</payeeName>
+      <recipientName>Ben Lujan</recipientName>
+      <amount>250.00</amount>
+      <date>01/15/2013</date>
+    </contribution>
+  </contributions>
+</CONTRIBUTIONDISCLOSURE>

@@ -1,0 +1,52 @@
+<?xml version="1.0"?>
+<CONTRIBUTIONDISCLOSURE>
+  <filerType>L</filerType>
+  <organizationName>Goldhaber Policy Services LLC</organizationName>
+  <lobbyistPrefix>Mr.</lobbyistPrefix>
+  <lobbyistFirstName>MARK</lobbyistFirstName>
+  <lobbyistMiddleName>E</lobbyistMiddleName>
+  <lobbyistLastName>GOLDHABER</lobbyistLastName>
+  <lobbyistSuffix />
+  <contactName />
+  <senateRegID>400935705</senateRegID>
+  <houseRegID>42049</houseRegID>
+  <reportYear>2013</reportYear>
+  <reportType>MM</reportType>
+  <amendment>false</amendment>
+  <comments>
+  </comments>
+  <signedDate>7/3/2013 9:41:25 AM</signedDate>
+  <certifiedcontent>true</certifiedcontent>
+  <noContributions>false</noContributions>
+  <pacs>
+    <pac>
+      <name />
+    </pac>
+  </pacs>
+  <contributions>
+    <contribution>
+      <type />
+      <contributorName />
+      <payeeName />
+      <recipientName />
+      <amount />
+      <date />
+    </contribution>
+    <contribution>
+      <type>FECA</type>
+      <contributorName>Self</contributorName>
+      <payeeName>Georgians For Isakson</payeeName>
+      <recipientName>Senator Isakson</recipientName>
+      <amount>500.00</amount>
+      <date>05/12/2013</date>
+    </contribution>
+    <contribution>
+      <type>FECA</type>
+      <contributorName>Self</contributorName>
+      <payeeName>George Holding for Congress</payeeName>
+      <recipientName>Congressman George Holding</recipientName>
+      <amount>1,000.00</amount>
+      <date>04/15/2013</date>
+    </contribution>
+  </contributions>
+</CONTRIBUTIONDISCLOSURE>

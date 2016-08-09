@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<CONTRIBUTIONDISCLOSURE>
+  <filerType>L</filerType>
+  <organizationName>Kemp Group LLC (DBA - Kemp Partners)</organizationName>
+  <lobbyistPrefix>Mr.</lobbyistPrefix>
+  <lobbyistFirstName>JAMES</lobbyistFirstName>
+  <lobbyistMiddleName />
+  <lobbyistLastName>KEMP</lobbyistLastName>
+  <lobbyistSuffix />
+  <contactName />
+  <senateRegID>87676</senateRegID>
+  <houseRegID>36622</houseRegID>
+  <reportYear>2013</reportYear>
+  <reportType>MM</reportType>
+  <amendment>false</amendment>
+  <comments>
+  </comments>
+  <signedDate>7/3/2013 11:01:12 AM</signedDate>
+  <certifiedcontent>true</certifiedcontent>
+  <noContributions>false</noContributions>
+  <pacs>
+    <pac>
+      <name />
+    </pac>
+  </pacs>
+  <contributions>
+    <contribution>
+      <type />
+      <contributorName />
+      <payeeName />
+      <recipientName />
+      <amount />
+      <date />
+    </contribution>
+    <contribution>
+      <type>FECA</type>
+      <contributorName>Self</contributorName>
+      <payeeName>James Kemp</payeeName>
+      <recipientName>Ryan, Prosperity Action, Inc.</recipientName>
+      <amount>2,500.00</amount>
+      <date>05/07/2013</date>
+    </contribution>
+  </contributions>
+</CONTRIBUTIONDISCLOSURE>

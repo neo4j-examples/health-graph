@@ -1,0 +1,50 @@
+<?xml version="1.0"?>
+<CONTRIBUTIONDISCLOSURE>
+  <filerType>O</filerType>
+  <organizationName>Long Term Care Pharmacy Alliance</organizationName>
+  <lobbyistPrefix />
+  <lobbyistFirstName />
+  <lobbyistMiddleName />
+  <lobbyistLastName />
+  <lobbyistSuffix />
+  <contactName>Bill Daniel</contactName>
+  <senateRegID>400309443</senateRegID>
+  <houseRegID>40379</houseRegID>
+  <reportYear>2013</reportYear>
+  <reportType>MM</reportType>
+  <amendment>false</amendment>
+  <comments>
+  </comments>
+  <signedDate>6/4/2013 12:00:17 PM</signedDate>
+  <certifiedcontent>true</certifiedcontent>
+  <noContributions>false</noContributions>
+  <pacs>
+    <pac>
+      <name />
+    </pac>
+    <pac>
+      <name>Lonf Term Care Pharmacy Alliance PAC</name>
+    </pac>
+    <pac>
+      <name>Long Term Care Pharmacy Alliance PAC</name>
+    </pac>
+  </pacs>
+  <contributions>
+    <contribution>
+      <type />
+      <contributorName />
+      <payeeName />
+      <recipientName />
+      <amount />
+      <date />
+    </contribution>
+    <contribution>
+      <type>FECA</type>
+      <contributorName>Lonf Term Care Pharmacy Alliance PAC</contributorName>
+      <payeeName>Mark Pryor for US Senate</payeeName>
+      <recipientName>Mark Pryor</recipientName>
+      <amount>1,000.00</amount>
+      <date>01/31/2013</date>
+    </contribution>
+  </contributions>
+</CONTRIBUTIONDISCLOSURE>

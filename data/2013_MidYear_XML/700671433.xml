@@ -1,0 +1,92 @@
+<?xml version="1.0"?>
+<CONTRIBUTIONDISCLOSURE>
+  <filerType>L</filerType>
+  <organizationName>American Capitol Group</organizationName>
+  <lobbyistPrefix>Mr.</lobbyistPrefix>
+  <lobbyistFirstName>DAVE</lobbyistFirstName>
+  <lobbyistMiddleName />
+  <lobbyistLastName>LARSON</lobbyistLastName>
+  <lobbyistSuffix />
+  <contactName />
+  <senateRegID>305852</senateRegID>
+  <houseRegID>36550</houseRegID>
+  <reportYear>2013</reportYear>
+  <reportType>MM</reportType>
+  <amendment>false</amendment>
+  <comments>
+  </comments>
+  <signedDate>7/1/2013 4:15:11 PM</signedDate>
+  <certifiedcontent>true</certifiedcontent>
+  <noContributions>false</noContributions>
+  <pacs>
+    <pac>
+      <name />
+    </pac>
+  </pacs>
+  <contributions>
+    <contribution>
+      <type />
+      <contributorName />
+      <payeeName />
+      <recipientName />
+      <amount />
+      <date />
+    </contribution>
+    <contribution>
+      <type>FECA</type>
+      <contributorName>Self</contributorName>
+      <payeeName>Alexander for Senate</payeeName>
+      <recipientName>Senator Lamar Alexander</recipientName>
+      <amount>1,000.00</amount>
+      <date>03/04/2013</date>
+    </contribution>
+    <contribution>
+      <type>FECA</type>
+      <contributorName>Self</contributorName>
+      <payeeName>Friends of Chris Stewart</payeeName>
+      <recipientName>Congressman Chris Stewart</recipientName>
+      <amount>500.00</amount>
+      <date>03/27/2013</date>
+    </contribution>
+    <contribution>
+      <type>FECA</type>
+      <contributorName>Self</contributorName>
+      <payeeName>Monday Meetings PAC</payeeName>
+      <recipientName>Senators Burr, Coburn, Chamblis</recipientName>
+      <amount>1,500.00</amount>
+      <date>03/04/2013</date>
+    </contribution>
+    <contribution>
+      <type>FECA</type>
+      <contributorName>Self</contributorName>
+      <payeeName>Friends of Chris Stewart</payeeName>
+      <recipientName>Congressman Chris Stewart</recipientName>
+      <amount>500.00</amount>
+      <date>06/28/2013</date>
+    </contribution>
+    <contribution>
+      <type>FECA</type>
+      <contributorName>Self</contributorName>
+      <payeeName>David Schwartz for Congress</payeeName>
+      <recipientName>David Schwartz</recipientName>
+      <amount>500.00</amount>
+      <date>06/13/2013</date>
+    </contribution>
+    <contribution>
+      <type>FECA</type>
+      <contributorName>Self</contributorName>
+      <payeeName>Lou Barletta for Congress</payeeName>
+      <recipientName>Congressman Lou Barletta</recipientName>
+      <amount>500.00</amount>
+      <date>06/28/2013</date>
+    </contribution>
+    <contribution>
+      <type>FECA</type>
+      <contributorName>Self</contributorName>
+      <payeeName>Blackburn for Congress</payeeName>
+      <recipientName>Congressman Marsha Blackburn</recipientName>
+      <amount>1,000.00</amount>
+      <date>05/28/2013</date>
+    </contribution>
+  </contributions>
+</CONTRIBUTIONDISCLOSURE>

@@ -1,0 +1,68 @@
+<?xml version="1.0"?>
+<CONTRIBUTIONDISCLOSURE>
+  <filerType>L</filerType>
+  <organizationName>THE TRUSTEES OF COLUMBIA UNIVERSITY IN THE CITY OF NEW YORK</organizationName>
+  <lobbyistPrefix>Mr.</lobbyistPrefix>
+  <lobbyistFirstName>ROSS</lobbyistFirstName>
+  <lobbyistMiddleName>A.</lobbyistMiddleName>
+  <lobbyistLastName>FROMMER</lobbyistLastName>
+  <lobbyistSuffix />
+  <contactName />
+  <senateRegID>38585</senateRegID>
+  <houseRegID>30887</houseRegID>
+  <reportYear>2013</reportYear>
+  <reportType>MM</reportType>
+  <amendment>true</amendment>
+  <comments>
+  </comments>
+  <signedDate>6/6/2013 9:13:01 AM</signedDate>
+  <certifiedcontent>true</certifiedcontent>
+  <noContributions>false</noContributions>
+  <pacs>
+    <pac>
+      <name />
+    </pac>
+  </pacs>
+  <contributions>
+    <contribution>
+      <type />
+      <contributorName />
+      <payeeName />
+      <recipientName />
+      <amount />
+      <date />
+    </contribution>
+    <contribution>
+      <type>FECA</type>
+      <contributorName>Self</contributorName>
+      <payeeName>Friends of Rosa DeLauro</payeeName>
+      <recipientName>Rosa DeLauro</recipientName>
+      <amount>100.00</amount>
+      <date>03/14/2013</date>
+    </contribution>
+    <contribution>
+      <type>FECA</type>
+      <contributorName>Self</contributorName>
+      <payeeName>Friends of Elizabeth Colbert Bush</payeeName>
+      <recipientName>Elizabeth Colbert Bush</recipientName>
+      <amount>100.00</amount>
+      <date>05/08/2013</date>
+    </contribution>
+    <contribution>
+      <type>FECA</type>
+      <contributorName>Self</contributorName>
+      <payeeName>Friends of Congressman Rangel</payeeName>
+      <recipientName>Charles Rangel</recipientName>
+      <amount>250.00</amount>
+      <date>06/03/2013</date>
+    </contribution>
+    <contribution>
+      <type>FECA</type>
+      <contributorName>Self</contributorName>
+      <payeeName>Friends of Ed Marley</payeeName>
+      <recipientName>Ed Markey</recipientName>
+      <amount>250.00</amount>
+      <date>06/05/2013</date>
+    </contribution>
+  </contributions>
+</CONTRIBUTIONDISCLOSURE>

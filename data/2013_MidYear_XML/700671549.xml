@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<CONTRIBUTIONDISCLOSURE>
+  <filerType>L</filerType>
+  <organizationName>SOUTHERN COMPANY</organizationName>
+  <lobbyistPrefix>Mr.</lobbyistPrefix>
+  <lobbyistFirstName>CARL</lobbyistFirstName>
+  <lobbyistMiddleName>A</lobbyistMiddleName>
+  <lobbyistLastName>PUNYKO</lobbyistLastName>
+  <lobbyistSuffix />
+  <contactName />
+  <senateRegID>295873</senateRegID>
+  <houseRegID>31332</houseRegID>
+  <reportYear>2013</reportYear>
+  <reportType>MM</reportType>
+  <amendment>false</amendment>
+  <comments>
+  </comments>
+  <signedDate>7/2/2013 11:04:56 AM</signedDate>
+  <certifiedcontent>true</certifiedcontent>
+  <noContributions>false</noContributions>
+  <pacs>
+    <pac>
+      <name />
+    </pac>
+  </pacs>
+  <contributions>
+    <contribution>
+      <type />
+      <contributorName />
+      <payeeName />
+      <recipientName />
+      <amount />
+      <date />
+    </contribution>
+    <contribution>
+      <type>FECA</type>
+      <contributorName>Self</contributorName>
+      <payeeName>Steve Southerland for Congress</payeeName>
+      <recipientName>Steve Southerland</recipientName>
+      <amount>250.00</amount>
+      <date>05/01/2013</date>
+    </contribution>
+  </contributions>
+</CONTRIBUTIONDISCLOSURE>

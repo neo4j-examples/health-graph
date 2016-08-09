@@ -1,0 +1,60 @@
+<?xml version="1.0"?>
+<CONTRIBUTIONDISCLOSURE>
+  <filerType>L</filerType>
+  <organizationName>TIAA-CREF</organizationName>
+  <lobbyistPrefix>Mr.</lobbyistPrefix>
+  <lobbyistFirstName>LANGSTON</lobbyistFirstName>
+  <lobbyistMiddleName />
+  <lobbyistLastName>EMERSON</lobbyistLastName>
+  <lobbyistSuffix />
+  <contactName />
+  <senateRegID>55757</senateRegID>
+  <houseRegID>35166</houseRegID>
+  <reportYear>2013</reportYear>
+  <reportType>MM</reportType>
+  <amendment>false</amendment>
+  <comments>
+  </comments>
+  <signedDate>6/28/2013 12:50:42 PM</signedDate>
+  <certifiedcontent>true</certifiedcontent>
+  <noContributions>false</noContributions>
+  <pacs>
+    <pac>
+      <name />
+    </pac>
+  </pacs>
+  <contributions>
+    <contribution>
+      <type />
+      <contributorName />
+      <payeeName />
+      <recipientName />
+      <amount />
+      <date />
+    </contribution>
+    <contribution>
+      <type>FECA</type>
+      <contributorName>Self</contributorName>
+      <payeeName>Sean Patrick Maloney</payeeName>
+      <recipientName>Sean Patrick Maloney for Congress </recipientName>
+      <amount>200.00</amount>
+      <date>05/29/2013</date>
+    </contribution>
+    <contribution>
+      <type>FECA</type>
+      <contributorName>Self</contributorName>
+      <payeeName>Denny Heck </payeeName>
+      <recipientName>Denny Heck for Congress </recipientName>
+      <amount>500.00</amount>
+      <date>03/08/2013</date>
+    </contribution>
+    <contribution>
+      <type>FECA</type>
+      <contributorName>Self</contributorName>
+      <payeeName>Xavier Becerra</payeeName>
+      <recipientName>Becerra for Congress </recipientName>
+      <amount>500.00</amount>
+      <date>06/28/2013</date>
+    </contribution>
+  </contributions>
+</CONTRIBUTIONDISCLOSURE>

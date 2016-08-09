@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<CONTRIBUTIONDISCLOSURE>
+  <filerType>L</filerType>
+  <organizationName>BOSTON SCIENTIFIC CORPORATION</organizationName>
+  <lobbyistPrefix>Mrs.</lobbyistPrefix>
+  <lobbyistFirstName>KRISTEN</lobbyistFirstName>
+  <lobbyistMiddleName />
+  <lobbyistLastName>HEDSTROM</lobbyistLastName>
+  <lobbyistSuffix />
+  <contactName />
+  <senateRegID>66716</senateRegID>
+  <houseRegID>35567</houseRegID>
+  <reportYear>2013</reportYear>
+  <reportType>MM</reportType>
+  <amendment>false</amendment>
+  <comments>
+  </comments>
+  <signedDate>6/27/2013 2:54:46 PM</signedDate>
+  <certifiedcontent>true</certifiedcontent>
+  <noContributions>false</noContributions>
+  <pacs>
+    <pac>
+      <name />
+    </pac>
+  </pacs>
+  <contributions>
+    <contribution>
+      <type />
+      <contributorName />
+      <payeeName />
+      <recipientName />
+      <amount />
+      <date />
+    </contribution>
+    <contribution>
+      <type>FECA</type>
+      <contributorName>Self</contributorName>
+      <payeeName>Committee to Re-Elect Linda Sanchez</payeeName>
+      <recipientName>Linda Sanchez</recipientName>
+      <amount>250.00</amount>
+      <date>03/25/2013</date>
+    </contribution>
+  </contributions>
+</CONTRIBUTIONDISCLOSURE>

@@ -1,0 +1,76 @@
+<?xml version="1.0"?>
+<CONTRIBUTIONDISCLOSURE>
+  <filerType>L</filerType>
+  <organizationName>CHAMBERS, CONLON &amp; HARTWELL, LLC</organizationName>
+  <lobbyistPrefix>Mr.</lobbyistPrefix>
+  <lobbyistFirstName>DONALD</lobbyistFirstName>
+  <lobbyistMiddleName />
+  <lobbyistLastName>NORDEN</lobbyistLastName>
+  <lobbyistSuffix />
+  <contactName />
+  <senateRegID>8830</senateRegID>
+  <houseRegID>32036</houseRegID>
+  <reportYear>2013</reportYear>
+  <reportType>MM</reportType>
+  <amendment>false</amendment>
+  <comments>
+  </comments>
+  <signedDate>7/1/2013 2:25:17 PM</signedDate>
+  <certifiedcontent>true</certifiedcontent>
+  <noContributions>false</noContributions>
+  <pacs>
+    <pac>
+      <name />
+    </pac>
+  </pacs>
+  <contributions>
+    <contribution>
+      <type />
+      <contributorName />
+      <payeeName />
+      <recipientName />
+      <amount />
+      <date />
+    </contribution>
+    <contribution>
+      <type>FECA</type>
+      <contributorName>Self</contributorName>
+      <payeeName>Don Young for Congress/Alaskans for Don Young </payeeName>
+      <recipientName>Rep. Don Young</recipientName>
+      <amount>500.00</amount>
+      <date>03/14/2013</date>
+    </contribution>
+    <contribution>
+      <type>FECA</type>
+      <contributorName>Self</contributorName>
+      <payeeName>Democratic Senatorial Campaign Committee/DSCC</payeeName>
+      <recipientName>DSCC</recipientName>
+      <amount>1,000.00</amount>
+      <date>03/20/2013</date>
+    </contribution>
+    <contribution>
+      <type>FECA</type>
+      <contributorName>Self</contributorName>
+      <payeeName>Mark Begich for Senate</payeeName>
+      <recipientName>Sen. Mark Begich</recipientName>
+      <amount>100.00</amount>
+      <date>03/20/2013</date>
+    </contribution>
+    <contribution>
+      <type>FECA</type>
+      <contributorName>Self</contributorName>
+      <payeeName>Mark Begich for Senate</payeeName>
+      <recipientName>Sen. Mark Begich</recipientName>
+      <amount>500.00</amount>
+      <date>06/04/2013</date>
+    </contribution>
+    <contribution>
+      <type>FECA</type>
+      <contributorName>Self</contributorName>
+      <payeeName>Mike Honda for Congress</payeeName>
+      <recipientName>Rep. Mike Honda</recipientName>
+      <amount>250.00</amount>
+      <date>06/12/2013</date>
+    </contribution>
+  </contributions>
+</CONTRIBUTIONDISCLOSURE>

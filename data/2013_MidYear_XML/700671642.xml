@@ -1,0 +1,60 @@
+<?xml version="1.0"?>
+<CONTRIBUTIONDISCLOSURE>
+  <filerType>L</filerType>
+  <organizationName>BROWNSTEIN HYATT FARBER SCHRECK, LLP</organizationName>
+  <lobbyistPrefix>Mr.</lobbyistPrefix>
+  <lobbyistFirstName>Kenneth</lobbyistFirstName>
+  <lobbyistMiddleName>L.</lobbyistMiddleName>
+  <lobbyistLastName>Khachigian</lobbyistLastName>
+  <lobbyistSuffix />
+  <contactName />
+  <senateRegID>7257</senateRegID>
+  <houseRegID>31842</houseRegID>
+  <reportYear>2013</reportYear>
+  <reportType>MM</reportType>
+  <amendment>false</amendment>
+  <comments>
+  </comments>
+  <signedDate>7/2/2013 2:22:10 PM</signedDate>
+  <certifiedcontent>true</certifiedcontent>
+  <noContributions>false</noContributions>
+  <pacs>
+    <pac>
+      <name />
+    </pac>
+  </pacs>
+  <contributions>
+    <contribution>
+      <type />
+      <contributorName />
+      <payeeName />
+      <recipientName />
+      <amount />
+      <date />
+    </contribution>
+    <contribution>
+      <type>FECA</type>
+      <contributorName>Self</contributorName>
+      <payeeName>Committee to Re-elect Congressman Dana Rohrabacher</payeeName>
+      <recipientName>Dana Rohrabacher</recipientName>
+      <amount>400.00</amount>
+      <date>02/26/2013</date>
+    </contribution>
+    <contribution>
+      <type>FECA</type>
+      <contributorName>Self</contributorName>
+      <payeeName>Royce Campaign Committee</payeeName>
+      <recipientName>Ed Royce</recipientName>
+      <amount>400.00</amount>
+      <date>02/26/2013</date>
+    </contribution>
+    <contribution>
+      <type>FECA</type>
+      <contributorName>Self</contributorName>
+      <payeeName>Gary Miller for Congress</payeeName>
+      <recipientName>Gary Miller</recipientName>
+      <amount>350.00</amount>
+      <date>04/04/2013</date>
+    </contribution>
+  </contributions>
+</CONTRIBUTIONDISCLOSURE>

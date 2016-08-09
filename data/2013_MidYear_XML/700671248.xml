@@ -1,0 +1,52 @@
+<?xml version="1.0"?>
+<CONTRIBUTIONDISCLOSURE>
+  <filerType>L</filerType>
+  <organizationName>Health and Medicine Counsel of Washington</organizationName>
+  <lobbyistPrefix>Mr.</lobbyistPrefix>
+  <lobbyistFirstName>DANE</lobbyistFirstName>
+  <lobbyistMiddleName />
+  <lobbyistLastName>CHRISTIANSEN</lobbyistLastName>
+  <lobbyistSuffix />
+  <contactName />
+  <senateRegID>17818</senateRegID>
+  <houseRegID>32764</houseRegID>
+  <reportYear>2013</reportYear>
+  <reportType>MM</reportType>
+  <amendment>false</amendment>
+  <comments>
+  </comments>
+  <signedDate>7/1/2013 10:17:10 AM</signedDate>
+  <certifiedcontent>true</certifiedcontent>
+  <noContributions>false</noContributions>
+  <pacs>
+    <pac>
+      <name />
+    </pac>
+  </pacs>
+  <contributions>
+    <contribution>
+      <type />
+      <contributorName />
+      <payeeName />
+      <recipientName />
+      <amount />
+      <date />
+    </contribution>
+    <contribution>
+      <type>FECA</type>
+      <contributorName>Self</contributorName>
+      <payeeName>Friends of Jack Kingston</payeeName>
+      <recipientName>Congressman Jack Kingston</recipientName>
+      <amount>250.00</amount>
+      <date>03/20/2013</date>
+    </contribution>
+    <contribution>
+      <type>FECA</type>
+      <contributorName>Self</contributorName>
+      <payeeName>Friends of Rosa DeLauro</payeeName>
+      <recipientName>Congresswoman Rosa DeLauro</recipientName>
+      <amount>250.00</amount>
+      <date>05/08/2013</date>
+    </contribution>
+  </contributions>
+</CONTRIBUTIONDISCLOSURE>

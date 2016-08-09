@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+<CONTRIBUTIONDISCLOSURE>
+  <filerType>L</filerType>
+  <organizationName>Jochum Shore &amp; Trossevin PC (formerly Black Swan LLC - Jochum Shore &amp; Trossevin</organizationName>
+  <lobbyistPrefix>Mr.</lobbyistPrefix>
+  <lobbyistFirstName>JAMES</lobbyistFirstName>
+  <lobbyistMiddleName />
+  <lobbyistLastName>JOCHUM</lobbyistLastName>
+  <lobbyistSuffix />
+  <contactName />
+  <senateRegID>320793</senateRegID>
+  <houseRegID>39560</houseRegID>
+  <reportYear>2013</reportYear>
+  <reportType>MM</reportType>
+  <amendment>false</amendment>
+  <comments>
+  </comments>
+  <signedDate>7/3/2013 9:11:56 AM</signedDate>
+  <certifiedcontent>true</certifiedcontent>
+  <noContributions>false</noContributions>
+  <pacs>
+    <pac>
+      <name />
+    </pac>
+    <pac>
+      <name>JST PAC</name>
+    </pac>
+  </pacs>
+  <contributions>
+    <contribution>
+      <type />
+      <contributorName />
+      <payeeName />
+      <recipientName />
+      <amount />
+      <date />
+    </contribution>
+    <contribution>
+      <type>FECA</type>
+      <contributorName>Self</contributorName>
+      <payeeName>JST PAC</payeeName>
+      <recipientName>JST PAC</recipientName>
+      <amount>1,000.00</amount>
+      <date>02/07/2013</date>
+    </contribution>
+  </contributions>
+</CONTRIBUTIONDISCLOSURE>

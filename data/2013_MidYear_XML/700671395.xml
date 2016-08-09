@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<CONTRIBUTIONDISCLOSURE>
+  <filerType>L</filerType>
+  <organizationName>PACKARD GOVERNMENT AFFAIRS</organizationName>
+  <lobbyistPrefix>Mr.</lobbyistPrefix>
+  <lobbyistFirstName>DONALD</lobbyistFirstName>
+  <lobbyistMiddleName>JOHN</lobbyistMiddleName>
+  <lobbyistLastName>POLESE</lobbyistLastName>
+  <lobbyistSuffix />
+  <contactName />
+  <senateRegID>55371</senateRegID>
+  <houseRegID>35137</houseRegID>
+  <reportYear>2013</reportYear>
+  <reportType>MM</reportType>
+  <amendment>false</amendment>
+  <comments>
+  </comments>
+  <signedDate>7/1/2013 2:53:54 PM</signedDate>
+  <certifiedcontent>true</certifiedcontent>
+  <noContributions>false</noContributions>
+  <pacs>
+    <pac>
+      <name />
+    </pac>
+  </pacs>
+  <contributions>
+    <contribution>
+      <type />
+      <contributorName />
+      <payeeName />
+      <recipientName />
+      <amount />
+      <date />
+    </contribution>
+    <contribution>
+      <type>FECA</type>
+      <contributorName>Self</contributorName>
+      <payeeName>Issa for Congress</payeeName>
+      <recipientName>Congressman Darrell Issa</recipientName>
+      <amount>1,000.00</amount>
+      <date>04/19/2013</date>
+    </contribution>
+  </contributions>
+</CONTRIBUTIONDISCLOSURE>

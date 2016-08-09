@@ -1,0 +1,51 @@
+<?xml version="1.0"?>
+<CONTRIBUTIONDISCLOSURE>
+  <filerType>L</filerType>
+  <organizationName>NOVO NORDISK INC.</organizationName>
+  <lobbyistPrefix>Mr.</lobbyistPrefix>
+  <lobbyistFirstName>CHRISTOPHER</lobbyistFirstName>
+  <lobbyistMiddleName />
+  <lobbyistLastName>PORTER</lobbyistLastName>
+  <lobbyistSuffix />
+  <contactName />
+  <senateRegID>284790</senateRegID>
+  <houseRegID>36903</houseRegID>
+  <reportYear>2013</reportYear>
+  <reportType>MM</reportType>
+  <amendment>false</amendment>
+  <comments>I am Assistant Treasurer of Novo Nordisk PAC</comments>
+  <signedDate>7/3/2013 10:04:34 AM</signedDate>
+  <certifiedcontent>true</certifiedcontent>
+  <noContributions>false</noContributions>
+  <pacs>
+    <pac>
+      <name />
+    </pac>
+  </pacs>
+  <contributions>
+    <contribution>
+      <type />
+      <contributorName />
+      <payeeName />
+      <recipientName />
+      <amount />
+      <date />
+    </contribution>
+    <contribution>
+      <type>FECA</type>
+      <contributorName>Self</contributorName>
+      <payeeName>Christensen Campaign for Congress</payeeName>
+      <recipientName>Rep. Donna Christensen</recipientName>
+      <amount>100.00</amount>
+      <date>05/29/2013</date>
+    </contribution>
+    <contribution>
+      <type>FECA</type>
+      <contributorName>Self</contributorName>
+      <payeeName>Dr. Raul Ruiz for Congress</payeeName>
+      <recipientName>Rep. Raul Ruiz</recipientName>
+      <amount>500.00</amount>
+      <date>06/30/2013</date>
+    </contribution>
+  </contributions>
+</CONTRIBUTIONDISCLOSURE>

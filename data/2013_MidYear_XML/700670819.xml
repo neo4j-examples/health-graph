@@ -1,0 +1,84 @@
+<?xml version="1.0"?>
+<CONTRIBUTIONDISCLOSURE>
+  <filerType>L</filerType>
+  <organizationName>THE DUBERSTEIN GROUP, INC.</organizationName>
+  <lobbyistPrefix>Mr.</lobbyistPrefix>
+  <lobbyistFirstName>ERIC</lobbyistFirstName>
+  <lobbyistMiddleName />
+  <lobbyistLastName>UELAND</lobbyistLastName>
+  <lobbyistSuffix />
+  <contactName />
+  <senateRegID>12675</senateRegID>
+  <houseRegID>31811</houseRegID>
+  <reportYear>2013</reportYear>
+  <reportType>MM</reportType>
+  <amendment>false</amendment>
+  <comments>
+  </comments>
+  <signedDate>6/3/2013 5:11:31 PM</signedDate>
+  <certifiedcontent>true</certifiedcontent>
+  <noContributions>false</noContributions>
+  <pacs>
+    <pac>
+      <name />
+    </pac>
+  </pacs>
+  <contributions>
+    <contribution>
+      <type />
+      <contributorName />
+      <payeeName />
+      <recipientName />
+      <amount />
+      <date />
+    </contribution>
+    <contribution>
+      <type>FECA</type>
+      <contributorName>Self</contributorName>
+      <payeeName>Collins for Senate</payeeName>
+      <recipientName>Susan Collins</recipientName>
+      <amount>2,500.00</amount>
+      <date>01/29/2013</date>
+    </contribution>
+    <contribution>
+      <type>FECA</type>
+      <contributorName>Self</contributorName>
+      <payeeName>Friends of Jim Inhofe</payeeName>
+      <recipientName>Jim Inhofe</recipientName>
+      <amount>500.00</amount>
+      <date>02/14/2013</date>
+    </contribution>
+    <contribution>
+      <type>FECA</type>
+      <contributorName>Self</contributorName>
+      <payeeName>McConnell Senate Committee 2014</payeeName>
+      <recipientName>Mitch McConnell</recipientName>
+      <amount>2,500.00</amount>
+      <date>02/28/2013</date>
+    </contribution>
+    <contribution>
+      <type>FECA</type>
+      <contributorName>Self</contributorName>
+      <payeeName>Coats for Indiana</payeeName>
+      <recipientName>Dan Coats</recipientName>
+      <amount>500.00</amount>
+      <date>03/05/2013</date>
+    </contribution>
+    <contribution>
+      <type>FECA</type>
+      <contributorName>Self</contributorName>
+      <payeeName>Jobs Growth and Freedom Fund</payeeName>
+      <recipientName>Ted Cruz</recipientName>
+      <amount>500.00</amount>
+      <date>04/10/2013</date>
+    </contribution>
+    <contribution>
+      <type>FECA</type>
+      <contributorName>Self</contributorName>
+      <payeeName>National Republican Senatorial Committee</payeeName>
+      <recipientName>National Republican Senatorial Committee</recipientName>
+      <amount>1,250.00</amount>
+      <date>02/26/2013</date>
+    </contribution>
+  </contributions>
+</CONTRIBUTIONDISCLOSURE>

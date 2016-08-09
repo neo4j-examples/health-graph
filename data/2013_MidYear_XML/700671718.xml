@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<CONTRIBUTIONDISCLOSURE>
+  <filerType>L</filerType>
+  <organizationName>INVACARE CORPORATION</organizationName>
+  <lobbyistPrefix>Ms.</lobbyistPrefix>
+  <lobbyistFirstName>CARA</lobbyistFirstName>
+  <lobbyistMiddleName>C</lobbyistMiddleName>
+  <lobbyistLastName>BACHENHEIMER</lobbyistLastName>
+  <lobbyistSuffix />
+  <contactName />
+  <senateRegID>91433</senateRegID>
+  <houseRegID>36795</houseRegID>
+  <reportYear>2013</reportYear>
+  <reportType>MM</reportType>
+  <amendment>false</amendment>
+  <comments>
+  </comments>
+  <signedDate>7/3/2013 7:30:16 AM</signedDate>
+  <certifiedcontent>true</certifiedcontent>
+  <noContributions>false</noContributions>
+  <pacs>
+    <pac>
+      <name />
+    </pac>
+  </pacs>
+  <contributions>
+    <contribution>
+      <type />
+      <contributorName />
+      <payeeName />
+      <recipientName />
+      <amount />
+      <date />
+    </contribution>
+    <contribution>
+      <type>FECA</type>
+      <contributorName>Self</contributorName>
+      <payeeName>Braley for Iowa</payeeName>
+      <recipientName>Rep. Bruce Braley</recipientName>
+      <amount>100.00</amount>
+      <date>06/29/2013</date>
+    </contribution>
+  </contributions>
+</CONTRIBUTIONDISCLOSURE>

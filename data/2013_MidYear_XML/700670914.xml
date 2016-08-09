@@ -1,0 +1,60 @@
+<?xml version="1.0"?>
+<CONTRIBUTIONDISCLOSURE>
+  <filerType>L</filerType>
+  <organizationName>AGILENT TECHNOLOGIES, INC</organizationName>
+  <lobbyistPrefix>Mr.</lobbyistPrefix>
+  <lobbyistFirstName>JAMES</lobbyistFirstName>
+  <lobbyistMiddleName />
+  <lobbyistLastName>GIGRICH</lobbyistLastName>
+  <lobbyistSuffix />
+  <contactName />
+  <senateRegID>54051</senateRegID>
+  <houseRegID>35014</houseRegID>
+  <reportYear>2013</reportYear>
+  <reportType>MM</reportType>
+  <amendment>true</amendment>
+  <comments>
+  </comments>
+  <signedDate>6/12/2013 2:43:02 PM</signedDate>
+  <certifiedcontent>true</certifiedcontent>
+  <noContributions>false</noContributions>
+  <pacs>
+    <pac>
+      <name />
+    </pac>
+  </pacs>
+  <contributions>
+    <contribution>
+      <type />
+      <contributorName />
+      <payeeName />
+      <recipientName />
+      <amount />
+      <date />
+    </contribution>
+    <contribution>
+      <type>FECA</type>
+      <contributorName>Self</contributorName>
+      <payeeName>Honda for Congress</payeeName>
+      <recipientName>Congressman Mike Honda (D-CA)</recipientName>
+      <amount>50.00</amount>
+      <date>03/28/2013</date>
+    </contribution>
+    <contribution>
+      <type>FECA</type>
+      <contributorName>Self</contributorName>
+      <payeeName>Honda For Congress</payeeName>
+      <recipientName>Congressman Mike Honda (D-CA)</recipientName>
+      <amount>100.00</amount>
+      <date>04/16/2013</date>
+    </contribution>
+    <contribution>
+      <type>FECA</type>
+      <contributorName>Self</contributorName>
+      <payeeName>Honda For Congress</payeeName>
+      <recipientName>Congressman Mike Honda (D-CA)</recipientName>
+      <amount>150.00</amount>
+      <date>06/12/2013</date>
+    </contribution>
+  </contributions>
+</CONTRIBUTIONDISCLOSURE>

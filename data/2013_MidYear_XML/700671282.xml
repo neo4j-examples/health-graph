@@ -1,0 +1,92 @@
+<?xml version="1.0"?>
+<CONTRIBUTIONDISCLOSURE>
+  <filerType>L</filerType>
+  <organizationName>The Smith-Free Group</organizationName>
+  <lobbyistPrefix>Ms.</lobbyistPrefix>
+  <lobbyistFirstName>ALICIA</lobbyistFirstName>
+  <lobbyistMiddleName />
+  <lobbyistLastName>SMITH</lobbyistLastName>
+  <lobbyistSuffix />
+  <contactName />
+  <senateRegID>35800</senateRegID>
+  <houseRegID>30770</houseRegID>
+  <reportYear>2013</reportYear>
+  <reportType>MM</reportType>
+  <amendment>false</amendment>
+  <comments>
+  </comments>
+  <signedDate>7/1/2013 11:09:22 AM</signedDate>
+  <certifiedcontent>true</certifiedcontent>
+  <noContributions>false</noContributions>
+  <pacs>
+    <pac>
+      <name />
+    </pac>
+  </pacs>
+  <contributions>
+    <contribution>
+      <type />
+      <contributorName />
+      <payeeName />
+      <recipientName />
+      <amount />
+      <date />
+    </contribution>
+    <contribution>
+      <type>FECA</type>
+      <contributorName>Self</contributorName>
+      <payeeName>Chris Coons for Delaware</payeeName>
+      <recipientName>Senator Chris Coons</recipientName>
+      <amount>1,000.00</amount>
+      <date>01/03/2013</date>
+    </contribution>
+    <contribution>
+      <type>FECA</type>
+      <contributorName>Self</contributorName>
+      <payeeName>Democratic Senatorial Campaign Committee</payeeName>
+      <recipientName>Democratic Senatorial Campaign Committee</recipientName>
+      <amount>1,000.00</amount>
+      <date>03/20/2013</date>
+    </contribution>
+    <contribution>
+      <type>FECA</type>
+      <contributorName>Self</contributorName>
+      <payeeName>Democratic Congressional Campaign Committee</payeeName>
+      <recipientName>Democratic Congressional Campaign Committee</recipientName>
+      <amount>250.00</amount>
+      <date>04/23/2013</date>
+    </contribution>
+    <contribution>
+      <type>FECA</type>
+      <contributorName>Self</contributorName>
+      <payeeName>Friends of Jeanne Shaheen</payeeName>
+      <recipientName>Senator Jeanne Shaheen</recipientName>
+      <amount>500.00</amount>
+      <date>05/08/2013</date>
+    </contribution>
+    <contribution>
+      <type>FECA</type>
+      <contributorName>Self</contributorName>
+      <payeeName>Safeway Store</payeeName>
+      <recipientName>Bob Goodlatte for Congress Committee</recipientName>
+      <amount>53.32</amount>
+      <date>05/29/2013</date>
+    </contribution>
+    <contribution>
+      <type>FECA</type>
+      <contributorName>Self</contributorName>
+      <payeeName>Moore Brothers, Inc.</payeeName>
+      <recipientName>Bob Goodlatte for Congress Committee</recipientName>
+      <amount>110.00</amount>
+      <date>05/29/2013</date>
+    </contribution>
+    <contribution>
+      <type>FECA</type>
+      <contributorName>Self</contributorName>
+      <payeeName>Leahy for U.S. Senator</payeeName>
+      <recipientName>Senator Patrick Leahy</recipientName>
+      <amount>250.00</amount>
+      <date>06/13/2013</date>
+    </contribution>
+  </contributions>
+</CONTRIBUTIONDISCLOSURE>

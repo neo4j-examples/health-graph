@@ -1,0 +1,60 @@
+<?xml version="1.0"?>
+<CONTRIBUTIONDISCLOSURE>
+  <filerType>L</filerType>
+  <organizationName>Indiana University</organizationName>
+  <lobbyistPrefix>Mr.</lobbyistPrefix>
+  <lobbyistFirstName>DOUG</lobbyistFirstName>
+  <lobbyistMiddleName />
+  <lobbyistLastName>WASITIS</lobbyistLastName>
+  <lobbyistSuffix />
+  <contactName />
+  <senateRegID>296236</senateRegID>
+  <houseRegID>37500</houseRegID>
+  <reportYear>2013</reportYear>
+  <reportType>MM</reportType>
+  <amendment>false</amendment>
+  <comments>
+  </comments>
+  <signedDate>7/1/2013 7:19:38 PM</signedDate>
+  <certifiedcontent>true</certifiedcontent>
+  <noContributions>false</noContributions>
+  <pacs>
+    <pac>
+      <name />
+    </pac>
+  </pacs>
+  <contributions>
+    <contribution>
+      <type />
+      <contributorName />
+      <payeeName />
+      <recipientName />
+      <amount />
+      <date />
+    </contribution>
+    <contribution>
+      <type>FECA</type>
+      <contributorName>Self</contributorName>
+      <payeeName>Friends of Todd Young</payeeName>
+      <recipientName>Rep. Todd Young</recipientName>
+      <amount>250.00</amount>
+      <date>06/27/2013</date>
+    </contribution>
+    <contribution>
+      <type>FECA</type>
+      <contributorName>Self</contributorName>
+      <payeeName>Bucshon for Congress</payeeName>
+      <recipientName>Rep. Larry Bucshon</recipientName>
+      <amount>250.00</amount>
+      <date>04/16/2013</date>
+    </contribution>
+    <contribution>
+      <type>FECA</type>
+      <contributorName>Self</contributorName>
+      <payeeName>Donnelly for Indiana</payeeName>
+      <recipientName>Sen. Joe Donnelly</recipientName>
+      <amount>1,000.00</amount>
+      <date>02/27/2013</date>
+    </contribution>
+  </contributions>
+</CONTRIBUTIONDISCLOSURE>

@@ -1,0 +1,53 @@
+<?xml version="1.0"?>
+<CONTRIBUTIONDISCLOSURE>
+  <filerType>L</filerType>
+  <organizationName>Sonosky, Chambers, Sachse, Endreson &amp; Perry, LLP</organizationName>
+  <lobbyistPrefix>Ms.</lobbyistPrefix>
+  <lobbyistFirstName>MARY</lobbyistFirstName>
+  <lobbyistMiddleName />
+  <lobbyistLastName>PAVEL</lobbyistLastName>
+  <lobbyistSuffix />
+  <contactName />
+  <senateRegID>36127</senateRegID>
+  <houseRegID>32732</houseRegID>
+  <reportYear>2013</reportYear>
+  <reportType>MM</reportType>
+  <amendment>false</amendment>
+  <comments>
+  </comments>
+  <signedDate>1/30/2013 9:15:30 AM</signedDate>
+  <certifiedcontent>true</certifiedcontent>
+  <noContributions>false</noContributions>
+  <pacs>
+    <pac>
+      <name />
+    </pac>
+  </pacs>
+  <contributions>
+    <contribution>
+      <type />
+      <contributorName />
+      <payeeName />
+      <recipientName />
+      <amount />
+      <date />
+    </contribution>
+    <contribution>
+      <type>FECA</type>
+      <contributorName>Self</contributorName>
+      <payeeName>Mark Begich for Senate
+(Act Blue)</payeeName>
+      <recipientName>Mark Begich</recipientName>
+      <amount>1,000.00</amount>
+      <date>01/23/2013</date>
+    </contribution>
+    <contribution>
+      <type>FECA</type>
+      <contributorName>Self</contributorName>
+      <payeeName>Montanans for Max</payeeName>
+      <recipientName>Max Baucus</recipientName>
+      <amount>1,000.00</amount>
+      <date>01/24/2013</date>
+    </contribution>
+  </contributions>
+</CONTRIBUTIONDISCLOSURE>

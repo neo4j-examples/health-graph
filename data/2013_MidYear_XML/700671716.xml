@@ -1,0 +1,68 @@
+<?xml version="1.0"?>
+<CONTRIBUTIONDISCLOSURE>
+  <filerType>L</filerType>
+  <organizationName>PRASAM</organizationName>
+  <lobbyistPrefix>Mr.</lobbyistPrefix>
+  <lobbyistFirstName>GARY</lobbyistFirstName>
+  <lobbyistMiddleName>Michael</lobbyistMiddleName>
+  <lobbyistLastName>HALL</lobbyistLastName>
+  <lobbyistSuffix />
+  <contactName />
+  <senateRegID>31895</senateRegID>
+  <houseRegID>32173</houseRegID>
+  <reportYear>2013</reportYear>
+  <reportType>MM</reportType>
+  <amendment>false</amendment>
+  <comments>
+  </comments>
+  <signedDate>7/2/2013 10:09:07 PM</signedDate>
+  <certifiedcontent>true</certifiedcontent>
+  <noContributions>false</noContributions>
+  <pacs>
+    <pac>
+      <name />
+    </pac>
+  </pacs>
+  <contributions>
+    <contribution>
+      <type />
+      <contributorName />
+      <payeeName />
+      <recipientName />
+      <amount />
+      <date />
+    </contribution>
+    <contribution>
+      <type>FECA</type>
+      <contributorName>Self</contributorName>
+      <payeeName>Friends of Jim Inhofe</payeeName>
+      <recipientName>Senator Jim Inhofe</recipientName>
+      <amount>500.00</amount>
+      <date>02/07/2013</date>
+    </contribution>
+    <contribution>
+      <type>FECA</type>
+      <contributorName>Self</contributorName>
+      <payeeName>Friends of Joe Sestak</payeeName>
+      <recipientName>Joseph A. Sestak Jr</recipientName>
+      <amount>500.00</amount>
+      <date>03/19/2013</date>
+    </contribution>
+    <contribution>
+      <type>FECA</type>
+      <contributorName>Self</contributorName>
+      <payeeName>Martha Roby for Congress</payeeName>
+      <recipientName>Martha Roby</recipientName>
+      <amount>500.00</amount>
+      <date>05/07/2013</date>
+    </contribution>
+    <contribution>
+      <type>FECA</type>
+      <contributorName>Self</contributorName>
+      <payeeName>Shelby for U.S. Senate</payeeName>
+      <recipientName>Senator Richard Shelby</recipientName>
+      <amount>500.00</amount>
+      <date>06/25/2013</date>
+    </contribution>
+  </contributions>
+</CONTRIBUTIONDISCLOSURE>

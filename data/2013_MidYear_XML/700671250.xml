@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<CONTRIBUTIONDISCLOSURE>
+  <filerType>L</filerType>
+  <organizationName>Polsinelli PC (formerly known as Polsinelli Shughart PC)</organizationName>
+  <lobbyistPrefix>Mr.</lobbyistPrefix>
+  <lobbyistFirstName>Harry</lobbyistFirstName>
+  <lobbyistMiddleName>Anastasios</lobbyistMiddleName>
+  <lobbyistLastName>Sporidis</lobbyistLastName>
+  <lobbyistSuffix />
+  <contactName />
+  <senateRegID>314911</senateRegID>
+  <houseRegID>39171</houseRegID>
+  <reportYear>2013</reportYear>
+  <reportType>MM</reportType>
+  <amendment>false</amendment>
+  <comments>
+  </comments>
+  <signedDate>7/1/2013 10:18:54 AM</signedDate>
+  <certifiedcontent>true</certifiedcontent>
+  <noContributions>false</noContributions>
+  <pacs>
+    <pac>
+      <name />
+    </pac>
+  </pacs>
+  <contributions>
+    <contribution>
+      <type />
+      <contributorName />
+      <payeeName />
+      <recipientName />
+      <amount />
+      <date />
+    </contribution>
+    <contribution>
+      <type>FECA</type>
+      <contributorName>Self</contributorName>
+      <payeeName>Yoder for Congress</payeeName>
+      <recipientName>Yoder for Congress</recipientName>
+      <amount>500.00</amount>
+      <date>06/12/2013</date>
+    </contribution>
+  </contributions>
+</CONTRIBUTIONDISCLOSURE>

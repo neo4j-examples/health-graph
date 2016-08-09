@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<CONTRIBUTIONDISCLOSURE>
+  <filerType>L</filerType>
+  <organizationName>AMERICAN FEDERATION OF STATE, COUNTY AND MUNICIPAL EMPLOYEES</organizationName>
+  <lobbyistPrefix>Ms.</lobbyistPrefix>
+  <lobbyistFirstName>LINDA</lobbyistFirstName>
+  <lobbyistMiddleName />
+  <lobbyistLastName>BENNETT</lobbyistLastName>
+  <lobbyistSuffix />
+  <contactName />
+  <senateRegID>2321</senateRegID>
+  <houseRegID>31018</houseRegID>
+  <reportYear>2013</reportYear>
+  <reportType>MM</reportType>
+  <amendment>false</amendment>
+  <comments>
+  </comments>
+  <signedDate>4/24/2013 6:52:51 PM</signedDate>
+  <certifiedcontent>true</certifiedcontent>
+  <noContributions>false</noContributions>
+  <pacs>
+    <pac>
+      <name />
+    </pac>
+  </pacs>
+  <contributions>
+    <contribution>
+      <type />
+      <contributorName />
+      <payeeName />
+      <recipientName />
+      <amount />
+      <date />
+    </contribution>
+    <contribution>
+      <type>Presidential Inaugural Comm</type>
+      <contributorName>Self</contributorName>
+      <payeeName>Presidential Inaugual Commission</payeeName>
+      <recipientName>President Obama</recipientName>
+      <amount>305.00</amount>
+      <date>01/12/2013</date>
+    </contribution>
+  </contributions>
+</CONTRIBUTIONDISCLOSURE>
